@@ -34,3 +34,8 @@ Linux requires the following dependencies installed:
 - g++
 
 
+Credits
+-------
+
+Visit [PostgreSQL](http://www.postgresql.org/)!
+
