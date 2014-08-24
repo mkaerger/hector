@@ -2,7 +2,7 @@ hector
 ======
 
 A tokenizer for credit cards written in C++.
-
+hector is called via socket, data is stored in a postgres database.
 
 Documentation
 -------------
