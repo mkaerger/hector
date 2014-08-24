@@ -17,7 +17,7 @@ For documentation, see:
 Build Instructions
 ------------------
 
-You'll need the `Boost <http://www.boost.org>`_ libraries installed somewhere.
+You'll need the `Boost <http://www.boost.org>` libraries installed somewhere.
 
 On Debian systems, the following packages are required:
 
