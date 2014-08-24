@@ -11,6 +11,8 @@ For documentation, see:
 
     doc/
 
+[Read the documentation](https://github.com/mkaerger/hector/blob/master/doc/README.md)
+
 
 Build Instructions
 ------------------
