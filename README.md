@@ -4,43 +4,31 @@ hector
 A tokenizer for credit cards written in C++.
 
 
-Daemon
-------
-Starting hector:
-    src# ./hector
+Documentation
+-------------
 
-Client
-------
-    src# ./hector_cli
+For documentation, see:
 
-Services
---------
-
-    set_token_by_pan
-    get_pan_by_token
-    get_token_six_four_by_token
-    get_provider_by_pan
-    get_provider_by_token
-    get_card_type_by_token
-    get_card_type_by_pan
-    get_tokens_by_token_six_four
-    get_count_tokens_by_token_six_four
-
-Console client
---------------
-
-src# ./hector_cli 
-ENTER SERVICE:
->set_token_by_pan|1232-4434-2345-1123
-e98474a6f496d67c3872f2862211355f9d9f3762584a183a1f37ffe3db86510
+    doc/
 
 
+Build Instructions
+------------------
 
-The web client
---------------
-    cp phpstuff/* localhost/hector
+You'll need the `Boost <http://www.boost.org>`_ libraries installed somewhere.
 
-http://localhost/hector/
+On Debian systems, the following packages are required:
 
-PHP and a webserver required.
+- libboost-regex-dev
+
+To build the library the following commands should be issued::
+
+    $ cd src
+    $ make
+
+Linux requires the following dependencies installed:
+- libpg5
+- libpg-dev
+- g++
+
 

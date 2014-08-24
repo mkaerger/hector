@@ -6,10 +6,10 @@ all: token_server token_client
 
 
 token_server: $(token_server_objects)
-	g++ -g -o hector $(token_server_objects) -L/var/www/pgsql/lib -lpq -lboost_regex -lcrypto 
+	g++ -g -o ../bin/hector $(token_server_objects) -L/var/www/pgsql/lib -lpq -lboost_regex -lcrypto 
 
 token_client: $(token_client_objects)
-	g++ -o hector_cli $(token_client_objects) 
+	g++ -o ../bin/hector_cli $(token_client_objects) 
 
 token_server.o: token_server.cpp
 	g++ -c -I/var/www/pgsql/include token_server.cpp
@@ -30,4 +30,4 @@ CardProcessor.o: CardProcessor.cpp
 	g++ -c  CardProcessor.cpp
 
 clean:
-	rm -f *.o hector hector_cli
+	rm -f *.o ../bin/hector ../bin/hector_cli
