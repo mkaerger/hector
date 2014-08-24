@@ -238,6 +238,8 @@ int main ( int argc, char *argv[] )
 {
     std::cout << "HECTOR RUNNING.\n";
 
+
+    // TODO: Put all postgres stuff to a factory
     conn = PQconnectdb("dbname=pcidss host=localhost user=postgres password=");
     if (PQstatus(conn) == CONNECTION_BAD) {
             puts("We were unable to connect to the database");
