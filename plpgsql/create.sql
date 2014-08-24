@@ -1,4 +1,5 @@
--- SELECT encode(digest('bluefdfdf', 'sha256'), 'hex'); 
+-- Check, if pgcrypto works:
+-- SELECT encode(digest('Some string...', 'sha256'), 'hex'); 
 
 CREATE TYPE TY_CARD AS ENUM ('Credit', 'Debit');
 CREATE TYPE TY_PROVIDER AS ENUM ('MasterCard', 'Visa', 'American Express', 'JCB', 'Discover');
@@ -8,7 +9,10 @@ CREATE TABLE cc_data (pan varchar(16), masked_pan varchar(65), token varchar(65)
 CREATE INDEX pan_idx ON cc_data(pan);
 CREATE INDEX token_idx ON cc_data(token);
 
+-- Insert testdata
+--INSERT INTO cc_data values('1234567890123456', '3b7c241dca8d7f499d5498dd580d1cb18fb7031751e2487a9e02f38aa94ca4ad', '3b7c241dca8d7f499d5498dd580d1cb18fb7031751e2487a9e02f38aa94ca4ad', 'JCB', 'Debit', now(), now());
+
+-- TODO: Load bin ranges
 --CREATE TABLE bin_range (range varchar(16), provider_info varchar(65), card_type TY_CARD);
 --CREATE INDEX bin_range_idx ON bin_range(range);
 
---INSERT INTO cc_data values('1234567890123456', '3b7c241dca8d7f499d5498dd580d1cb18fb7031751e2487a9e02f38aa94ca4ad', '3b7c241dca8d7f499d5498dd580d1cb18fb7031751e2487a9e02f38aa94ca4ad', 'JCB', 'Debit', now(), now());
