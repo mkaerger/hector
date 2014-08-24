@@ -1,7 +1,7 @@
 hector
 ======
 
-A tokenizer for credit cards.
+A tokenizer for credit cards written in C++.
 
 
 Daemon
