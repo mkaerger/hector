@@ -29,6 +29,7 @@ bool Socket::create()
     return false;
   }
 
+  // TIME_WAIT - argh
   int on = 1;
   if (setsockopt(m_sock, SOL_SOCKET, SO_REUSEADDR, (const char*) &on, sizeof(on)) == -1)
   {
