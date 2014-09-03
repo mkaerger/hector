@@ -28,6 +28,49 @@ Services
 - get_count_tokens_by_token_six_four
 
 
+Postgres support
+----------------
+
+HOWTO set up a postgres database on linux. After installing the database from binary follow these instructions:
+
+    # Add user if not exists
+    adduser postgres
+
+    # Set permissions to user postgres
+    chown -R postgres:postgres /var/www/pgsql/
+
+    # Become user postgres
+    su - postgres
+
+    # Go to pgsl directory (mine is located in /var/www/pgsql)
+    cd /var/www/pgsql
+
+    # Create data directory and start server
+    bin/initdb -D ./data
+
+    # Start server
+    postgres@HC:/var/www/pgsql$ bin/pg_ctl -D ./data -l data/logfile start
+    # Server status
+    postgres@HC:/var/www/pgsql$ bin/pg_ctl -D ./data -l data/logfile status
+
+    # Maybe create a postgres user
+    bin/createuser 
+
+    # Create a database
+    bin/createdb --owner=postgres pcidss
+
+    # Connect to the database
+    cd bin/
+    ./psql pcidss
+
+    # Run sql scripts to set up your database
+    pcidss=# \i plpgsql/create.sql 
+
+    # Install pgcrypto extension
+    cd /usr/local/src/postgresql-9.3.5/contrib/pgcrypto
+ 
+
+
 Console client usage
 --------------
 
