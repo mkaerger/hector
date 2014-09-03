@@ -25,7 +25,6 @@ On Debian systems, the following packages are required:
 
 To build the library the following commands should be issued::
 
-    $ cd src
     $ make
 
 Linux requires the following dependencies installed:
