@@ -18,24 +18,20 @@ TOKEN_CLIENT_OBJECTS = ClientSocket.o Socket.o token_client.o
 all: hector hector_cli
 
 $(TARGET_SERVER): $(TOKEN_SERVER_OBJECTS)
-	@echo "Linking server..."
-	$(CC) -o $(BIN)$(TARGET_SERVER) $(TOKEN_SERVER_OBJECTS) $(INC) $(LIB) $(LIB_PGSQL)
+	$(CC) -o $(BIN)$@ $^ $(INC) $(LIB) $(LIB_PGSQL)
 
 $(TARGET_CLIENT): $(TOKEN_CLIENT_OBJECTS)
-	@echo "Linking client..."
-	$(CC) -o $(BIN)$(TARGET_CLIENT) $(TOKEN_CLIENT_OBJECTS) $(INC) 
-
+	$(CC) -o $(BIN)$@ $^ $(INC) 
 clean:
-	@echo "Cleaning..."; 
 	rm -f *.o $(BIN)*
 
-token_server.o ServerSocket.o Socket.o: token_server.cpp ServerSocket.cpp Socket.cpp
+token_server.o ServerSocket.o Socket.o: %.o: %.cpp
 	$(CC) $(CFLAGS) $(INC) $^
 
-token_client.o ClientSocket.o: token_client.cpp ClientSocket.cpp
+token_client.o ClientSocket.o: %.o: %.cpp
 	$(CC) $(CFLAGS) $(INC) $^
 
-CardProcessor.o PGDataSource.o: CardProcessor.cpp PGDataSource.cpp
+CardProcessor.o PGDataSource.o: %.o: %.cpp
 	$(CC) $(CFLAGS) $(INC) $(INC_PGSQL) $^
 
 
