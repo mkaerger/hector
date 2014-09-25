@@ -36,5 +36,4 @@ Linux requires the following dependencies installed:
 Credits
 -------
 
-Visit [PostgreSQL](http://www.postgresql.org/)!
-
+Visit [PostgreSQL](http://www.postgresql.org/) and [mongoDB](http://docs.mongodb.org/ecosystem/drivers/cpp/)!
