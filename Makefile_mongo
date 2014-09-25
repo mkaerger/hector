@@ -1,0 +1,38 @@
+VPATH = %.cpp src
+
+CC := g++
+CFLAGS := -c
+BIN := bin/
+INC := -Iinclude
+INC_MONGODB := -I/usr/include
+
+LIB := -pthread -lmongoclient -lboost_thread -lboost_filesystem -lboost_program_options -lboost_system -lboost_regex -lssl -lcrypto
+LIB_MONGODB := -lmongoclient
+
+TARGET_SERVER := hector
+TARGET_CLIENT := hector_cli
+
+TOKEN_SERVER_OBJECTS = ServerSocket.o Socket.o token_server.o CardProcessor.o MongoDBDataSource.o
+TOKEN_CLIENT_OBJECTS = ClientSocket.o Socket.o token_client.o
+
+all: hector hector_cli
+
+$(TARGET_SERVER): $(TOKEN_SERVER_OBJECTS)
+	$(CC) -o $(BIN)$@ $^ $(INC) $(LIB) $(LIB_MONGODB)
+
+$(TARGET_CLIENT): $(TOKEN_CLIENT_OBJECTS)
+	$(CC) -o $(BIN)$@ $^ $(INC) 
+clean:
+	rm -f *.o $(BIN)*
+
+token_server.o ServerSocket.o Socket.o: %.o: %.cpp
+	$(CC) $(CFLAGS) $(INC) $^
+
+token_client.o ClientSocket.o: %.o: %.cpp
+	$(CC) $(CFLAGS) $(INC) $^
+
+CardProcessor.o MongoDBDataSource.o: %.o: %.cpp
+	$(CC) $(CFLAGS) $(INC) $(INC_MONGODB) $^
+
+
+

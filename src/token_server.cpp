@@ -4,7 +4,8 @@
 #include <iostream>
 #include <stdio.h>
 #include "CardProcessor.h"
-#include "PGDataSource.h"
+//#include "PGDataSource.h"
+#include "MongoDBDataSource.h"
 
 using namespace std;
 
@@ -31,7 +32,8 @@ int main ( int argc, char *argv[] )
 		  new_sock >> data;
 		  
     		  // Load pgsql driver
-		  PGDataSource *driver = new PGDataSource; 
+		  //PGDataSource *driver = new PGDataSource; 
+		  MongoDBDataSource *driver = new MongoDBDataSource; 
 	          
                   std::string s          = data;
 		  std::string delimiter  = "|";
