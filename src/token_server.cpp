@@ -4,8 +4,14 @@
 #include <iostream>
 #include <stdio.h>
 #include "CardProcessor.h"
-//#include "PGDataSource.h"
+
+#ifdef PG_DATA_SOURCE	
+#include "PGDataSource.h"
+#endif		  
+
+#ifdef MONGODB_DATA_SOURCE	
 #include "MongoDBDataSource.h"
+#endif		  
 
 using namespace std;
 
@@ -31,19 +37,24 @@ int main ( int argc, char *argv[] )
 		  std::string data;
 		  new_sock >> data;
 		  
-    		  // Load pgsql driver
-		  //PGDataSource *driver = new PGDataSource; 
+		  #ifdef PG_DATA_SOURCE	
+		  PGDataSource *driver = new PGDataSource; 
+		  #endif		  
+
+		  #ifdef MONGODB_DATA_SOURCE	
 		  MongoDBDataSource *driver = new MongoDBDataSource; 
+		  #endif		  
 	          
-                  std::string s          = data;
+          std::string s          = data;
 		  std::string delimiter  = "|";
-                  std::string service    = s.substr(0, s.find(delimiter));	
+          std::string service    = s.substr(0, s.find(delimiter));	
+		  
 		  unsigned pos           = s.find("|"); 
-                  std::string input_data = s.substr (pos + 1);  
+          std::string input_data = s.substr (pos + 1);  
 
 		  if (service == "get_pan_by_token")
 		  {
-    		      CardProcessor *cp = new CardProcessor; 
+    		  CardProcessor *cp = new CardProcessor; 
 		      cp->set_token(input_data);		      
  
 		      if (!cp->validate_token_format(input_data)) {
@@ -65,7 +76,7 @@ int main ( int argc, char *argv[] )
 		  }
 		  else if (service == "get_card_type_by_pan")
 		  {
-    		      CardProcessor *cp = new CardProcessor; 
+    		  CardProcessor *cp = new CardProcessor; 
 		      cp->set_pan(input_data);		      
 
 		      if (!cp->validate_card_format()) {
@@ -76,7 +87,7 @@ int main ( int argc, char *argv[] )
 		  }
 		  else if (service == "get_provider_by_pan")
 		  {
-    		      CardProcessor *cp = new CardProcessor; 
+    		  CardProcessor *cp = new CardProcessor; 
 		      cp->set_pan(input_data);		      
 
 		      if (!cp->validate_card_format()) {
@@ -87,38 +98,38 @@ int main ( int argc, char *argv[] )
 		  }
 	  	  else if (service == "get_provider_by_token")
 		  {
-    		      CardProcessor *cp = new CardProcessor; 
+    		  CardProcessor *cp = new CardProcessor; 
 		      cp->set_token(input_data);		      
 		      new_sock << driver->get_provider_by_token(*cp);
 		  }
 	  	  else if (service == "get_count_tokens_by_masked_pan")
 		  {
-    		      CardProcessor *cp = new CardProcessor; 
+    		  CardProcessor *cp = new CardProcessor; 
 		      cp->set_xxx_token(input_data);		      
 		      new_sock << driver->get_count_tokens_by_masked_pan(*cp);
 		  }
 	  	  else if (service == "get_card_type_by_token")
 		  {
-    		      CardProcessor *cp = new CardProcessor; 
+    		  CardProcessor *cp = new CardProcessor; 
 		      cp->set_token(input_data);		      
 		      new_sock << driver->get_card_type_by_token(*cp);
 		  }
 	  	  else if (service == "get_masked_pan_by_token")
 		  {
-    		      CardProcessor *cp = new CardProcessor; 
+    		  CardProcessor *cp = new CardProcessor; 
 		      cp->set_token(input_data);		      
 		      new_sock << driver->get_masked_pan_by_token(*cp);
 		  }
 		  
 	  	  else if (service == "get_tokens_by_masked_pan")
 		  {
-    		      CardProcessor *cp = new CardProcessor; 
+    		  CardProcessor *cp = new CardProcessor; 
 		      cp->set_xxx_token(input_data);		      
 		      new_sock << driver->get_tokens_by_masked_pan(*cp);
 		  }
 	          else if (service == "set_token_by_pan")
 		  {
-    		      CardProcessor *cp = new CardProcessor; 
+    		  CardProcessor *cp = new CardProcessor; 
 		      cp->set_pan(input_data);		      
 
 		      if (!cp->validate_card_format()) {
@@ -130,9 +141,9 @@ int main ( int argc, char *argv[] )
 		  else 
 		  {
 		      new_sock << "No such service: " + service;
-    		  }
-		}
-	    }
+    	  }
+	   }
+	}
 	  catch ( SocketException& ) {}
 	}
     }
@@ -140,9 +151,6 @@ int main ( int argc, char *argv[] )
     {
       std::cout << "Exception was caught:" << e.description() << "\nExiting.\n";
     }
-    
-    //PQclear(res);
-    //CloseConn(conn);
 
     return 0;
 }

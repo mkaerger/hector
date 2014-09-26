@@ -1,7 +1,7 @@
 VPATH = %.cpp src
 
 CC := g++
-CFLAGS := -c
+CFLAGS := -DPG_DATA_SOURCE -c
 BIN := bin/
 INC := -Iinclude
 INC_PGSQL := -I/var/www/pgsql/include

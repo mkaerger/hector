@@ -1,7 +1,7 @@
 VPATH = %.cpp src
 
 CC := g++
-CFLAGS := -c
+CFLAGS := -DMONGODB_DATA_SOURCE -c
 BIN := bin/
 INC := -Iinclude
 INC_MONGODB := -I/usr/include
