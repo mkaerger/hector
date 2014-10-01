@@ -11,6 +11,7 @@ Makefile
 Makefile.in
 aclocal.m4
 app.info
+Makefile
 compile
 config.h
 config.h.in
