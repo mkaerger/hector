@@ -14,23 +14,27 @@ For documentation, see:
 [Read the documentation](https://github.com/mkaerger/hector/blob/master/doc/README.md)
 
 
-Build Instructions
-------------------
+Installation and compile-time options
+-------------------------------------
 
 You'll need the `Boost <http://www.boost.org>` libraries installed somewhere.
 
-On Debian systems, the following packages are required:
 
-- libboost-regex-dev
+To build the library the following commands should be issued:
 
-To build the library the following commands should be issued::
+    $ aclocal && autoconf && autoheader && automake --add-missing
 
-    $ make
+It's your choice how to store your data. hector comes with two options:
 
-Linux requires the following dependencies installed:
-- libpg5
-- libpg-dev
-- g++
+    $ --enable-mongodb
+    $ --enable-pgsql
+
+Example:
+
+    $ ./configure --prefix=/var/www/hector --enable-mongodb
+
+This will install hector in /var/www/, MongoDB support is anabled.
+
 
 
 Credits
