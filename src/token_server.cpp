@@ -23,7 +23,7 @@ int main ( int argc, char *argv[] )
 
 	// Load iban registry from xml file
 	IbanList *il = new IbanList;
-    il->load("../ressources/iban_registry.xml");
+    il->load("../share/xml/iban_registry.xml");
 
     try
     {

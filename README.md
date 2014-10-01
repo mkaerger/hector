@@ -7,7 +7,7 @@ hector is called via socket, it savely handles all your credit card data and pro
 Documentation
 -------------
 
-For documentation [read the documentation](https://github.com/mkaerger/hector/blob/master/doc/README.md)
+For documentation [read the documentation](https://github.com/mkaerger/hector/blob/master/doc/README.md)!
 
 
 Installation and compile-time options

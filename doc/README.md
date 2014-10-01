@@ -1,21 +1,10 @@
-hector
-======
-
-A tokenizer for credit cards written in C++.
-
-
 Tokenizer service
--------
+-----------------
 Starting the tokenizer service:
     $ bin/hector
 
-Client
-------
-Starting the console client:
-    s bin/hector_cli
 
-
-Services
+Available Services
 --------
 - set_token_by_pan
 - get_pan_by_token
@@ -28,9 +17,32 @@ Services
 - get_count_tokens_by_token_six_four
 
 
+Client
+------
+Starting the console client:
+    $ bin/hector_cli
+
+
+Console client usage
+--------------
+    bin# ./hector_cli 
+    ENTER SERVICE:
+    >set_token_by_pan|1232-4434-2345-1123
+    123244NWLRBB1123    
+
+
+The web client
+--------------
+hector comes with a web interface written in PHP. Copy the files in phpstuff to your webserver directory:
+
+    cp phpstuff/* localhost/hector
+
+
+See the interface here: http://localhost/hector/ (depends on your webserver setup)
+
+
 Postgres support
 ----------------
-
 HOWTO set up a postgres database on linux. After installing the database from binary follow these instructions:
 
     # Add user if not exists
@@ -68,23 +80,3 @@ HOWTO set up a postgres database on linux. After installing the database from bi
 
     # Install pgcrypto extension
     cd /usr/local/src/postgresql-9.3.5/contrib/pgcrypto
- 
-
-
-Console client usage
---------------
-
-    bin# ./hector_cli 
-    ENTER SERVICE:
-    >set_token_by_pan|1232-4434-2345-1123
-    e98474a6f496d67c3872f2862211355f9d9f3762584a183a1f37ffe3db86510
-
-
-The web client
---------------
-hector comes with a web interface written in PHP. Copy the files in phpstuff to your webserver directory:
-
-    cp phpstuff/* localhost/hector
-
-
-See the interface here: http://localhost/hector/ (depends on your webserver setup)
