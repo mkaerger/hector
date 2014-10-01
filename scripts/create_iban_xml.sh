@@ -1,7 +1,7 @@
 echo -n "
 <iban_registry>
 <acquirers>";
-cat bin_list | while read line; 
+cat ../ressources/bin_list | while read line; 
 do echo -n " 
 <acquirer>
 <bank>";
