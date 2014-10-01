@@ -34,13 +34,13 @@ This will install hector in /var/www/, MongoDB support is enabled.
 
 It's your choice how to store your data. hector comes with two options:
 
-    $ ***--prefix=/path/to/installation***
+    --prefix=/path/to/installation
     Defines a directory that will keep all files to work with hector
 
-    $ ***--enable-mongodb***
+    --enable-mongodb
     This tells hector to store all data in a MongoDB database	
 
-    $ ***--enable-pgsql***
+    --enable-pgsql
     This tells hector to store all data in a PostgreSQL database	
 
 
