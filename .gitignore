@@ -5,6 +5,11 @@ lib/*
 # Ignore any executables
 bin/*
 
+# Ignore executables
+hector
+hector_cli
+
+# Ignore autoconf output
 /autom4te.cache/
 /config/
 Makefile
