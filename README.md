@@ -20,20 +20,26 @@ Installation and compile-time options
 You'll need the `Boost <http://www.boost.org>` libraries installed somewhere.
 
 
-To build the library the following commands should be issued:
+To install hector the following commands should be issued:
 
     $ aclocal && autoconf && autoheader && automake --add-missing
+
+This will create a configure script.
+
 
 It's your choice how to store your data. hector comes with two options:
 
     $ --enable-mongodb
     $ --enable-pgsql
 
+
 Example:
 
     $ ./configure --prefix=/var/www/hector --enable-mongodb
+    $ make
+    $ make install
 
-This will install hector in /var/www/, MongoDB support is anabled.
+This will install hector in /var/www/, MongoDB support is enabled.
 
 
 
