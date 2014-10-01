@@ -1,6 +1,6 @@
 Tokenizer service
 -----------------
-Starting the tokenizer service:
+Starting the tokenizer daemon:
     $ bin/hector
 
 
