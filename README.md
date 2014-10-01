@@ -2,16 +2,12 @@ hector
 ======
 
 A tokenizer for credit cards written in C++.
-hector is called via socket, data is stored in a postgres database.
+hector is called via socket, it savely handles all your credit card data and provides functions to access them by tokens. hector returns a tokenized version of your credit card number and stores additional information like the corresponding bank by BIN list lookup.
 
 Documentation
 -------------
 
-For documentation, see:
-
-    doc/
-
-[Read the documentation](https://github.com/mkaerger/hector/blob/master/doc/README.md)
+For documentation [read the documentation](https://github.com/mkaerger/hector/blob/master/doc/README.md)
 
 
 Installation and compile-time options
@@ -27,13 +23,7 @@ To install hector the following commands should be issued:
 This will create a configure script.
 
 
-It's your choice how to store your data. hector comes with two options:
-
-    $ --enable-mongodb
-    $ --enable-pgsql
-
-
-Example:
+Example installation:
 
     $ ./configure --prefix=/var/www/hector --enable-mongodb
     $ make
@@ -41,6 +31,11 @@ Example:
 
 This will install hector in /var/www/, MongoDB support is enabled.
 
+
+It's your choice how to store your data. hector comes with two options:
+
+    $ --enable-mongodb
+    $ --enable-pgsql
 
 
 Credits
