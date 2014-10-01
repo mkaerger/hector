@@ -61,7 +61,11 @@ sys/time.h \
 unistd.h \
 boost/thread.hpp \
 boost/regex.hpp \
+boost/foreach.hpp \
+boost/lexical_cast.hpp \
 boost/filesystem.hpp \
+boost/unordered_map.hpp \
+boost/property_tree/xml_parser.hpp \
 boost/program_options.hpp \
 ])
 AC_LANG_POP([C++])

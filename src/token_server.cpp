@@ -4,6 +4,7 @@
 #include <iostream>
 #include <stdio.h>
 #include "CardProcessor.h"
+#include "IbanList.h"
 
 #ifdef PG_DATA_SOURCE	
 #include "PGDataSource.h"
@@ -19,6 +20,10 @@ using namespace std;
 int main ( int argc, char *argv[] )
 {
     std::cout << "HECTOR RUNNING.\n";
+
+	// Load iban registry from xml file
+	IbanList *il = new IbanList;
+    il->load("../ressources/iban_registry.xml");
 
     try
     {
@@ -44,7 +49,7 @@ int main ( int argc, char *argv[] )
 		  #ifdef MONGODB_DATA_SOURCE	
 		  MongoDBDataSource *driver = new MongoDBDataSource; 
 		  #endif		  
-	          
+	         
           std::string s          = data;
 		  std::string delimiter  = "|";
           std::string service    = s.substr(0, s.find(delimiter));	
@@ -129,8 +134,9 @@ int main ( int argc, char *argv[] )
 		  }
 	          else if (service == "set_token_by_pan")
 		  {
-    		  CardProcessor *cp = new CardProcessor; 
+			  CardProcessor *cp = new CardProcessor; 
 		      cp->set_pan(input_data);		      
+		      cp->set_iban(il->search_acquirer_by_pan(input_data));		      
 
 		      if (!cp->validate_card_format()) {
 		          new_sock << "Wrong credit card format";

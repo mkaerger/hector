@@ -1,0 +1,4812 @@
+<iban_registry>
+<acquirers>
+<acquirer>
+<bank>American Express Platinum LifeMiles Card</bank>
+<pan_range>377750</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Gold credit card</bank>
+<pan_range>377753</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BANESCO (BancUnion) American Express Gold</bank>
+<pan_range>370244</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Industrial and Commercial Bank of China (ICBC) Peony American Express Card (PRC)</bank>
+<pan_range>370246</pan_range>
+</acquirer> 
+<acquirer>
+<bank>brooklyn Merchants Bank American Express Green Card</bank>
+<pan_range>370285</pan_range>
+</acquirer> 
+<acquirer>
+<bank>China Merchants Bank American Express Gold Card</bank>
+<pan_range>370286</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Costco Wholesale Card</bank>
+<pan_range>3713</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Centurion Card</bank>
+<pan_range>3715</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Platinum Card</bank>
+<pan_range>3717</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Costco Wholesale Card Platinum</bank>
+<pan_range>3723</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Gift Card (Canada)</bank>
+<pan_range>372301</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Blue Cash American Express Card</bank>
+<pan_range>372395</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Starwood Preferred Guest hotel loyalty credit card</bank>
+<pan_range>372550</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Blue for Business credit (small business)</bank>
+<pan_range>372734</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Gold Card (USA)</bank>
+<pan_range>372888</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Blue Airmiles Cash Back Card (Canada)</bank>
+<pan_range>3732</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Blue Airmiles Card / SPG Credit Card (Canada) / AMEX Aeroplan Plus Platinum (Canada) / Business Platinum Charge Card (Canada)</bank>
+<pan_range>3733</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Gold Cash Back Card / American Express Platinum Charge Card (Canada)</bank>
+<pan_range>3735</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Charge Card (UK)</bank>
+<pan_range>3742</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Centurion Charge Card (UK)</bank>
+<pan_range>374288</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Platinum Charge Card (UK)</bank>
+<pan_range>374289</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express International Euro Charge Card (UK)</bank>
+<pan_range>3743</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Gift Card (Only at US merchants)</bank>
+<pan_range>374328</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citi American Express Cards (USA)</bank>
+<pan_range>374345</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank (American Airlines) American Express credit card</bank>
+<pan_range>374350</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express International Dollar Charge Card (UK)</bank>
+<pan_range>3745</pan_range>
+</acquirer> 
+<acquirer>
+<bank>British Airways American Express Premium Plus Card</bank>
+<pan_range>374614</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Optima Credit Card (France)</bank>
+<pan_range>374622</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express BMW Card</bank>
+<pan_range>374660</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express BMW Card</bank>
+<pan_range>374661</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Blue American Express Card</bank>
+<pan_range>374671</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Platinum Credit Card (UK)</bank>
+<pan_range>374691</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Platinum Credit Card (UK)</bank>
+<pan_range>374693</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Platinum Charge Card (Finland)</bank>
+<pan_range>374801</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Air France KLM Flying Blue co-branded Gold Charge Card (France)</bank>
+<pan_range>374970</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Corporate Card (France)</bank>
+<pan_range>374996</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Germany Products</bank>
+<pan_range>3750</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Finland</bank>
+<pan_range>3751</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Italy</bank>
+<pan_range>3752</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express The Netherlands</bank>
+<pan_range>3753</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Bank of Australia Standard American Express</bank>
+<pan_range>3754150</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Bank of Australia Gold American Express</bank>
+<pan_range>3754151</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Bank of Australia Gold American Express</bank>
+<pan_range>3754155</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Bank of Australia Platinum American Express</bank>
+<pan_range>3754165</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Blue Swedbank (Estonia)</bank>
+<pan_range>3755490</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Gold Swedbank (Estonia)</bank>
+<pan_range>3755492</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Garanti Bank American Express Green Card (Turkey)</bank>
+<pan_range>375622</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Garanti Bank American Express Shop&amp;Miles co-branded Gold Card (Turkey)</bank>
+<pan_range>375628</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Sweden corporate card (SE)</bank>
+<pan_range>375790</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Switzerland corporate card (CH)</bank>
+<pan_range>3758</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Cathay Pacific Credit Card (Hong Kong)</bank>
+<pan_range>3759</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Card Australia</bank>
+<pan_range>3760</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Singapore Airlines Krisflyer American Express Gold Credit Card (Singapore)</bank>
+<pan_range>376211</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Card (Hong Kong)</bank>
+<pan_range>3763</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Credit Card</bank>
+<pan_range>3764</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Platinum Charge Card (Mexico)</bank>
+<pan_range>3766</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Platinum Credit Card (Mexico)</bank>
+<pan_range>3767</pan_range>
+</acquirer> 
+<acquirer>
+<bank>China CITIC Bank American Express Card (PRC)</bank>
+<pan_range>376966</pan_range>
+</acquirer> 
+<acquirer>
+<bank>China CITIC Bank American Express Gold Card (PRC)</bank>
+<pan_range>376968</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds TSB Airmiles Amex Card (UK)</bank>
+<pan_range>3770</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Corp-Banca / Banco Occidental de Descuento (Venezuela)</bank>
+<pan_range>377032</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds TSB Airmiles Premier Amex Card (UK)</bank>
+<pan_range>377064</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Platinum Credit Card (Hong Kong)</bank>
+<pan_range>377100</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Starwood Preferred Guest hotel loyalty credit card</bank>
+<pan_range>3772</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MBNA Europe Bank (Bank of America) bmi plus Credit Card (UK)</bank>
+<pan_range>377311</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MBNA Europe Bank (Bank of America) Virgin Atlantic Credit Card (UK)</bank>
+<pan_range>377311</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Black Card (New Zealand)</bank>
+<pan_range>377441</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BMW American Express Card (New Zealand)</bank>
+<pan_range>377445</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express (Macy's)</bank>
+<pan_range>377481</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Swiss International Airlines Miles &amp; More American Express Gold (CH)</bank>
+<pan_range>377662</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ANZ American Express Frequent Flyer (Australia) / Saison Card International (Japan)</bank>
+<pan_range>3777</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Westpac American Express Card (Australia)</bank>
+<pan_range>377850</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Westpac American Express Platinum Card (Australia)</bank>
+<pan_range>377852</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank Millennium American Express Gold Credit Card (Poland)</bank>
+<pan_range>337941</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Corporate (Hungary)</bank>
+<pan_range>377945</pan_range>
+</acquirer> 
+<acquirer>
+<bank>American Express Corporate (Poland)</bank>
+<pan_range>377946</pan_range>
+</acquirer> 
+<acquirer>
+<bank>British Airways American Express Credit Card (UK)</bank>
+<pan_range>379108</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Maybank American Express Credit Card (MY)</bank>
+<pan_range>379186</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Blue Sky American Express Credit Card (UK)</bank>
+<pan_range>379196</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Corporate card (US)</bank>
+<pan_range>379464</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Delta Skymiles</bank>
+<pan_range>3797</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Electron Barclays</bank>
+<pan_range>400115</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Electron IRL</bank>
+<pan_range>400121</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CapitalOne Platinum</bank>
+<pan_range>400344</pan_range>
+</acquirer> 
+<acquirer>
+<bank>META Bank, (Rewards 660 Visa) Credit Limit Between $200 &amp; $2000</bank>
+<pan_range>400610</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Electron from Poste Italiane (Italy) brand name &quot;PostePay&quot;, Max. balance 3000</bank>
+<pan_range>402360</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Guangdong Development Bank China Southern Visa UnionPay Duo Credit Card</bank>
+<pan_range>406366</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Electron GWK Bank NV</bank>
+<pan_range>400837-39</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China Great Wall Visa</bank>
+<pan_range>400937-44</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CN BOC Great Wall International Card Corporate</bank>
+<pan_range>400937</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CN BOC Great Wall International Card Corporate Gold</bank>
+<pan_range>400938</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CN BOC Great Wall International Card</bank>
+<pan_range>400941</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CN BOC Great Wall International Card Gold</bank>
+<pan_range>400942</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Associated Bank (Citibank (South Dakota) N.A.)</bank>
+<pan_range>400944</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Delta Community Credit Union Visa</bank>
+<pan_range>401171</pan_range>
+</acquirer> 
+<acquirer>
+<bank>McCoy Federal Credit Union VISA debit card</bank>
+<pan_range>401106</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Suntrust Bank Debit Card</bank>
+<pan_range>401180</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Debit Card</bank>
+<pan_range>4013</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Tesco Bank Bonus Visa</bank>
+<pan_range>401343</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Tesco Bank Clubcard Visa</bank>
+<pan_range>401344</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citybank (El Salvador)</bank>
+<pan_range>4016</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco Tequendama Visa CREDIT PLATINUM CARD (Colombia)</bank>
+<pan_range>401612</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Electron IRL</bank>
+<pan_range>401773</pan_range>
+</acquirer> 
+<acquirer>
+<bank>NAB Visa Debit Card (Australia)</bank>
+<pan_range>401795</pan_range>
+</acquirer> 
+<acquirer>
+<bank>1st Financial Bank USA</bank>
+<pan_range>4018</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wachovia Bank Visa</bank>
+<pan_range>4019</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Nordea Bank, VISA Electron</bank>
+<pan_range>4026</pan_range>
+</acquirer> 
+<acquirer>
+<bank>US Bank Visa (USA)</bank>
+<pan_range>4037</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Greater Building Society Visa Debit Card (Australia)</bank>
+<pan_range>404137</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National Development Bank Visa Classic (Srilanka)</bank>
+<pan_range>404146</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Cabela's World's Foremost Bank</bank>
+<pan_range>404527</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Open Bank, Russia</bank>
+<pan_range>404586</pan_range>
+</acquirer> 
+<acquirer>
+<bank>US Bank Visa Debit Card (USA)</bank>
+<pan_range>404645</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Philippine Airlines Mabuhay Miles</bank>
+<pan_range>4028</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Handelsbanken Visa Credit/Debit Card</bank>
+<pan_range>402802</pan_range>
+</acquirer> 
+<acquirer>
+<bank>TD Bank Debit Card</bank>
+<pan_range>4029</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Avangard Bank, Visa Credit/Debit Card</bank>
+<pan_range>403897</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CHASE Visa Debit/Credit</bank>
+<pan_range>4060</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Platinum credit card, Banco Interamericano de Finanzas</bank>
+<pan_range>406774</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Entropay Virtual Visa Card USD</bank>
+<pan_range>406742</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ANZ Frequent Flyer Gold Visa Card</bank>
+<pan_range>407220</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CitiBank Patriot Memory Promo Debit Card</bank>
+<pan_range>407441</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CSL Plasma and Other Various Plasma Donation Centers</bank>
+<pan_range>407444</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Branch Banking &amp; Trust Classic Credit Card USA</bank>
+<pan_range>409311</pan_range>
+</acquirer> 
+<acquirer>
+<bank>First Czech-Russian bank, Russia, Visa Gold Czech Airlines</bank>
+<pan_range>409617</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank Negara Indonesia (ID) Visa Credit Card</bank>
+<pan_range>410504-06</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Columbus Bank &amp; Trust Company, (Aspire Visa Gold Card)</bank>
+<pan_range>410635-39</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Ithala Limited (South Africa) VISA Electron</bank>
+<pan_range>410654</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Branch Banking and Trust (BB&amp;T)</bank>
+<pan_range>410894</pan_range>
+</acquirer> 
+<acquirer>
+<bank>The Golden 1 Credit Union (US) Visa Classic</bank>
+<pan_range>410897</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BANESCO (former BancUnion Visa). Visa Platinum</bank>
+<pan_range>411016</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds TSB (UK)</bank>
+<pan_range>411298</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Irish Life &amp; Permanent PLC Visa Debit Classic</bank>
+<pan_range>411636</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America (US; formerly Fleet) VISA Debit Card</bank>
+<pan_range>4117</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America (US; formerly Fleet) Temporary VISA Debit Card (Embossed name</bank>
+<pan_range>411773</pan_range>
+</acquirer> 
+<acquirer>
+<bank>DBS (SG)</bank>
+<pan_range>411911</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banca Transilvania</bank>
+<pan_range>411986</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Masterbank (Russia), Visa Infinite</bank>
+<pan_range>411945</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Pennsylvania State Employees Credit Union (PSECU) Credit Card</bank>
+<pan_range>412134</pan_range>
+</acquirer> 
+<acquirer>
+<bank>TD Bank Gift Card</bank>
+<pan_range>412266</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase Banking Debit Card</bank>
+<pan_range>4124</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank (US) Platium Select Dividends VISA Credit Card[citation needed]</bank>
+<pan_range>4128</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Electron</bank>
+<pan_range>412921-23</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MBNA (Europe) University of Cambridge VISA Credit Card</bank>
+<pan_range>412983</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sovereign Bank</bank>
+<pan_range>412984-85</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sovereign Bank Business Check Card</bank>
+<pan_range>413433</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banca Transilvania</bank>
+<pan_range>414049</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Georgia (GE)</bank>
+<pan_range>414051</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Budapest Bank, Visa Electron, Hungary</bank>
+<pan_range>414099</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Capital One</bank>
+<pan_range>4143</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Guaranty Bank Visa Debit card USA</bank>
+<pan_range>414588</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Urban Trust Bank</bank>
+<pan_range>4146</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank (American Airlines) Visa Signature Credit Card</bank>
+<pan_range>414711</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America (US)</bank>
+<pan_range>414716</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase (US, formerly Bank One)</bank>
+<pan_range>414720</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank (SG)</bank>
+<pan_range>414746 3</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank (SG)</bank>
+<pan_range>414746 4</pan_range>
+</acquirer> 
+<acquirer>
+<bank>US Bank</bank>
+<pan_range>414780 8</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Plumas Bank (California, US)</bank>
+<pan_range>414983</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Le Crédit Lyonnais, France</bank>
+<pan_range>415055</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bancomer Debit Card</bank>
+<pan_range>415231</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Platinum Japan</bank>
+<pan_range>4153</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Raiffeisen Bank (CZ)</bank>
+<pan_range>415461</pan_range>
+</acquirer> 
+<acquirer>
+<bank>TD Bank (USA)</bank>
+<pan_range>415874</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Cahoot (UK)</bank>
+<pan_range>415929</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sovereign Bank</bank>
+<pan_range>415981</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ING Bank Śląski (PL)</bank>
+<pan_range>416039</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Fortis Bank (PL)</bank>
+<pan_range>416451</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wells Fargo Bank Debit Visa USA</bank>
+<pan_range>416724</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Kotak Mahindra Bank Gold Credit Card</bank>
+<pan_range>4166</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Inteligo (PL)</bank>
+<pan_range>416896</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America (USA; Formerly Fleet)</bank>
+<pan_range>417008-11</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Crédit Populaire d'Algérie (CPA), Algeria</bank>
+<pan_range>4172</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC &quot;Moldindconbank&quot; S.A (Moldova)- Visa Electron</bank>
+<pan_range>4177</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Electron</bank>
+<pan_range>417935</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National Development Bank Visa prepaid (Srilanka)</bank>
+<pan_range>418122</pan_range>
+</acquirer> 
+<acquirer>
+<bank>TD Bank in the United States</bank>
+<pan_range>418221</pan_range>
+</acquirer> 
+<acquirer>
+<bank>New Zealand Post (NZ)</bank>
+<pan_range>418224</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Korea Exchange Bank</bank>
+<pan_range>418236</pan_range>
+</acquirer> 
+<acquirer>
+<bank>UOB (SG)</bank>
+<pan_range>418238</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Green Dot Prepaid Visa debit card</bank>
+<pan_range>418307</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Washington Mutual (US)</bank>
+<pan_range>4185</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Italy (Italy)</bank>
+<pan_range>4188500</pan_range>
+</acquirer> 
+<acquirer>
+<bank>U.S. Bank (US) WorldPerks VISA Credit Card</bank>
+<pan_range>41900</pan_range>
+</acquirer> 
+<acquirer>
+<bank>DongA Bank Vietnam</bank>
+<pan_range>419661</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Electron</bank>
+<pan_range>419740-1</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Electron</bank>
+<pan_range>419773-76</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Signature credit card, Scotibank Perú</bank>
+<pan_range>4241</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Volkswagen Bank direct VISA Credit Card (Germany) 67</bank>
+<pan_range>420567</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Forex Bank Visa Credit Card Sweden</bank>
+<pan_range>420571</pan_range>
+</acquirer> 
+<acquirer>
+<bank>US Bank debit card.</bank>
+<pan_range>420719</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase VISA debit card</bank>
+<pan_range>420767</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banque Invik Everywhere Money prepaid debit Visa Electron card (LU/SE)</bank>
+<pan_range>420796</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Lee's Summit, VISA Debit</bank>
+<pan_range>420984</pan_range>
+</acquirer> 
+<acquirer>
+<bank>China Minsheng Bank VISA Debit Card; Landesbank Berlin Xbox Live VISA Prepaid Card (Germany)</bank>
+<pan_range>4213</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ICICI Bank visa Gold Debit/ATM Card (India)</bank>
+<pan_range>421323</pan_range>
+</acquirer> 
+<acquirer>
+<bank>IndusInd Bank Debit Card (India)</bank>
+<pan_range>421324</pan_range>
+</acquirer> 
+<acquirer>
+<bank>UTI Bank Prepaid Visa Card</bank>
+<pan_range>421325</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Allahabad Bank Debit Card, India</bank>
+<pan_range>421337</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chequera Debit Card City (El Salvador)</bank>
+<pan_range>421338</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Interbank</bank>
+<pan_range>421355</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citizens Bank of Canada/Vancouver City Savings Credit Union Visa Gift Card</bank>
+<pan_range>421402</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Canara Bank</bank>
+<pan_range>421458</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Asia Commercial Bank Vietnam</bank>
+<pan_range>421494</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Debit Card Suruga bank (Japan)</bank>
+<pan_range>4216</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citizens Bank of Canada/Vancouver City Savings Credit Union Visa Gift Card</bank>
+<pan_range>4216</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ICICI Bank Visa Gold debit/ATM Card (India)</bank>
+<pan_range>421630</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commercial Bank, Sri Lanka</bank>
+<pan_range>421689</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America VISA Debit Card</bank>
+<pan_range>421764 to 66</pan_range>
+</acquirer> 
+<acquirer>
+<bank>China Minsheng Banking Corporation VISA Credit Card</bank>
+<pan_range>4218</pan_range>
+</acquirer> 
+<acquirer>
+<bank>SAMBIL MALL Servitebca Visa Prepaid Card (Issued by Venezolano de Credito).</bank>
+<pan_range>422050</pan_range>
+</acquirer> 
+<acquirer>
+<bank>GE Money (PL)</bank>
+<pan_range>422189</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Raiffeisen bank (Russia), Visa Classic</bank>
+<pan_range>422287</pan_range>
+</acquirer> 
+<acquirer>
+<bank>United Bank for Africa. Visa Classic Local Currency Debit Card</bank>
+<pan_range>4225842</pan_range>
+</acquirer> 
+<acquirer>
+<bank>United Bank for Africa. Visa Classic Single Currency Debit Card</bank>
+<pan_range>4225846</pan_range>
+</acquirer> 
+<acquirer>
+<bank>United Bank for Africa. Visa Classic Dual Currency Debit Card</bank>
+<pan_range>422594</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Bank (Turkey) VISA Credit Card</bank>
+<pan_range>422629</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase Bank (British Airways) Visa Signature Credit Card</bank>
+<pan_range>422695</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Korea BC VISA Check Card</bank>
+<pan_range>422727</pan_range>
+</acquirer> 
+<acquirer>
+<bank>o2 money card (managed by Natwest) Prepay card</bank>
+<pan_range>422793</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Patelco Credit Union</bank>
+<pan_range>423347</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Members Credit Union Visa Debit</bank>
+<pan_range>4238</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sampopank (Estonia), Visa Premier</bank>
+<pan_range>42383701</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sampopank (Estonia), Visa Gold</bank>
+<pan_range>42383702</pan_range>
+</acquirer> 
+<acquirer>
+<bank>St George Bank Visa Debit (Australia)</bank>
+<pan_range>4239</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Suffolk County National Bank Visa Debit (NY)</bank>
+<pan_range>423966</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Silverton Bank (Gift Card)</bank>
+<pan_range>4241</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Landesbank Baden-Württemberg Payback Premium</bank>
+<pan_range>424201</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Skandiabanken Visa Credit Card (NO)</bank>
+<pan_range>424327</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase Bank USA VISA Business Credit Card</bank>
+<pan_range>424631</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Skandiabanken Betal &amp; Kreditkort Visa credit card (SE)</bank>
+<pan_range>424339</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Ing Bank Slaski SA (Poland)</bank>
+<pan_range>424671</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Fidelity Debit Card issued by PNC</bank>
+<pan_range>4251</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Washington Mutual (formerly Fleet) VISA Debit Card</bank>
+<pan_range>425435 to 36</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Columbus Bank and Trust, AVS=866-443-6669</bank>
+<pan_range>425522</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America GM Visa Check Card</bank>
+<pan_range>4256</pan_range>
+</acquirer> 
+<acquirer>
+<bank>M &amp; T Bank Visa Check Card</bank>
+<pan_range>425800,02,03,04,08,09,34,38,39</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco BICE (Chile) Gold Visa Credit Card</bank>
+<pan_range>4259</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wells Fargo Business Platinum Check Visa Card</bank>
+<pan_range>425907</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Compass Bank, Visa, Business Platinum Check Card, Debit</bank>
+<pan_range>425914</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Comdirect Bank (Germany) Visa Credit Card, Natwest UK Visa</bank>
+<pan_range>426354</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Standard Chartered Bank Bangladesh</bank>
+<pan_range>426376</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Natwest UK Visa Credit card</bank>
+<pan_range>426393</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America (formerly MBNA) Platinum Visa Credit Card</bank>
+<pan_range>426428 to 29</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America (formerly MBNA) Platinum Visa Credit Card</bank>
+<pan_range>426451 to 52, 65</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Code Credit Union (Dayton, Ohio)</bank>
+<pan_range>426488</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HHonors Platinum Visa Credit Card (Barclaycard)</bank>
+<pan_range>426501</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Solutions Finance Credit Card (Barclaycard)</bank>
+<pan_range>426510</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Australia Visa Platinum Card</bank>
+<pan_range>426534</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Bank VISA Credit Card (Australia)</bank>
+<pan_range>426556 to 58</pan_range>
+</acquirer> 
+<acquirer>
+<bank>UOB Platinum Visa Credit Card (Singapore)</bank>
+<pan_range>426588</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CitiBank Platinum Visa Credit Card (Singapore)</bank>
+<pan_range>426569</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase (formerly Bank One) Visa Credit Card</bank>
+<pan_range>426655 to 56</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase (formerly Bank One) Buy.com Visa Credit Card</bank>
+<pan_range>426684</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Countrywide Visa Credit Card (2008)</bank>
+<pan_range>426684</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase +1 Student Visa Card (2008)</bank>
+<pan_range>426684</pan_range>
+</acquirer> 
+<acquirer>
+<bank>First Command Financial Planning, Inc.</bank>
+<pan_range>426698</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Industrial and Commercial Bank of China Visa</bank>
+<pan_range>427010, 19, 20, 28, 29, 30, 38, 39, 62, 64, 85</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Mercedes Benz Bank</bank>
+<pan_range>427208</pan_range>
+</acquirer> 
+<acquirer>
+<bank>VTB24 (Russia), Visa Classic (Un)embossed</bank>
+<pan_range>427229</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds TSB Business Debit Card</bank>
+<pan_range>427342</pan_range>
+</acquirer> 
+<acquirer>
+<bank>RBC Centura Bank Visa Debit Card (Pocket Check Card)</bank>
+<pan_range>427557</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sberbank of Russia</bank>
+<pan_range>4276</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank, Russia</bank>
+<pan_range>427760</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sberbank of Russia, Visa Gold</bank>
+<pan_range>4279</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Landesbank Berlin (Germany) Visa Credit Card</bank>
+<pan_range>4282</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase Debit Visa</bank>
+<pan_range>428208</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Prezzy card (New Zealand Post)</bank>
+<pan_range>428333</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ASB Bank (New Zealand) Visa Debit Card</bank>
+<pan_range>428418</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citizens Bank of Canada (Canada) Prepaid Visa Gift Card</bank>
+<pan_range>428434</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Kiwibank (New Zealand) Visa Debit Card</bank>
+<pan_range>428454</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Moscow (Russia) Visa Electron Social Security Card</bank>
+<pan_range>429158</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Digital Federal Credit Union (DCU) Visa Check Card</bank>
+<pan_range>429420</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Regions Bank Visa Debit Card</bank>
+<pan_range>429475</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Standard Chartered Platinum VISA Credit Card (Singapore)</bank>
+<pan_range>430092</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase Visa</bank>
+<pan_range>4301</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Cyprus Greece Prepaid Visa</bank>
+<pan_range>430252</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclays Bank Plc</bank>
+<pan_range>4304</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America (formerly Fleet) Visa Credit Card</bank>
+<pan_range>430536, 44, 46, 50, 94</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Summit Federal Credit Union Visa Debit Card</bank>
+<pan_range>430552</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Tesco Bank Classic Visa</bank>
+<pan_range>430567</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Pennsylvania State Employees' Credit Union Check Card</bank>
+<pan_range>430586</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Affinity Plus Federal Credit Union Debit Card (USA)</bank>
+<pan_range>430605</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Macys Visa</bank>
+<pan_range>4308</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National City Bank Visa Credit Card</bank>
+<pan_range>4311</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Rizal Commercial Banking Corporation Visa Credit Card (Philippines)</bank>
+<pan_range>431170</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase Leisure Rewards Visa Business Debit/Check Card</bank>
+<pan_range>4312</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Australia VISA Debit Card</bank>
+<pan_range>431239</pan_range>
+</acquirer> 
+<acquirer>
+<bank>IWBank Visa</bank>
+<pan_range>431261</pan_range>
+</acquirer> 
+<acquirer>
+<bank>IWBank Visa Electron</bank>
+<pan_range>431262</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Silverton Bank NA</bank>
+<pan_range>4315</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Plains Commerce, (Total Visa), Small Credit Limit, Credit Repair Card</bank>
+<pan_range>431732</pan_range>
+</acquirer> 
+<acquirer>
+<bank>S-Bank Visa</bank>
+<pan_range>4318</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Halifax Ireland VISA Debit card</bank>
+<pan_range>431930</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Ulster Bank VISA Debit Card, Republic of Ireland</bank>
+<pan_range>431931 to 32</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Permanent TSB VISA Debit Card, Republic of Ireland</bank>
+<pan_range>431935</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citizens Bank of Canada/Vancouver City Savings Credit Union Visa Gift Card</bank>
+<pan_range>4321</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BA Finance/Credit Europe bank (Russia), Visa Classic &quot;Auchan&quot; card</bank>
+<pan_range>432158</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America (formerly Fleet National Bank) Visa Check Card, Debit</bank>
+<pan_range>432624 to 30</pan_range>
+</acquirer> 
+<acquirer>
+<bank>North Carolina State Employees' Credit Union VISA Check Card</bank>
+<pan_range>4327??</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Metabank Debit Card</bank>
+<pan_range>432732</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sovereign Bank Check Card</bank>
+<pan_range>432845</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Cartasi Eura Visa Electron (Italy)</bank>
+<pan_range>432919</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Credit Card (Hong Kong)</bank>
+<pan_range>4333</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BBVA Puerto Rico</bank>
+<pan_range>433445</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MBNA</bank>
+<pan_range>433507</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclays &amp; Times Card Visa Gold Credit Card (India)</bank>
+<pan_range>433948</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclays &amp; Yatra.com Platinum Credit Card (India)</bank>
+<pan_range>433950</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Palm Desert National Bank as Cingular Wireless' rebate debit card</bank>
+<pan_range>433991</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America Classic Visa Credit Card</bank>
+<pan_range>4342??</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Best Bank</bank>
+<pan_range>434254</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wells Fargo Debit</bank>
+<pan_range>434256</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wells Fargo Debit</bank>
+<pan_range>434257</pan_range>
+</acquirer> 
+<acquirer>
+<bank>First Interstate Bank Visa Credit Card</bank>
+<pan_range>4343</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Landesbank Berlin Holding Visa Credit Card (Amazon.de Credit Card)</bank>
+<pan_range>4344</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase Card Services Canada Marriott Rewards Platinum Visa Card</bank>
+<pan_range>4349</pan_range>
+</acquirer> 
+<acquirer>
+<bank>U.S. Bank Premiere Line Visa Card</bank>
+<pan_range>4355</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Target Corporation Visa Credit Card</bank>
+<pan_range>4356</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America Visa Debit Card</bank>
+<pan_range>4356</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America, Visa, Platinum Check Card, Debit</bank>
+<pan_range>435680 to 90</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ShenZhen Development Bank, Visa, Classic, Credit (China)</bank>
+<pan_range>435744</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Compass Bank, Visa, Business Check Card, Debit</bank>
+<pan_range>435760</pan_range>
+</acquirer> 
+<acquirer>
+<bank>U.S. Bank Visa debit card</bank>
+<pan_range>436618</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase (formerly First USA)</bank>
+<pan_range>436610 to 17, 67</pan_range>
+</acquirer> 
+<acquirer>
+<bank>China Construction Bank Credit Card</bank>
+<pan_range>4367</pan_range>
+</acquirer> 
+<acquirer>
+<bank>China Construction Bank Debit Card</bank>
+<pan_range>436742</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National Bank of New Zealand Visa Credit Card</bank>
+<pan_range>436773</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Panin Bank</bank>
+<pan_range>4377</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China Olympics Visa Credit Card</bank>
+<pan_range>4380</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China Visa Unionpay Gold Credit Card</bank>
+<pan_range>438088</pan_range>
+</acquirer> 
+<acquirer>
+<bank>UOB Campus Visa Debit Card (Singapore)</bank>
+<pan_range>4382</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Visa Credit Card (India)</bank>
+<pan_range>4384</pan_range>
+</acquirer> 
+<acquirer>
+<bank>China Construction Bank (Asia) Finance Credit Card</bank>
+<pan_range>438617</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Shinhan Card VISA Platinum Card</bank>
+<pan_range>438676</pan_range>
+</acquirer> 
+<acquirer>
+<bank>San Diego County Credit Union Visa Card</bank>
+<pan_range>438755</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Capital One Visa Credit Card</bank>
+<pan_range>4388</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase Bank (United Airlines) Visa credit card</bank>
+<pan_range>438857</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ChequeMax (El Salvador)</bank>
+<pan_range>4390</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Krungthai Bank</bank>
+<pan_range>4391</pan_range>
+</acquirer> 
+<acquirer>
+<bank>China Merchants Bank Visa Credit Card</bank>
+<pan_range>439225 to 27</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Handlowy (PL)</bank>
+<pan_range>440210</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Handlowy (PL)</bank>
+<pan_range>440211</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Allied Irish Banks &quot;Click&quot; Visa Card</bank>
+<pan_range>440260</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Schwab Bank Invest First Visa Signature</bank>
+<pan_range>440319</pan_range>
+</acquirer> 
+<acquirer>
+<bank>(UBP-php)</bank>
+<pan_range>4404</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Latvijas Krājbanka (LV)</bank>
+<pan_range>4405</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Slovenská sporiteľňa Visa Electron</bank>
+<pan_range>440626</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ČSOB (CZ)</bank>
+<pan_range>440752</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ČSOB (CZ)</bank>
+<pan_range>440753</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase (AARP)</bank>
+<pan_range>4408</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Deutsche Bank (DE) Gold Credit Card</bank>
+<pan_range>4412</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MetaBank Visa Gift Card</bank>
+<pan_range>441669</pan_range>
+</acquirer> 
+<acquirer>
+<bank>First USA Bank, N.A.</bank>
+<pan_range>441712</pan_range>
+</acquirer> 
+<acquirer>
+<bank>1st National Bank of Omaha</bank>
+<pan_range>441822</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MBNA EUROPE BANK LIMITED Classic Visa Credit Card</bank>
+<pan_range>442162</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wells Fargo Platinum Visa</bank>
+<pan_range>442518</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citizens Bank (RBS) Platinum Visa Debit Card</bank>
+<pan_range>442790</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BECU Visa</bank>
+<pan_range>4428</pan_range>
+</acquirer> 
+<acquirer>
+<bank>PNC Bank (Debit Card) (former National City Debit)</bank>
+<pan_range>4430</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banner Bank VISA (Debit Card)</bank>
+<pan_range>4435</pan_range>
+</acquirer> 
+<acquirer>
+<bank>U.S. Bank</bank>
+<pan_range>4432</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Shinhan Card (former LG Card)</bank>
+<pan_range>443233</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Five Star Bank</bank>
+<pan_range>443464</pan_range>
+</acquirer> 
+<acquirer>
+<bank>PNC Bank Visa Points</bank>
+<pan_range>4436</pan_range>
+</acquirer> 
+<acquirer>
+<bank>SMP bank (Russia) Visa Classic</bank>
+<pan_range>444238</pan_range>
+</acquirer> 
+<acquirer>
+<bank>First US Bank</bank>
+<pan_range>444400</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Fifth Third Bank</bank>
+<pan_range>444512</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Vietnam</bank>
+<pan_range>445093</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Vietnam</bank>
+<pan_range>445094</pan_range>
+</acquirer> 
+<acquirer>
+<bank>First Tennessee Bank (USA) VISA Debit Card</bank>
+<pan_range>4451</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Keytrade Bank Visa Classic Credit Card</bank>
+<pan_range>445479</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Keytrade Bank Visa Gold Credit Card</bank>
+<pan_range>445480</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Nationwide Building Society (UK)</bank>
+<pan_range>4458</pan_range>
+</acquirer> 
+<acquirer>
+<bank>US Bank Visa Classic Debit Card USA</bank>
+<pan_range>446053</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BRE Bank (CZ)</bank>
+<pan_range>446155</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BRE Bank (PL)</bank>
+<pan_range>446157</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BRE Bank (CZ)</bank>
+<pan_range>446157</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BRE Bank (PL)</bank>
+<pan_range>446158</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BRE Bank (CZ)</bank>
+<pan_range>446153</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds TSB (UK)</bank>
+<pan_range>446261</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Cahoot (UK)</bank>
+<pan_range>446268</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds TSB (UK)</bank>
+<pan_range>446272</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds TSB (UK)</bank>
+<pan_range>446274</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Abbey (bank)</bank>
+<pan_range>446277</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Halifax (UK)</bank>
+<pan_range>446278</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Scotland (UK)</bank>
+<pan_range>446279</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Halifax (UK)</bank>
+<pan_range>446291</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wells Fargo (USA)</bank>
+<pan_range>4465</pan_range>
+</acquirer> 
+<acquirer>
+<bank>M&amp;I Marshall &amp; Ilsley Bank (USA)</bank>
+<pan_range>4470</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC VISA Check Card issued by Woori Bank</bank>
+<pan_range>447320</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Union Bank &amp; Trust Company Visa debit card</bank>
+<pan_range>447452</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC India Visa Silver Credit Card (India)</bank>
+<pan_range>447692</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ICICI Bank Visa Gold Credit Card (India)</bank>
+<pan_range>447747</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Promsvyazbank, Russia</bank>
+<pan_range>447817</pan_range>
+</acquirer> 
+<acquirer>
+<bank>TCF Bank Debit Card</bank>
+<pan_range>4479</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National City Bank Visa Debit Card</bank>
+<pan_range>447935</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Old Navy Visa Credit Card</bank>
+<pan_range>447995</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase Bank / MyECount.com Sprint Wireless' rebate debit card</bank>
+<pan_range>448156</pan_range>
+</acquirer> 
+<acquirer>
+<bank>mBank (PL)</bank>
+<pan_range>448336</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds Bank</bank>
+<pan_range>448445</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Suntrust Bank</bank>
+<pan_range>4488</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National City Bank Visa Debit Card (Credit Card?)</bank>
+<pan_range>4489</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Vista Federal Credit Union (Walt Disney World) Visa Debit Card</bank>
+<pan_range>4492</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Nationwide Building Society Visa Credit Card</bank>
+<pan_range>449352</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Valley Bank</bank>
+<pan_range>449364</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America (USA), National Association</bank>
+<pan_range>449533</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Credit Union Australia</bank>
+<pan_range>443438</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Card VISA Check Card</bank>
+<pan_range>4481</pan_range>
+</acquirer> 
+<acquirer>
+<bank>TD Bank</bank>
+<pan_range>4482</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BRE Bank (PL)</bank>
+<pan_range>448336</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Community Trust Bank( Visa Debit Card)</bank>
+<pan_range>4490</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Nicu Dinu's Bank ( Cernavoda, Romania )</bank>
+<pan_range>4493</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa gold debit card BCP-Banco de Crédito del Perú.</bank>
+<pan_range>455788</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa debit card BBVA Banco Continental Perú. BBVA group.</bank>
+<pan_range>4551</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Canadian Imperial Bank of Commerce (CIBC) Visa &amp; MBNA Quantum Visa Credit Cards</bank>
+<pan_range>4500</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CIBC Infinite Aerogold (VISA credit card)</bank>
+<pan_range>450003</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CIBC Aerogold (VISA credit card)</bank>
+<pan_range>450060</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CIBC Platinum (VISA credit card)</bank>
+<pan_range>450065</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CIBC VISA</bank>
+<pan_range>4502</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CIBC VISA</bank>
+<pan_range>4503</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CIBC VISA</bank>
+<pan_range>4504</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Æon Credit Service Credit Card</bank>
+<pan_range>450405</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CIBC VISA</bank>
+<pan_range>4505</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bendigo Bank Visa Blue Debit Card</bank>
+<pan_range>450605</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CIBC VISA Debit</bank>
+<pan_range>4506</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Marfin Laiki Bank Visa Debit Card</bank>
+<pan_range>4506</pan_range>
+</acquirer> 
+<acquirer>
+<bank>St George Bank Visa Debit Card</bank>
+<pan_range>4507</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Electron</bank>
+<pan_range>4508</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds TSB VISA</bank>
+<pan_range>450823</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Co-operative Bank Visa Debit Card (formerly Visa Electron)</bank>
+<pan_range>450875</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco de Chile Visa Credit Card</bank>
+<pan_range>450878</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ANZ Bank Visa Credit Card</bank>
+<pan_range>4509</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Royal Bank of Canada (CA)</bank>
+<pan_range>4510</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Seylan Bank, Sri Lanka</bank>
+<pan_range>4511</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Royal Bank of Canada (CA)</bank>
+<pan_range>4512</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China</bank>
+<pan_range>451291</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bancolombia (CB)</bank>
+<pan_range>4513</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Royal Bank of Canada RBC AVION Visa (Platinum/Infinite)</bank>
+<pan_range>4514</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Royal Bank of Canada (CA)</bank>
+<pan_range>451503</pan_range>
+</acquirer> 
+<acquirer>
+<bank>RBC Banque Royale VISA BUSINESS (Affaires)</bank>
+<pan_range>4516</pan_range>
+</acquirer> 
+<acquirer>
+<bank>DBS Bank Credit Card (Hong Kong)</bank>
+<pan_range>451834</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Shinhan Bank VISA Check Card</bank>
+<pan_range>451845</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Royal Bank of Canada (CA)</bank>
+<pan_range>4519</pan_range>
+</acquirer> 
+<acquirer>
+<bank>TD Bank CAD VISA</bank>
+<pan_range>4520</pan_range>
+</acquirer> 
+<acquirer>
+<bank>TD Bank CAD VISA infinite</bank>
+<pan_range>452088</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MetaBank Visa</bank>
+<pan_range>4529</pan_range>
+</acquirer> 
+<acquirer>
+<bank>VISA Desjardins Group</bank>
+<pan_range>4530</pan_range>
+</acquirer> 
+<acquirer>
+<bank>NAB Gold Affinity</bank>
+<pan_range>453030</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco Mercantil Venezuela Visa Card</bank>
+<pan_range>453231</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Scotiabank</bank>
+<pan_range>4535</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Scotiabank</bank>
+<pan_range>4536</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Scotiabank</bank>
+<pan_range>4537</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Scotiabank</bank>
+<pan_range>4538</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ScotiaBank</bank>
+<pan_range>453801</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ScotiaBank</bank>
+<pan_range>453826</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Nordea (SE)</bank>
+<pan_range>453904</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclays Bank (UK)</bank>
+<pan_range>453978</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclays Bank (UK)</bank>
+<pan_range>453979</pan_range>
+</acquirer> 
+<acquirer>
+<bank>permanent tsb Visa Credit Card</bank>
+<pan_range>453980</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Friulcassa / CartaSi (IT)</bank>
+<pan_range>453997</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CartaSi (IT)</bank>
+<pan_range>453998</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Carte d'accès Desjardins / VISA Desjardins</bank>
+<pan_range>4540</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Standard Chartered Manhattan Platinum VISA (India)</bank>
+<pan_range>4541</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Rakuten Bank</bank>
+<pan_range>4542</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Debit UK</bank>
+<pan_range>4543</pan_range>
+</acquirer> 
+<acquirer>
+<bank>RBS Visa Credit Card</bank>
+<pan_range>454305</pan_range>
+</acquirer> 
+<acquirer>
+<bank>First Direct (UK)</bank>
+<pan_range>454312</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Nationwide Building Society (UK)</bank>
+<pan_range>454313</pan_range>
+</acquirer> 
+<acquirer>
+<bank>First Direct (a division of HSBC UK) Visa Debit Card</bank>
+<pan_range>454361</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Slovenská sporiteľňa Visa</bank>
+<pan_range>454417</pan_range>
+</acquirer> 
+<acquirer>
+<bank>First Trust Bank (UK)</bank>
+<pan_range>454434</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Co-operative Bank (UK)</bank>
+<pan_range>454495</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banque Laurentienne du Canada / Laurentian Bank of Canada (CA)</bank>
+<pan_range>4544</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BANESCO (former BancUnion Visa)</bank>
+<pan_range>4545</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Australia (AU) Visa Card</bank>
+<pan_range>454605</pan_range>
+</acquirer> 
+<acquirer>
+<bank>UOB (SG) ASTAR VISA Corporate Gold Credit Card</bank>
+<pan_range>454718</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Santander (Previously Abbey (bank)) Visa Debit Card</bank>
+<pan_range>454742</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BHW (DE)</bank>
+<pan_range>454749</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ASB Bank Visa Credit Card (New Zealand)</bank>
+<pan_range>454867</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Westpac New Zealand Visa Credit Card</bank>
+<pan_range>454869</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco Popular de Puerto Rico</bank>
+<pan_range>4549</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Cooperative Bank (UK)</bank>
+<pan_range>455025</pan_range>
+</acquirer> 
+<acquirer>
+<bank>TD Bank/General Motors Corporation GM CAD VISA</bank>
+<pan_range>4551</pan_range>
+</acquirer> 
+<acquirer>
+<bank>GM-Visa Card (CAD) issued by TDCanada Trust</bank>
+<pan_range>455121</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Cooperative Bank (UK)</bank>
+<pan_range>4552</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of East Asia Classic Credit Card (Hong Kong)</bank>
+<pan_range>455271</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of East Asia Gold Credit Card (Hong Kong)</bank>
+<pan_range>455272</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wing Hang Bank Credit Card (Hong Kong)</bank>
+<pan_range>4553</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ICICI Bank Visa Platinum Debit Card (India)</bank>
+<pan_range>455451</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Cooperative Bank Platinum VISA (UK)</bank>
+<pan_range>4555</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Ceylon VISA Credit Card (UK)</bank>
+<pan_range>4555</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bancomer Azul Clásica Credit Card (México)</bank>
+<pan_range>455503</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Visa Vodafone (Greece)</bank>
+<pan_range>4556</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Debit Card Bank of credit (PE)</bank>
+<pan_range>4557</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National Australia Bank (AU)</bank>
+<pan_range>455701</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National Australia Bank VISA (AU)</bank>
+<pan_range>455702</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Hang Seng Bank Credit Card</bank>
+<pan_range>455707</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CHASE (formerly Washington Mutual/Providian) Platinum VISA Credit Card</bank>
+<pan_range>4559</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ANZ Visa Debit Card</bank>
+<pan_range>4560</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BMW VISA ICS International Card Services (The Netherlands)</bank>
+<pan_range>4563</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Malaysia (MY)</bank>
+<pan_range>4563</pan_range>
+</acquirer> 
+<acquirer>
+<bank>(CN)Bank of China Debit card (China UnionPay)</bank>
+<pan_range>456351</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Melbourne 1 (AU; now Westpac)</bank>
+<pan_range>456403</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Challenge Bank (AU; now Westpac)</bank>
+<pan_range>456406</pan_range>
+</acquirer> 
+<acquirer>
+<bank>DEFENCE FORCE CREDIT UNION VISA DEBIT CARD (Australia)</bank>
+<pan_range>456413</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CREDIT UNION AUSTRALIA VISA DEBIT (Australia)</bank>
+<pan_range>456414</pan_range>
+</acquirer> 
+<acquirer>
+<bank>SUNCORP METWAY VISA DEBIT CARD (Australia)</bank>
+<pan_range>456432</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BENDIGO BANK LTD</bank>
+<pan_range>456443</pan_range>
+</acquirer> 
+<acquirer>
+<bank>STATE BANK VICTORIA</bank>
+<pan_range>456445</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BANK OF QUEENSLAND VISA CREDIT CARD (Australia)</bank>
+<pan_range>456448</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ANZ Bank VISA Gift Card (Australia)</bank>
+<pan_range>456453</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ANZ Bank VISA Credit Card (Australia)</bank>
+<pan_range>456462</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ANZ Bank VISA Credit Card Frequent Flyer Platinum (Australia)</bank>
+<pan_range>456468</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ANZ Bank VISA Credit Card Gold (Australia)</bank>
+<pan_range>456469</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Westpac Bank Altitude Visa Credit Card Platinum (Australia)</bank>
+<pan_range>456472</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Newcastle Permanent Building Society ltd VISA Debit (Australia)</bank>
+<pan_range>456475</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ASB Bank (New Zealand)</bank>
+<pan_range>456491</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ABSA VISA</bank>
+<pan_range>4565</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank (UK) Visa Prepaid card)</bank>
+<pan_range>456707</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Alliance and Leicester VISA Debit Card (UK)</bank>
+<pan_range>456735</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank (UK)</bank>
+<pan_range>456738</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Berliner Bank (DE)</bank>
+<pan_range>4568</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Skandiabanken VISA Debit Card (NO)</bank>
+<pan_range>4569</pan_range>
+</acquirer> 
+<acquirer>
+<bank>DZ Bank VISA Credit Card (DE)</bank>
+<pan_range>4570</pan_range>
+</acquirer> 
+<acquirer>
+<bank>All Danish VISA-cards (Visa/Dankort)</bank>
+<pan_range>4571</pan_range>
+</acquirer> 
+<acquirer>
+<bank>KB Card VISA Gold Card</bank>
+<pan_range>4579</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Leumi Card (IL)</bank>
+<pan_range>4580XX</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Israeli Credit Cards (ICC) (IL)</bank>
+<pan_range>4580XX</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Swedbank Visa Debit Card Sweden</bank>
+<pan_range>458109</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Communications/HSBC (CN) Y-Power Visa Card</bank>
+<pan_range>458123</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Vietnam</bank>
+<pan_range>458440</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Bank Australia VISA Debit Card</bank>
+<pan_range>4585</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Peoples Trust Visa Gift Card</bank>
+<pan_range>4587</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Caja Madrid (ES</bank>
+<pan_range>4599</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Suncoast Schools Federal Credit Union</bank>
+<pan_range>4608</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Best Buy Reward Zone/Chase (Canada)</bank>
+<pan_range>461983</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclays Visa Debit (UK)</bank>
+<pan_range>465859</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Santander Visa Debit (UK)</bank>
+<pan_range>465904</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclays Visa Debit (UK)</bank>
+<pan_range>465921</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Visa Debit Card (UK)</bank>
+<pan_range>465942</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Axis Bank Debit Card (India)</bank>
+<pan_range>468805</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Dena Bank Debit Card (India)</bank>
+<pan_range>469568</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lakshmi Vilas Bank ( India)</bank>
+<pan_range>467937</pan_range>
+</acquirer> 
+<acquirer>
+<bank>US Bank, Visa Debit, USA</bank>
+<pan_range>470758</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wachovia VISA</bank>
+<pan_range>4715</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Target Corporation VISA Gift Card</bank>
+<pan_range>4718</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC VISA (Platinum?), Sri Lanka</bank>
+<pan_range>4720</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Peoples Trust Vanilla Prepaid Visa Card, Canada</bank>
+<pan_range>472926</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wells Fargo Bank, Visa Debit, Iowa USA</bank>
+<pan_range>473099</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Swiss International Airlines Miles &amp; More Visa Gold (CH)</bank>
+<pan_range>473104</pan_range>
+</acquirer> 
+<acquirer>
+<bank>[GE Money Bank] Walmart Prepaid Visa Debit Card, USA</bank>
+<pan_range>4736</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wells Fargo, Visa card, USA</bank>
+<pan_range>473702</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America Visa Debit</bank>
+<pan_range>4744</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America Visa Debit, Midwest USA</bank>
+<pan_range>474480</pan_range>
+</acquirer> 
+<acquirer>
+<bank>JPMorgan Chase Visa Credit Card</bank>
+<pan_range>475050</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Ulster Bank, Visa Debit, UK (immediate authorisation)</bank>
+<pan_range>475110</pan_range>
+</acquirer> 
+<acquirer>
+<bank>RBS Royal Bank of Scotland, Visa Debit, UK (immediate authorisation)</bank>
+<pan_range>475116</pan_range>
+</acquirer> 
+<acquirer>
+<bank>RBS Royal Bank of Scotland, Visa Debit, UK</bank>
+<pan_range>475117</pan_range>
+</acquirer> 
+<acquirer>
+<bank>RBS Royal Bank of Scotland, Visa Debit, UK</bank>
+<pan_range>475118</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MetaBank VISA TravelMoney, Debit</bank>
+<pan_range>475423</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MetaBank Rebate Visa Card</bank>
+<pan_range>475427</pan_range>
+</acquirer> 
+<acquirer>
+<bank>WellsFargo Bank National Association, Visa Debit</bank>
+<pan_range>475637</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Santander UK Visa Debit card</bank>
+<pan_range>475714</pan_range>
+</acquirer> 
+<acquirer>
+<bank>O2 Money Card (Ireland), prepaid</bank>
+<pan_range>475743</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Oregon Community Credit Union</bank>
+<pan_range>4758</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank Niaga (Indonesia) Visa Debit Card</bank>
+<pan_range>4760</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Venezolano de Credito Superefectiva Gold Visa Check card.</bank>
+<pan_range>476515</pan_range>
+</acquirer> 
+<acquirer>
+<bank>South Florida Educational Federal Credit Union Visa Debit Card</bank>
+<pan_range>476559</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Siam Commercial Bank</bank>
+<pan_range>4773</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Big Sky Credit Union Visa (Australia)</bank>
+<pan_range>477361</pan_range>
+</acquirer> 
+<acquirer>
+<bank>JPMorgan Chase Bank N.A.</bank>
+<pan_range>477517</pan_range>
+</acquirer> 
+<acquirer>
+<bank>SEB</bank>
+<pan_range>477548</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sainsbury's Bank (UK)</bank>
+<pan_range>477596</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sainsbury's Bank (UK)</bank>
+<pan_range>4779</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BZWBK (PL)</bank>
+<pan_range>477915</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BANK ONE</bank>
+<pan_range>478200</pan_range>
+</acquirer> 
+<acquirer>
+<bank>JPMorganChase Corporate Card</bank>
+<pan_range>478825</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Umpqua Bank of Oregon Visa Debit Card</bank>
+<pan_range>478880</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Vancity Visa credit card (Canada)</bank>
+<pan_range>478901</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Vancity Visa credit card (Canada)</bank>
+<pan_range>478907</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CIBC US Dollar Visa (Canada)</bank>
+<pan_range>478986</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Heartland Credit Union (Springfield, IL)</bank>
+<pan_range>478992</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bulgarian Postbank VISA Credit card</bank>
+<pan_range>479000</pan_range>
+</acquirer> 
+<acquirer>
+<bank>First National Bank (South Africa) Visa Electron Debit Card</bank>
+<pan_range>479056</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Credit card BZWBK Polish bank</bank>
+<pan_range>479080</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Alfa bank (Russia), Visa Platinum</bank>
+<pan_range>479087</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Georgia Federal Credit Union</bank>
+<pan_range>479144</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Abbey International Visa Debit Card</bank>
+<pan_range>479293</pan_range>
+</acquirer> 
+<acquirer>
+<bank>TD Banknorth Visa Debit Card</bank>
+<pan_range>479213</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Vision Banco Visa Debit Card (Paraguay)</bank>
+<pan_range>479348</pan_range>
+</acquirer> 
+<acquirer>
+<bank>SEB bankas Visa Debit Card (Lithuania)</bank>
+<pan_range>4797</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Swedbank Visa Electron (Estonia)</bank>
+<pan_range>479731</pan_range>
+</acquirer> 
+<acquirer>
+<bank>&quot;Saint-Petersburg Bank&quot;, Russia</bank>
+<pan_range>479769</pan_range>
+</acquirer> 
+<acquirer>
+<bank>US Bank Visa Select Rewards Business Platinum</bank>
+<pan_range>4798</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ETrade Visa Debit Card (U.S.)</bank>
+<pan_range>479884</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MBNA Gold Visa Credit Card</bank>
+<pan_range>4800</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citigroup Inc.</bank>
+<pan_range>480152</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Community Business Bank</bank>
+<pan_range>480183</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Capital ONE FSB Business</bank>
+<pan_range>480213</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Credit Union Visa Debit Card</bank>
+<pan_range>480641</pan_range>
+</acquirer> 
+<acquirer>
+<bank>M&amp;I Visa Credit Card</bank>
+<pan_range>4807</pan_range>
+</acquirer> 
+<acquirer>
+<bank>WellsOne Commercial Card</bank>
+<pan_range>480801</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Charles Schwab Bank</bank>
+<pan_range>4809</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wings Financial FCU Credit Card (also Metro Community FCU)</bank>
+<pan_range>4820</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wirecard Bank Visa Card</bank>
+<pan_range>4824</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wachovia Bank (US)</bank>
+<pan_range>4828</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wachovia Bank (US)</bank>
+<pan_range>482870</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Standard Charterd Bank Vietnam</bank>
+<pan_range>483542</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ANZ NATIONAL BANK LTD</bank>
+<pan_range>483561</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sony Finance International, Japan</bank>
+<pan_range>483583</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Revolution VISA Platinum Credit Card (Singapore)</bank>
+<pan_range>483585</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Canada Post Visa Reloadable Prepaid Card</bank>
+<pan_range>483588</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Old National Bank Commercial Debit Card</bank>
+<pan_range>4841</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Maybank-issued Visa Credit Card (Malaysia)</bank>
+<pan_range>4842</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Digital FCU Visa Gold Credit Card</bank>
+<pan_range>4843</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Paypal (UK)</bank>
+<pan_range>484427</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank Of Scotland (UK)</bank>
+<pan_range>484432</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Washington Mutual (US)</bank>
+<pan_range>4854</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wings Financial FCU Check Card</bank>
+<pan_range>4861</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Capital One Visa Credit Card</bank>
+<pan_range>4862</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Capital One</bank>
+<pan_range>486236</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Platinum Visa Credit Card (India)</bank>
+<pan_range>486269</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds TSB (UK)</bank>
+<pan_range>486430</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC (UK)</bank>
+<pan_range>486483</pan_range>
+</acquirer> 
+<acquirer>
+<bank>JP Morgan Chase Bank (US)</bank>
+<pan_range>4867</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wells Fargo (US)</bank>
+<pan_range>4868</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Plumas Bank (California, US)</bank>
+<pan_range>486990</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Umpqua Bank of Oregon (US)</bank>
+<pan_range>486993</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Capital One Orbitz Visa Platinum Credit Card</bank>
+<pan_range>4873</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America (US)</bank>
+<pan_range>4888</pan_range>
+</acquirer> 
+<acquirer>
+<bank>QIWI Bank</bank>
+<pan_range>4890</pan_range>
+</acquirer> 
+<acquirer>
+<bank>[Columbus Bank and Trust Company] Green dot NASCAR Debit Visa Prepaid card</bank>
+<pan_range>4892</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Nationwide Building Society (UK) Visa Select Credit Card</bank>
+<pan_range>4893</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lakshmi Vilas Bank (India)</bank>
+<pan_range>4889 39</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC VISA Credit Card issued by Woori Bank</bank>
+<pan_range>490220</pan_range>
+</acquirer> 
+<acquirer>
+<bank>NAB VISA Gold Debit Card (Australia)</bank>
+<pan_range>490292</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Switch (Debit Card)</bank>
+<pan_range>4903</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banner Bank VISA (Credit)</bank>
+<pan_range>4904</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Switch (Debit Card)</bank>
+<pan_range>4905</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclaycard VISA Credit Card (Germany)</bank>
+<pan_range>4906</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC VISA Credit Card (Korea)</bank>
+<pan_range>4906</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC VISA Credit Card issued by Industrial Bank of Korea</bank>
+<pan_range>490603</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC VISA Credit Card issued by Kookmin Bank</bank>
+<pan_range>490606</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC VISA Credit Card issued by Nonghyup Central Bank</bank>
+<pan_range>490611</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC VISA Credit Card issued by Nonghyup Local Banks</bank>
+<pan_range>490612</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC VISA Credit Card</bank>
+<pan_range>490620</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC VISA Credit Card issued by SC First Bank</bank>
+<pan_range>490623</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC VISA Credit Card issued by Hana Bank</bank>
+<pan_range>490625</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC VISA Credit Card issued by Citibank in Korea</bank>
+<pan_range>490627</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC VISA Credit Card issued by Shinhan Card</bank>
+<pan_range>490678</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank (Argentina)</bank>
+<pan_range>490696</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bayerische Landesbank VISA Credit Card (Germany)</bank>
+<pan_range>490762</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Credit card (Japan)</bank>
+<pan_range>4907</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco Espirito Santo Gold Visa Credit Card (Portugal)</bank>
+<pan_range>490841</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Parex Bank Visa Credit Card</bank>
+<pan_range>490847</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Northern Rock</bank>
+<pan_range>4909</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Bank VISA Credit Card (Sri Lanka).</bank>
+<pan_range>4910</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank (UK) AAdvantage Gold Visa Card</bank>
+<pan_range>491002</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Switch (Debit Card)</bank>
+<pan_range>4911</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Electron</bank>
+<pan_range>4913</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banrisul Visa</bank>
+<pan_range>4914</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC UAE</bank>
+<pan_range>4912</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Republic Bank Limited VISA Credit Card (Trinidad &amp; Tobago)</bank>
+<pan_range>4915</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Halifax Ireland VISA Credit Card</bank>
+<pan_range>491611</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Electron</bank>
+<pan_range>4917</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Abbey (bank) VISA Electron (UK)</bank>
+<pan_range>491731</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Halifax (United Kingdom bank) VISA Electron (UK)</bank>
+<pan_range>491754</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Caja Madrid VISA Business Credit Card (Spain)</bank>
+<pan_range>4918</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Danske Bank Privatkort Visa Electron debit card (SE)</bank>
+<pan_range>491859</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Charles Schwab Bank VISA Check Card</bank>
+<pan_range>4919</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Luottokunta issued VISA (Finland); Citibank UAE issued Visa Credit Card</bank>
+<pan_range>4920</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Luottokunta issued VISA Gold (Finland)</bank>
+<pan_range>492046</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds TSB Visa Debit Card</bank>
+<pan_range>4921</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Visa Credit Card (Hong Kong)</bank>
+<pan_range>492111</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds TSB Visa Debit Card</bank>
+<pan_range>492181</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds TSB Visa Debit Card</bank>
+<pan_range>492182</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Visa Credit Card (Bermuda)</bank>
+<pan_range>492127</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Nedbank VISA Credit Card (ZA)</bank>
+<pan_range>492213</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Debit Card (Norway)</bank>
+<pan_range>4925</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Debit Card UK</bank>
+<pan_range>4929</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclaycard Visa Credit Card</bank>
+<pan_range>492940</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclaycard Premier and OnePulse (Oyster) Visa Credit Cards with contactless payment (UK)</bank>
+<pan_range>492942</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclaycard Business Visa Credit Card</bank>
+<pan_range>492946</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclaycard Visa Initial Credit Card</bank>
+<pan_range>492949</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Visa Credit Card (Singapore)</bank>
+<pan_range>492160</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Visa Citi AA</bank>
+<pan_range>4931</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China Olympics Visa Credit Card (Singapore)</bank>
+<pan_range>493467</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China Platinum Visa Credit Card (Singapore)</bank>
+<pan_range>493468</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Credito Siciliano Visa Electron (Italy)</bank>
+<pan_range>4935</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Switch (Debit Card)</bank>
+<pan_range>4936</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Standard Chartered Bank UAE issued Visa credit card</bank>
+<pan_range>4937</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Bank VISA Credit Card (Gold)(Australia)</bank>
+<pan_range>494053</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Bank VISA Credit Card (Australia)</bank>
+<pan_range>494052</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National Bank of Abu Dhabi Cashplus Global Visa Electron (UAE)</bank>
+<pan_range>494114</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Visa Gold Debit Card (United Kingdom)</bank>
+<pan_range>494120</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Emporiki Bank Visa Credit Card (Greece)</bank>
+<pan_range>4960</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Visa Credit Card (Hong Kong)</bank>
+<pan_range>496604</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Visa Gold Credit Card (Singapore)</bank>
+<pan_range>496645</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Visa Gold Credit Card (Bermuda)</bank>
+<pan_range>496696</pan_range>
+</acquirer> 
+<acquirer>
+<bank>La banque postale visa (France)</bank>
+<pan_range>497063</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Natixis / Banque Populaire (France)</bank>
+<pan_range>497128</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Visa Credit Card (France)</bank>
+<pan_range>497160</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banque Accord Visa Credit Card (France)</bank>
+<pan_range>497164</pan_range>
+</acquirer> 
+<acquirer>
+<bank>First Command Financial Planning, Inc.</bank>
+<pan_range>497251</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Société Générale CB Visa (France)</bank>
+<pan_range>497301</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Société Générale CB Visa (France)</bank>
+<pan_range>497302</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BNP Paribas (France)</bank>
+<pan_range>4974</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Natexis Banques Populaires Visa Credit Card (France)</bank>
+<pan_range>497543</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Natexis Banques Populaires Visa Credit Card (France)</bank>
+<pan_range>497545</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Boursorama Visa Credit Card (France)</bank>
+<pan_range>497618</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Credit du Nord Visa Credit Card (France)</bank>
+<pan_range>497671</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclays Bank PLC Visa Credit Card (France)</bank>
+<pan_range>497652</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Caisse d'Epargne VISA Credit Card (France)</bank>
+<pan_range>4978</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Boursorama Banque VISA PREMIER credit card (France)</bank>
+<pan_range>497958</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco do Brasil Ourocard Visa</bank>
+<pan_range>4984</pan_range>
+</acquirer> 
+<acquirer>
+<bank>The Co-operative Bank (incl Smile) Visa Debit Card (UK in £)</bank>
+<pan_range>498824</pan_range>
+</acquirer> 
+<acquirer>
+<bank>DKB Deutsche Kreditbank AG Visa Charge Card (Germany)</bank>
+<pan_range>499897</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of New Zealand VISA Platinum Credit Card</bank>
+<pan_range>499916</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of New Zealand VISA Credit Card</bank>
+<pan_range>499977</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclays Bank PLC MasterCard Platinum</bank>
+<pan_range>513624 FR Europay France</pan_range>
+</acquirer> 
+<acquirer>
+<bank>First Gulf Bank</bank>
+<pan_range>5122</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banque Postale (France)</bank>
+<pan_range>5130</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Crédit Mutuel MasterCard Credit Card (France)</bank>
+<pan_range>5132</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BRED Banque Populaire MasterCard Credit Card</bank>
+<pan_range>5135</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco Popular North America Mastercard Debit Card</bank>
+<pan_range>5141</pan_range>
+</acquirer> 
+<acquirer>
+<bank>US Airways Dividend Miles Platinum MasterCard</bank>
+<pan_range>5148</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MetaBank MasterCard FSA debit card (issued on behalf of third-party administrators)</bank>
+<pan_range>5150</pan_range>
+</acquirer> 
+<acquirer>
+<bank>OboPay Prepaid Debit Card Issued By First Premier</bank>
+<pan_range>5151</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Orchard Bank issued by HSBC</bank>
+<pan_range>5155</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BestBuy MasterCard issued by HSBC (previously Household Bank)</bank>
+<pan_range>5156</pan_range>
+</acquirer> 
+<acquirer>
+<bank>China Minsheng Bank MasterCard Credit Card</bank>
+<pan_range>5176</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BANAMEX Debit Card</bank>
+<pan_range>5177</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank Atlantic Mastercard Debit Card</bank>
+<pan_range>5179</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco Nacional de Costa Rica Servibanca Debit Card</bank>
+<pan_range>5182</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HONGKONG AND SHANGHAI BANKING CORPORATION, LTD., THE MasterCard (HK)</bank>
+<pan_range>5185</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ROYAL BANK OF SCOTLAND PLC. EUR GBR EDINBURGH</bank>
+<pan_range>518652</pan_range>
+</acquirer> 
+<acquirer>
+<bank>China Merchants Bank MasterCard Credit Card</bank>
+<pan_range>5187</pan_range>
+</acquirer> 
+<acquirer>
+<bank>UniCredit Bank, Russia</bank>
+<pan_range>518996</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Westpac Australia Classic MasterCard</bank>
+<pan_range>51639</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MBNA Quantum MasterCard Credit Card</bank>
+<pan_range>200</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BestBuy MasterCard by Bank of Communications/HSBC (China)</bank>
+<pan_range>520169</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank/Lufthansa Miles &amp; More MasterCard Credit Card (Russia)</bank>
+<pan_range>520306</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Tesco Bank Bonus Mastercard(UK)</bank>
+<pan_range>520641</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Garanti Bank Shop&amp;Miles MasterCard Credit Card</bank>
+<pan_range>520988</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Tinkoff Credit Systems (Russia), MasterCard Platinum Credit Card</bank>
+<pan_range>521324</pan_range>
+</acquirer> 
+<acquirer>
+<bank>SMP Bank (Russia), MasterCard Platinum Transaero Card</bank>
+<pan_range>521326</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Bank of Australia Debit MasterCard</bank>
+<pan_range>5217</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Tesco Bank Business Mastercard (UK)</bank>
+<pan_range>521804</pan_range>
+</acquirer> 
+<acquirer>
+<bank>PayPal MasterCard</bank>
+<pan_range>521853</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MasterCard Credit Cards in South Africa</bank>
+<pan_range>5221</pan_range>
+</acquirer> 
+<acquirer>
+<bank>People's Trust (US)</bank>
+<pan_range>522182</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Avangard Bank, Russia</bank>
+<pan_range>522223</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase Manhattan Bank MasterCard Credit Card</bank>
+<pan_range>522276</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Presidents Choice MasterCard Credit Card</bank>
+<pan_range>5228</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sparkasse Germany MasterCard Credit Card</bank>
+<pan_range>5232</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lufthansa Miles &amp; More MasterCard Credit Card</bank>
+<pan_range>5234</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Bank of Australia Prepaid Travel Money Mastercard</bank>
+<pan_range>523748</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Affinity Bank</bank>
+<pan_range>523911</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Affinity Bank</bank>
+<pan_range>523912</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ICICI Bank MasterCard Credit Card</bank>
+<pan_range>523951</pan_range>
+</acquirer> 
+<acquirer>
+<bank>OCBC Bank BEST-OCBC MasterCard Credit Card (Singapore)</bank>
+<pan_range>524040</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Hudson's Bay Company MasterCard Credit Card (Canada)</bank>
+<pan_range>5243</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Saison Card International, Japan</bank>
+<pan_range>525241</pan_range>
+</acquirer> 
+<acquirer>
+<bank>VÚB Banka (Banca Intesa group) MasterCard original+ Credit card (Slovakia)</bank>
+<pan_range>525405</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Mastercard CartaSi (Italy)</bank>
+<pan_range>5255</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sparda-Bank MasterCard Charge Card (Germany)</bank>
+<pan_range>5256</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banamex Debit card</bank>
+<pan_range>525678</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Mastercard National Bank of Canada (Canada)</bank>
+<pan_range>5258</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Mastercard Husky (Canada) [Husky/Mohawk MasterCard]</bank>
+<pan_range>525896</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Canadian Tire Bank Cash Advantage Platinum MasterCard</bank>
+<pan_range>5259</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Canadian Tire Bank Gas Advantage MasterCard</bank>
+<pan_range>525995</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank MasterCard Debit Card</bank>
+<pan_range>5262</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank MasterCard American Airlines AAdvantage Debit Card</bank>
+<pan_range>526219</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank MasterCard Debit Card</bank>
+<pan_range>526224</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank Negara Indonesia MasterCard Debit Card</bank>
+<pan_range>5264</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Vietnam</bank>
+<pan_range>526418 Vietcombank</pan_range>
+</acquirer> 
+<acquirer>
+<bank>State Bank of India</bank>
+<pan_range>526468</pan_range>
+</acquirer> 
+<acquirer>
+<bank>POSBank MasterCard Debit/ATM Card (Singapore)</bank>
+<pan_range>526471</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of India MasterCard Debit/ATM Card</bank>
+<pan_range>526495</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Yes Bank Mastercard Silver Debit Card (India)</bank>
+<pan_range>526702</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Standard Bank South Africa MasterCard Credit Card (Gift Card)</bank>
+<pan_range>526722</pan_range>
+</acquirer> 
+<acquirer>
+<bank>VÚB Banka (Banca Intesa group)</bank>
+<pan_range>526781</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Asia Commercial Bank Vietnam</bank>
+<pan_range>526790</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Landesbank Berlin (Germany) MasterCard Credit Card</bank>
+<pan_range>5268</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CitiBank Platinum Enrich (Canada) MasterCard Credit Card</bank>
+<pan_range>5268</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Caixanova NovaXove (Spain) Mastecard Debit Card</bank>
+<pan_range>527434</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Rubycard Pre-Paid Mastercard (Ireland) issued by Newcastle Building Society</bank>
+<pan_range>527455</pan_range>
+</acquirer> 
+<acquirer>
+<bank>WireCard Bank (Germany)</bank>
+<pan_range>527456</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sampo Bank (Finland) MasterCard Debit Card</bank>
+<pan_range>5275</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bankwest Australia MasterCard Debit Card</bank>
+<pan_range>528013</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ING Bank N.V. Amsterdam</bank>
+<pan_range>528038</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BMO Bank of Montreal MasterCard Prepaid Travel</bank>
+<pan_range>528061</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banesto (Spain) Mastercard Prepaid Sevilla Futbol Club</bank>
+<pan_range>528093</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Santander Cards</bank>
+<pan_range>5286</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ABSA (Amalgamated Banks of South Africa) MasterCard Credit Card</bank>
+<pan_range>5286</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Virgin Money South Africa (Virtual Bank; Operates partially on ABSA's system)</bank>
+<pan_range>5286</pan_range>
+</acquirer> 
+<acquirer>
+<bank>The Governor And Company Of The Bank Of Scotland EUR GBR DUNFERMLINE</bank>
+<pan_range>528683</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Santander Zero MasterCard Credit Card UK</bank>
+<pan_range>528689</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Washington Mutual Bank Debit card</bank>
+<pan_range>5287</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ANZ (Previously RBS and ABN AMRO) Switch Platinum MasterCard Credit Card (Singapore)</bank>
+<pan_range>5289</pan_range>
+</acquirer> 
+<acquirer>
+<bank>(Italy) Kalixa Prepaid MasterCard (Vincento Payment Solutions)</bank>
+<pan_range>529580</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Marks &amp; Spencer Money MasterCard Credit Card</bank>
+<pan_range>529930</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Prepaid MasterCards issued by DCBANK. (MuchMusic)</bank>
+<pan_range>529962</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Altair prepaid MasterCard</bank>
+<pan_range>529964</pan_range>
+</acquirer> 
+<acquirer>
+<bank>pre paid debit cards</bank>
+<pan_range>529965</pan_range>
+</acquirer> 
+<acquirer>
+<bank>pre paid debit cards</bank>
+<pan_range>529966</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BarclayCard Mastercards.</bank>
+<pan_range>5301</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BAC San José (Costa Rica) Debit card</bank>
+<pan_range>5303</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Net1 Virtual Card Prepaid</bank>
+<pan_range>530343</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bancolombia Prepaid MasterCard Credit Card (E-prepago)</bank>
+<pan_range>530695</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sears MasterCard issued by [Chase Cards Canada]</bank>
+<pan_range>530785</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Orange Cash Prepaid MasterCard, issued by Orange and Barclays with PayPass</bank>
+<pan_range>530831</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Uralsib Bank (Russia), MasterCard World</bank>
+<pan_range>531207</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Moneybookers.com Prepaid Mastercard issued by Newcastle Building Society</bank>
+<pan_range>531306</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National Bank MasterCard Credit Card</bank>
+<pan_range>531355</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CUETS Financial Canada MasterCard Credit Card</bank>
+<pan_range>5316</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CUETS Financial Canada Global Payment MasterCard</bank>
+<pan_range>5317</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Washington Mutual Business Debit card</bank>
+<pan_range>5322</pan_range>
+</acquirer> 
+<acquirer>
+<bank>China Construction Bank Credit Card</bank>
+<pan_range>532450</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Bank USA Premier Debit Mastercard with PayPass</bank>
+<pan_range>532561</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Dexia banka Slovensko, a.s.; MasterCard credit PayPass</bank>
+<pan_range>5327</pan_range>
+</acquirer> 
+<acquirer>
+<bank>RBS Premium MasterCard Debit Card</bank>
+<pan_range>532700</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MBNA Preferred MasterCard Credit Card</bank>
+<pan_range>5329</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wachovia Bank MasterCard Credit Card</bank>
+<pan_range>532902</pan_range>
+</acquirer> 
+<acquirer>
+<bank>RNKO, Euroset Kukuruza Bonus (Russia) Mastercard Unembossed, Instant Issue</bank>
+<pan_range>533157</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Avangard Bank MasterCard Credit Card</bank>
+<pan_range>533206</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Comerica Bank Mastercard prepaid</bank>
+<pan_range>533248</pan_range>
+</acquirer> 
+<acquirer>
+<bank>[CBA] Prepaid Gift card as MasterCard</bank>
+<pan_range>533838</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Kalixa Prepaid Mastercard UK Kalixa Prepaid MasterCard (Vincento Payment Solutions)</bank>
+<pan_range>533846</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Paypal Italy MasterCard Prepaid</bank>
+<pan_range>533875</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Paypal Access Card (UK)</bank>
+<pan_range>533896</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Kalixa Prepaid Mastercard DE Kalixa Prepaid MasterCard (Vincento Payment Solutions)</bank>
+<pan_range>533936</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Bank Standard MasterCard Credit Card</bank>
+<pan_range>535316</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Bank Credit Card</bank>
+<pan_range>535317</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Bank Gold MasterCard Credit Card</bank>
+<pan_range>535318</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclaycard World Mastercard (UK)</bank>
+<pan_range>536386</pan_range>
+</acquirer> 
+<acquirer>
+<bank>RNKO, Russia, Svyaznoy MasterCard Unembossed Card Instant Issue</bank>
+<pan_range>537004</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Mastercard issued by Woori Bank</bank>
+<pan_range>538720</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Mastercard issued by Industrial Bank of Korea</bank>
+<pan_range>538803</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Mastercard issued by Kookmin Bank</bank>
+<pan_range>538806</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Mastercard issued by Nonghyup Central Bank</bank>
+<pan_range>538811</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Mastercard issued by Nonghyup Local Banks</bank>
+<pan_range>538812</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Mastercard</bank>
+<pan_range>538820</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Mastercard issued by SC First Bank</bank>
+<pan_range>538823</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Mastercard issued by Hana Bank</bank>
+<pan_range>538825</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Mastercard issued by Citibank in Korea</bank>
+<pan_range>538827</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Mastercard issued by Shinhan Bank</bank>
+<pan_range>538878</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Mastercard (Brazil)</bank>
+<pan_range>539028</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Saks Fifth Avenue World Elite MasterCard issued by HSBC</bank>
+<pan_range>5396</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Avangard Bank, MasterCard World Signia Card</bank>
+<pan_range>539673</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ICICI Bank MasterCard debit Card</bank>
+<pan_range>5399</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Standard Chartered Bank Titanium Credit Card (Hong Kong)</bank>
+<pan_range>540034</pan_range>
+</acquirer> 
+<acquirer>
+<bank>DBS (Esso co-branded) Singapore</bank>
+<pan_range>540002</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America (formerly MBNA) MasterCard Gold Credit Card</bank>
+<pan_range>5401</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase MasterCard Credit Card</bank>
+<pan_range>540168</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ANZ National Bank ANZ MasterCard Credit Card</bank>
+<pan_range>540221</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Westpac New Zealand MasterCard Credit Card</bank>
+<pan_range>540223</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BNZ (Bank of New Zealand) Global Plus MasterCard Credit Card</bank>
+<pan_range>540207</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank MasterCard Credit Card (&quot;Virtual Card&quot; number)</bank>
+<pan_range>5403</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds TSB Bank MasterCard Credit Card</bank>
+<pan_range>5404</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Brown Thomas MasterCard (Issued by AIB)</bank>
+<pan_range>540410</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Advanced Payment Solutions (APS)</bank>
+<pan_range>540450</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Advanced Payment Solutions (APS)</bank>
+<pan_range>540451</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bancolombia MasterCard Credit Card (Colombia)</bank>
+<pan_range>5406</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Bank GM Card</bank>
+<pan_range>5407</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MBNA Bank UK bmi Blue Mastercard</bank>
+<pan_range>540758</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Bank, Union Bank of California Pay Pass debit card</bank>
+<pan_range>5409</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Household Bank USA MasterCard Credit Card</bank>
+<pan_range>540801</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Hang Seng Bank Credit Card</bank>
+<pan_range>540806</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BOC Great Wall Credit Card (CN)</bank>
+<pan_range>540838</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China Platinum MasterCard Credit Card (SG)</bank>
+<pan_range>540877</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Raiffeisen Zentralbank</bank>
+<pan_range>541010</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank MC</bank>
+<pan_range>541065</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CIBC MasterCard (Canadian Imperial Bank of Commerce) formerly Citi MasterCard Canada</bank>
+<pan_range>541142</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Malaysia issued Mastercard</bank>
+<pan_range>5412</pan_range>
+</acquirer> 
+<acquirer>
+<bank>SEB Kort AB, Choice Club credit card (SE)</bank>
+<pan_range>541256 02</pan_range>
+</acquirer> 
+<acquirer>
+<bank>SEB Kort AB, SJ Prio credit card (SE)</bank>
+<pan_range>541256 50</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Nordea Finance/Valutakortet Valuta MasterCard credit card (SE)</bank>
+<pan_range>541277</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Mastercard test BIN for NIV, TIP certifiction (not production cards)</bank>
+<pan_range>541330</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Neteller (UK) Mastercard debit card</bank>
+<pan_range>541592</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Washington Mutual (formerly Providian) Platinum MasterCard Credit Card</bank>
+<pan_range>5416</pan_range>
+</acquirer> 
+<acquirer>
+<bank>WestJet/RBC Royal Bank of Canada MasterCard (Canada)</bank>
+<pan_range>541606</pan_range>
+</acquirer> 
+<acquirer>
+<bank>(eBay MasterCard) via Providian</bank>
+<pan_range>541657</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase Bank</bank>
+<pan_range>5417</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MasterCard issued by USAA, Mastercard issued by John Lewis (Partnership Card)</bank>
+<pan_range>5420</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank MasterCard Credit Card (Dividend, Diamond and others)</bank>
+<pan_range>5424</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Barclaycard MasterCard Credit Card (Germany)</bank>
+<pan_range>5425</pan_range>
+</acquirer> 
+<acquirer>
+<bank>RBS Gold Mastercard Credit Card (formerly ABN Amro Bank) (India)</bank>
+<pan_range>542505</pan_range>
+</acquirer> 
+<acquirer>
+<bank>GE Money Bank Mastercard debit card (SE)</bank>
+<pan_range>542542 00</pan_range>
+</acquirer> 
+<acquirer>
+<bank>GE Money Bank Mastercard credit card (SE)</bank>
+<pan_range>542542 07</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Alberta Treasury Branch</bank>
+<pan_range>5426</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ANZ Bank MasterCard</bank>
+<pan_range>5430</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Stockmann Department Store Mastercard, issued by Nordea (Finland)</bank>
+<pan_range>5430</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Stockmann Department Store Exclusive Mastercard, issued by Nordea (Finland)</bank>
+<pan_range>543034</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Handelsbanken Business Mastercard (Sweden)</bank>
+<pan_range>543077</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC issued Mastercard (Hong Kong)</bank>
+<pan_range>543122</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of New Zealand MasterCard Credit Card</bank>
+<pan_range>543250</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Ireland MasterCard Credit Card</bank>
+<pan_range>543267</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MasterCard credit cards from UK and Irish banks</bank>
+<pan_range>5434</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Halifax 'One' Mastercard</bank>
+<pan_range>543429</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC UK Premier Credit Card</bank>
+<pan_range>543458</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Mastercard Credit Card (UK)</bank>
+<pan_range>543460</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National Irish Bank Mastercard</bank>
+<pan_range>543478</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National Irish Bank Gold Mastercard</bank>
+<pan_range>543479</pan_range>
+</acquirer> 
+<acquirer>
+<bank>NatWest Mastercard Charge Card</bank>
+<pan_range>543556</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Westpac New Zealand Mastercard Gold Credit Card</bank>
+<pan_range>543678</pan_range>
+</acquirer> 
+<acquirer>
+<bank>RBS Mastercard Credit Card</bank>
+<pan_range>543482</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Itau Mastercard Credit Card</bank>
+<pan_range>543696</pan_range>
+</acquirer> 
+<acquirer>
+<bank>NatWest MasterCard Gold Credit Card</bank>
+<pan_range>543699</pan_range>
+</acquirer> 
+<acquirer>
+<bank>St George Bank Credit Card (Australia)</bank>
+<pan_range>5437</pan_range>
+</acquirer> 
+<acquirer>
+<bank>USAA Federal Savings Bank</bank>
+<pan_range>5438</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Mastercard from MBF Malaysia</bank>
+<pan_range>5440</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Allied Irish Banks Gold MasterCard Credit Card</bank>
+<pan_range>544156</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Mastercard Credit Card (Singapore)</bank>
+<pan_range>5442</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BRE Bank (MultiBank) Mastercard Aquarius PayPass Credit Card (Black)(Poland)</bank>
+<pan_range>544258</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Kiwibank Go Fly MasterCard Standard (NZ)</bank>
+<pan_range>544291</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC MasterCard Debit Card with PayPass (USA)</bank>
+<pan_range>5443</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bangkok Bank (Thailand)</bank>
+<pan_range>5444</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BHW MasterCard Charge Card (Germany)</bank>
+<pan_range>5444</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wizard Clear Advantage MasterCard (Australia)</bank>
+<pan_range>544434</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Valovis Bank, Prepaid MasterCard Debit(Germany)</bank>
+<pan_range>544440</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Canadian Tire MasterCard Credit Card</bank>
+<pan_range>5446</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase SLATE MasterCard Credit Card</bank>
+<pan_range>544748</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citizens Bank (Personal Checking) Debit</bank>
+<pan_range>544917</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Danske Bank Intercard MasterCard debit card (SE)</bank>
+<pan_range>545045</pan_range>
+</acquirer> 
+<acquirer>
+<bank>NatWest Mastercard Credit Card</bank>
+<pan_range>5451</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Masterbank (Russia), MasterCard World Signia</bank>
+<pan_range>545157</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MBNA Canada Mastercard</bank>
+<pan_range>5452</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Maestro (debit card) BZWBK Poland</bank>
+<pan_range>545250</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Natwest Student Mastercard (UK)</bank>
+<pan_range>54546?</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BancorpSouth Mastercard MasterMoney Debit Card</bank>
+<pan_range>5455</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Masterbank (Russia) MasterCard Gold Debit Card</bank>
+<pan_range>545511</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Halifax MasterCard (UK)</bank>
+<pan_range>545578</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Capital One Canada Branch</bank>
+<pan_range>5457</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Dexia banka Slovensko, a.s.; Mastercard Gold with PayPass technology</bank>
+<pan_range>5457</pan_range>
+</acquirer> 
+<acquirer>
+<bank>USAA Credit Card</bank>
+<pan_range>5458</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Harris Bank Debit Card</bank>
+<pan_range>5459</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Mascoma Savings Bank Mastercard Consumer Debit Card</bank>
+<pan_range>545955</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Berliner Bank (Germany),Mint MasterCard Credit Card and Capital One UK</bank>
+<pan_range>5460</pan_range>
+</acquirer> 
+<acquirer>
+<bank>The Governor And Company Of The Bank Of Ireland EUR IRL DUBLIN 2</bank>
+<pan_range>546259</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Dexia banka Slovensko,a.s.; MasterCard Red with PayPass technology</bank>
+<pan_range>546286</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank, MBNA &amp; Chase World MasterCard Credit Cards,</bank>
+<pan_range>5466</pan_range>
+</acquirer> 
+<acquirer>
+<bank>First USA Banke, N.A. Master Card</bank>
+<pan_range>546604</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC GM MasterCard Credit Card</bank>
+<pan_range>546641,80</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sberbank of Russia</bank>
+<pan_range>5469</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Santander Uni-k Credit Card (México)</bank>
+<pan_range>547046</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Davivienda MasterCard Credit Card (Colombia)</bank>
+<pan_range>5471</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ANZ Business MasterCard (New Zealand)</bank>
+<pan_range>547343</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Commercial Card (UK in £)</bank>
+<pan_range>547347</pan_range>
+</acquirer> 
+<acquirer>
+<bank>RBS Royal Bank of Scotland</bank>
+<pan_range>547356</pan_range>
+</acquirer> 
+<acquirer>
+<bank>NatWest (RBS)</bank>
+<pan_range>547367</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Swedbank, Estonia, MasterCard Business Card</bank>
+<pan_range>547372</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wells Fargo Bank BusinessLine credit card (US)</bank>
+<pan_range>5474</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Fifth Third Bank</bank>
+<pan_range>548009</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BANCO BRADESCO S.A. (BRAZIL)</bank>
+<pan_range>548045</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HypoVereinsbank (Germany)</bank>
+<pan_range>5483</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco de Chile Master Card Credit Card</bank>
+<pan_range>548652</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco de Chile Master Card Credit Card RUA</bank>
+<pan_range>548653</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Alfa-Bank/Aeroflot-bonus, M-Video bonus debit Card (Russia)</bank>
+<pan_range>548673</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Alfa-Bank Credit Card (Russia)</bank>
+<pan_range>548674</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Hatton National Bank, Sri Lanka RUA</bank>
+<pan_range>548805</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco Santander MasterCard debit card (Spain)</bank>
+<pan_range>548901</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco Santander MasterCard debit card with chip (Spain)</bank>
+<pan_range>548912</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HOUSEHOLD BANK (NEVADA), N.A, (Orchard Bank M/C, HSBC Card Services) RUA</bank>
+<pan_range>548955</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Industrial and Commercial Bank of China (ICBC) Peony American Express Gold Card China</bank>
+<pan_range>54896</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MBNA &amp; Chase Platinum MasterCard Credit Cards</bank>
+<pan_range>5490</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MBNA American Bank [Now part of Bank of America]</bank>
+<pan_range>549035</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MBNA American Bank [Now part of Bank of America]</bank>
+<pan_range>549099</pan_range>
+</acquirer> 
+<acquirer>
+<bank>AT&amp;T Universal MasterCard Credit Card, now part of Citibank, also MBNA MasterCard Credit Cards</bank>
+<pan_range>5491</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase Manhattan Bank USA, N.A.</bank>
+<pan_range>549104</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Bank Nevada, N.A. issued Household Bank Platinum Mastercard</bank>
+<pan_range>549110</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Bank Nevada, NA Premier World Mastercard (credit card)</bank>
+<pan_range>549409</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Qantas Woolworths Everyday Mastercard (issued by HSBC)</bank>
+<pan_range>549471</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Bank Gold Malaysia</bank>
+<pan_range>540041</pan_range>
+</acquirer> 
+<acquirer>
+<bank>&quot;Skycard&quot; MasterCard Credit Card issued in UK in association with Barclaycard</bank>
+<pan_range>550619</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ITS Bank/SHAZAM (Interbank Network) Mastercard USA unclear if Debit or Credit</bank>
+<pan_range>551128</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ITS Bank/SHAZAM (Interbank Network) Mastercard USA unclear if Debit or Credit</bank>
+<pan_range>551167</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Cambridge Trust Company in Massachusetts, USA</bank>
+<pan_range>551445</pan_range>
+</acquirer> 
+<acquirer>
+<bank>DBS POSB Everyday Platinum Mastercard (Singapore) / Bank of Scotland Private Banking Platinum MasterCard / RBS World Mastercard</bank>
+<pan_range>5520</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China International MasterCard Platinum (Hong Kong area)</bank>
+<pan_range>552016</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Bank Platinum Awards MasterCard Credit Card</bank>
+<pan_range>552033</pan_range>
+</acquirer> 
+<acquirer>
+<bank>POSB (DBS Bank) everyday Platinum MasterCard Credit Card</bank>
+<pan_range>552038</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Mastercard Platinum Credit Card (India)</bank>
+<pan_range>552093</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Platinum Mastercard</bank>
+<pan_range>5521</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lloyds TSB Platinum Mastercard</bank>
+<pan_range>552157</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Tesco Bank Finest Platinum Mastercard (UK)</bank>
+<pan_range>552188</pan_range>
+</acquirer> 
+<acquirer>
+<bank>NatWest Platinum Mastercard</bank>
+<pan_range>5522</pan_range>
+</acquirer> 
+<acquirer>
+<bank>NatWest Platinum Mastercard</bank>
+<pan_range>552213</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MBNA Smart Cash World MasterCard (Canada)</bank>
+<pan_range>5523</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank Of Montreal World Elite MasterCard (Canada)</bank>
+<pan_range>5524</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Card</bank>
+<pan_range>55456789020</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Danske Bank MasterCard Direkt debit card (SE)</bank>
+<pan_range>552724</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Diner's Club</bank>
+<pan_range>5528</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Scotland Mastercard</bank>
+<pan_range>553421</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MIT Federal Credit Union Debit Mastercard</bank>
+<pan_range>553823</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Star Processing PrePaid Mastercard</bank>
+<pan_range>553877</pan_range>
+</acquirer> 
+<acquirer>
+<bank>First National Bank in Edinburg, USA</bank>
+<pan_range>553985</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Kookmin Bank Mastercard &quot;Free Pass&quot; Debit Card</bank>
+<pan_range>554346</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Ireland</bank>
+<pan_range>554544</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Onyxcard</bank>
+<pan_range>554564</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Mastercard Silver Credit Card (India)</bank>
+<pan_range>554619</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Euro Kartensysteme Eurocard und Eurocheque gmbh</bank>
+<pan_range>554641</pan_range>
+</acquirer> 
+<acquirer>
+<bank>POSBank MasterCard Debit Card (Singapore)</bank>
+<pan_range>554827</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Bank of Australia Corporate Mastercard</bank>
+<pan_range>555005</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Nat West Bank Mastercard</bank>
+<pan_range>556951</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Aqua Card Mastercard (UK)</bank>
+<pan_range>557098</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Metro Bank MasterCard Debit Card</bank>
+<pan_range>5573</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Ally Bank Platinum Debit Card</bank>
+<pan_range>557552</pan_range>
+</acquirer> 
+<acquirer>
+<bank>&quot;Goldfish&quot; MasterCard Credit Card issued in UK by Morgan Stanley</bank>
+<pan_range>557843</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MasterCard Credit Card issued in Nordea Denmark</bank>
+<pan_range>557892</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Santander Mexico Debit Card</bank>
+<pan_range>557905</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Santander Mexico Debit Card</bank>
+<pan_range>557907</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citizens Bank (Business Checking) Debit</bank>
+<pan_range>558108</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Paypal MasterCard Debit Card, JPMorgan Chase Bank, Formerly Bank One</bank>
+<pan_range>558158</pan_range>
+</acquirer> 
+<acquirer>
+<bank>[Citibank] MasterCard Credit Card &quot;Business&quot;</bank>
+<pan_range>5588</pan_range>
+</acquirer> 
+<acquirer>
+<bank>[Hdfc Bank] MasterCard Credit Card &quot;Business Platinum&quot; India</bank>
+<pan_range>558818</pan_range>
+</acquirer> 
+<acquirer>
+<bank>FIA</bank>
+<pan_range>558846</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Comdata Card</bank>
+<pan_range>560017</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Bank USA, N.A. Maestro card</bank>
+<pan_range>560054</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Bank of Australia Key Card</bank>
+<pan_range>560279</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Alliance and Leicester cash deposit card</bank>
+<pan_range>560373</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Australian Bank Card</bank>
+<pan_range>561059</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Bank Canada ATM Card</bank>
+<pan_range>561066</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chase (USA), ATM Card</bank>
+<pan_range>561150</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Santander UK cash card</bank>
+<pan_range>564100</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Nationwide</bank>
+<pan_range>564104</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Nationwide Cashbuilder ATM card.</bank>
+<pan_range>564120</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Switch (debit card) Debit Card</bank>
+<pan_range>564182</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco Santander Ferrari MasterCard credit card (Spain)</bank>
+<pan_range>565659</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Banco Santander Puerto Rico ATM/debit card</bank>
+<pan_range>574085</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Vancity ATM Card</bank>
+<pan_range>581353</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Credit Union (Ontario) debit cards</bank>
+<pan_range>581828</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Suntrust Banks</bank>
+<pan_range>585048</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Greece ATM Card</bank>
+<pan_range>585210</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Branch Banking and Trust (BB&amp;T) ATM Card</bank>
+<pan_range>586357</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of America ATM Card</bank>
+<pan_range>587781</pan_range>
+</acquirer> 
+<acquirer>
+<bank>TARJETA NARANJA (Argentina)</bank>
+<pan_range>589562</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank Korea International ATM Card</bank>
+<pan_range>588644</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National Bank of Greece Greece Debit Card</bank>
+<pan_range>589242</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Maestro (debit card) Pekao</bank>
+<pan_range>589261</pan_range>
+</acquirer> 
+<acquirer>
+<bank>'Choice Card', issued by HSBC, for the Cold Storage chain</bank>
+<pan_range>589460</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Digital TV Converter Box $40.00 Coupons (USA)</bank>
+<pan_range>589732</pan_range>
+</acquirer> 
+<acquirer>
+<bank>All Korean Banks ATM/DEBIT Card</bank>
+<pan_range>5898</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Standard Chartered Bank (Hong Kong) ATM Card</bank>
+<pan_range>589856</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MCB</bank>
+<pan_range>5899</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wegmans Shoppers Card</bank>
+<pan_range>600229</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Hudson's Bay Company</bank>
+<pan_range>600292,93,94</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Safeway</bank>
+<pan_range>600315</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Fastcard Gift Cards</bank>
+<pan_range>600649</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ValueLink stored value card (Starbucks, Borders Books, et al.)</bank>
+<pan_range>601056</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ARI Canada</bank>
+<pan_range>601021</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Discover Card Credit Card</bank>
+<pan_range>6011</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China Unionpay Debit card (GreatWall Debit Card)</bank>
+<pan_range>601382</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bancolombia</bank>
+<pan_range>6016</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ING Direct Canada ATM Card</bank>
+<pan_range>601725</pan_range>
+</acquirer> 
+<acquirer>
+<bank>A GAP card that carries GAP, Banana Republic and Old Navy logos, issued by GE Money Bank.</bank>
+<pan_range>601859</pan_range>
+</acquirer> 
+<acquirer>
+<bank>President's Choice Financial Canada Debit Card (ATM/Interac)</bank>
+<pan_range>601887</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Brandsmart USA Credit Card</bank>
+<pan_range>6019</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wichita State University &quot;Shocker Card&quot; (a stored value card)</bank>
+<pan_range>602700</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CN Bank of Beijing Debit Card Visa Interlink/China UnionPay CNY</bank>
+<pan_range>602969</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Shoppers Drug Mart Optimum Program</bank>
+<pan_range>603207</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Walmart Credit Card</bank>
+<pan_range>603220</pan_range>
+</acquirer> 
+<acquirer>
+<bank>(CN) Bank of Hangzhou Debit Card, China UnionPay</bank>
+<pan_range>603367</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Palm Desert National Bank, USA (IKobo.com Money-transfer debit card)</bank>
+<pan_range>603411</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Starbucks Card (Starbucks Europe Ltd)</bank>
+<pan_range>603450</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank (Home Depot) Card</bank>
+<pan_range>6035</pan_range>
+</acquirer> 
+<acquirer>
+<bank>STAPLES Canada Enterprise Credit Card (issued by Citi Cards Canada)</bank>
+<pan_range>603528</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Stockmann Card</bank>
+<pan_range>603692</pan_range>
+</acquirer> 
+<acquirer>
+<bank>McDonald's Gift Card (serviced by ValueLink)</bank>
+<pan_range>603753</pan_range>
+</acquirer> 
+<acquirer>
+<bank>KiwiBank Debit Card (Cirrus)</bank>
+<pan_range>603798</pan_range>
+</acquirer> 
+<acquirer>
+<bank>OBI Petrol Card</bank>
+<pan_range>603948</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Walmart Canada Gift Card</bank>
+<pan_range>6041</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Ikea Credit Card (issued by Citi Cards Canada)</bank>
+<pan_range>6044</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Lowes (Canada) (issued by GE Money Canada)</bank>
+<pan_range>6045</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Scene LP (Cineplex Entertainment)</bank>
+<pan_range>604646</pan_range>
+</acquirer> 
+<acquirer>
+<bank>More Rewards (Overwaitea Food Group loyalty card, BC and AB, Canada)</bank>
+<pan_range>604767</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Svyaznoy Club loyalty card</bank>
+<pan_range>604809</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Tim Hortons QuickPay Tim Card</bank>
+<pan_range>604976</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Starbucks Card</bank>
+<pan_range>6051</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Shinhan Card</bank>
+<pan_range>6060</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Starbucks Card</bank>
+<pan_range>606095</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Club Sobeys (Canada)</bank>
+<pan_range>606172</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Finance Solutions Ltd</bank>
+<pan_range>606179</pan_range>
+</acquirer> 
+<acquirer>
+<bank>MoneyTech Inc.</bank>
+<pan_range>606263</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Revolution MoneyExchange</bank>
+<pan_range>606469</pan_range>
+</acquirer> 
+<acquirer>
+<bank>PRJ Financial Services</bank>
+<pan_range>606484</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Starbucks Card</bank>
+<pan_range>606934</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Starbucks Card</bank>
+<pan_range>607120</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Communications Hong Kong Branch Expo 2010 Shanghai China CUP Gift Card (HK)</bank>
+<pan_range>620013</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Communications Expo 2010 Shanghai China Prepaid Card (China)</bank>
+<pan_range>620021</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Zheshang Bank Debit Card (CN)</bank>
+<pan_range>621019</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China (Hong Kong) BOC Card</bank>
+<pan_range>621041</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Woori Bank UnionPay Shanghai Tourism Card (CN)</bank>
+<pan_range>621060</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Zhejiang Tailong Commercial Bank Debit Card (CN)</bank>
+<pan_range>622141</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CN ICBC Peony Money Link Card</bank>
+<pan_range>622200</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CN ICBC Peony Money Link Card</bank>
+<pan_range>622201</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CN ICBC Peony Money Link Card E-Age</bank>
+<pan_range>622202</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CN ICBC Peony Money Link Card E-Age</bank>
+<pan_range>622203</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CN ICBC Elite Club Account Card</bank>
+<pan_range>622208</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CN ICBC Peony Quasi-Credit Card</bank>
+<pan_range>622210</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chong Hing Bank China Unionpay Gift Card (HK)</bank>
+<pan_range>622212</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Communications Pacific Card Debit Card</bank>
+<pan_range>622226</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BestBuy UnionPay Credit Card by Bank of Communications/HSBC</bank>
+<pan_range>622252</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Communications Expo 2010 Shanghai China CUP Special Edition Debit Card (CN)</bank>
+<pan_range>622260</pan_range>
+</acquirer> 
+<acquirer>
+<bank>The Bank of East Asia UnionPay Dual Currency Platinum Credit Card (HK)</bank>
+<pan_range>622372</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Zheshang Bank Debit Card (CN)</bank>
+<pan_range>622309</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Qilu Bank Debit Card (CN)</bank>
+<pan_range>622379</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CCB (Asia) CUP Credit Card (HK)</bank>
+<pan_range>622381</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Hang Seng Bank Green Banking Smart Card</bank>
+<pan_range>622409</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Hang Seng Bank Hang Seng Card</bank>
+<pan_range>622410</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Taizhou Bank DaTang Debit card (CN)</bank>
+<pan_range>622427</pan_range>
+</acquirer> 
+<acquirer>
+<bank>DBS Octopus ATM Card</bank>
+<pan_range>622492</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Shanghai Pudong Development Bank UnionPay</bank>
+<pan_range>6225</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Guangdong Development Bank Debit(China UnionPay) Card (CN)</bank>
+<pan_range>622568</pan_range>
+</acquirer> 
+<acquirer>
+<bank>China Huaxia Bank Debit card, China Unionpay(CN)</bank>
+<pan_range>622630/31/32/33</pan_range>
+</acquirer> 
+<acquirer>
+<bank>CHINA EVERBRIGHT BANK Debit and Credit All in One Card (CN)</bank>
+<pan_range>622659</pan_range>
+</acquirer> 
+<acquirer>
+<bank>China Construction Bank Debit(China UnionPay) Card (CN)</bank>
+<pan_range>622700</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China China UnionPay Credit Card (CN)</bank>
+<pan_range>622752</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China China UnionPay Platinum Credit Card (SG)</bank>
+<pan_range>622789</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of East Asia UnionPay Debit Card (HK)</bank>
+<pan_range>622933</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Standard Chartered UnionPay Debit Card (HK)</bank>
+<pan_range>622942</pan_range>
+</acquirer> 
+<acquirer>
+<bank>AEON Prepaid UnionPay Card (HK)</bank>
+<pan_range>622974</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Chong Hing Bank UnionPay Dual Currency Credit Card (HK)</bank>
+<pan_range>625008</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Communications Hong Kong Branch UnionPay Dual Currency Diamond Credit Card (HK)</bank>
+<pan_range>625028</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Communications Hong Kong Branch UnionPay Dual Currency Gold Credit Card (HK)</bank>
+<pan_range>625029</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China (Hong Kong) UnionPay Dual Currency Gold Credit Card</bank>
+<pan_range>625040</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China (Hong Kong) UnionPay Dual Currency Gold Credit Card</bank>
+<pan_range>625041</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China (Hong Kong) UnionPay Dual Currency Platinum Credit Card</bank>
+<pan_range>625042</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of China (Hong Kong) UnionPay Dual Currency Platinum Credit Card</bank>
+<pan_range>625043</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wing Lung Bank UnionPay Dual Currency Platinum Credit Card (HK)</bank>
+<pan_range>625063</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Card CUP Credit Card[6]</bank>
+<pan_range>6253</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Wild Oats Gift Card</bank>
+<pan_range>627397</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Aeroplan (Air Canada)</bank>
+<pan_range>627421</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Disney Rewards Card (issued by Chase)</bank>
+<pan_range>627425</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Dexit</bank>
+<pan_range>627692</pan_range>
+</acquirer> 
+<acquirer>
+<bank>iCard (issued by ICICI Bank Canada)</bank>
+<pan_range>6277</pan_range>
+</acquirer> 
+<acquirer>
+<bank>virtual money inc</bank>
+<pan_range>627895</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sears Card (issued by Chase Cards Canada)</bank>
+<pan_range>628181</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Bank of Ireland Laser/Maestro debit card</bank>
+<pan_range>630490</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National Irish Bank Laser/Maestro debit card</bank>
+<pan_range>630495</pan_range>
+</acquirer> 
+<acquirer>
+<bank>permanent tsb Laser/Maestro debit card</bank>
+<pan_range>630499</pan_range>
+</acquirer> 
+<acquirer>
+<bank>British Home Stores</bank>
+<pan_range>63191</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Co-operative membership card</bank>
+<pan_range>633174</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Maestro Cards</bank>
+<pan_range>633300 to 633349</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Solo Cards</bank>
+<pan_range>633450 to 633499</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Midlands Co-operative Society membership card</bank>
+<pan_range>633513</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Argos Card</bank>
+<pan_range>633540</pan_range>
+</acquirer> 
+<acquirer>
+<bank>National Savings &amp; Investments (UK)</bank>
+<pan_range>633625</pan_range>
+</acquirer> 
+<acquirer>
+<bank>G-T-P Group Ltd Payment Card</bank>
+<pan_range>633675</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HMV Gift Card</bank>
+<pan_range>633676</pan_range>
+</acquirer> 
+<acquirer>
+<bank>G-T-P Group Ltd Prepaid Card</bank>
+<pan_range>633698</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Commonwealth Finance Solutions Ltd</bank>
+<pan_range>633791</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Debenhams Store Card by Santander Plc</bank>
+<pan_range>633834</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Subway Subcard (UK)</bank>
+<pan_range>633845</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Tesco Personal Finnace</bank>
+<pan_range>634001</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Tesco Clubcard</bank>
+<pan_range>634004</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Tesco Fuelcard</bank>
+<pan_range>634005</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Tesco Personal Finnace</bank>
+<pan_range>634008</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Tesco Tesco Clubcard (Poland)</bank>
+<pan_range>634009</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Origin Compower</bank>
+<pan_range>635608</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Origin Compower</bank>
+<pan_range>635629</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Ventura</bank>
+<pan_range>63563</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Harrods</bank>
+<pan_range>6356500</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BC Card</bank>
+<pan_range>6360</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Sahand Samaneh Mahpa Co Loyalty Card (IR)</bank>
+<pan_range>636325</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Worldstar Freedom Plus Card issued by Worldstar Freedom Plus Limited</bank>
+<pan_range>636587</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Comprocard (Comprocard)</bank>
+<pan_range>639231</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Malina loyalty card (RU)</bank>
+<pan_range>639300</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank ATM Card (Hong Kong)</bank>
+<pan_range>6660</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Allied Irish Banks Maestro/Laser card (IRL)</bank>
+<pan_range>670695</pan_range>
+</acquirer> 
+<acquirer>
+<bank>[[Laser (debit card)</bank>
+<pan_range>6709</pan_range>
+</acquirer> 
+<acquirer>
+<bank>RBS Cashline ATM Cards, Cirrus Branded</bank>
+<pan_range>6718</pan_range>
+</acquirer> 
+<acquirer>
+<bank>girocard Debit Cards (Germany)</bank>
+<pan_range>672x</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Debit Cards (the Netherlands)</bank>
+<pan_range>673 xxx</pan_range>
+</acquirer> 
+<acquirer>
+<bank>VARIOUS BANKS (UK)</bank>
+<pan_range>6759xx</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Clydesdale Bank Maestro debit card</bank>
+<pan_range>675922</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC (UK) Maestro Debit card</bank>
+<pan_range>675940</pan_range>
+</acquirer> 
+<acquirer>
+<bank>RBS Maestro Debit Card, with £100 Cheque Guarantee</bank>
+<pan_range>675964</pan_range>
+</acquirer> 
+<acquirer>
+<bank>NatWest Maestro Debit Card, with £100 Cheque Guarantee</bank>
+<pan_range>675967</pan_range>
+</acquirer> 
+<acquirer>
+<bank>NatWest Maestro Debit Card, with £250 Cheque Guarantee</bank>
+<pan_range>675968</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Maestro debit card</bank>
+<pan_range>6761</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Maestro debit card</bank>
+<pan_range>676165</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Maestro debit card</bank>
+<pan_range>676280</pan_range>
+</acquirer> 
+<acquirer>
+<bank>BZ-WBK (PL)</bank>
+<pan_range>676378</pan_range>
+</acquirer> 
+<acquirer>
+<bank>ING Bank Slaski (PL)</bank>
+<pan_range>676398</pan_range>
+</acquirer> 
+<acquirer>
+<bank>HSBC Bank (Turkey)</bank>
+<pan_range>676481</pan_range>
+</acquirer> 
+<acquirer>
+<bank>GENERALI BANK (IT)</bank>
+<pan_range>676509</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Citibank (PL)</bank>
+<pan_range>676613</pan_range>
+</acquirer> 
+<acquirer>
+<bank>VARIOUS BANKS (UK)</bank>
+<pan_range>6767xx</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Pekao (PL)</bank>
+<pan_range>676953</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Eurobank EFG (GR)</bank>
+<pan_range>676969</pan_range>
+</acquirer> 
+<acquirer>
+<bank>VARIOUS BANKS</bank>
+<pan_range>6771</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Garantibank (RO)</bank>
+<pan_range>677310</pan_range>
+</acquirer> 
+<acquirer>
+<bank>SMP Bank (Russia)</bank>
+<pan_range>677518</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Intesa SanPaolo</bank>
+<pan_range>677574</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Alior Bank (PL)</bank>
+<pan_range>677594</pan_range>
+</acquirer> 
+<acquirer>
+<bank>IAPA Frequent Flyers Card</bank>
+<pan_range>690149</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Best Buy Credit Card (private-label card issued by HSBC Bank Nevada)</bank>
+<pan_range>7001</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Priority Pass Passenger Card</bank>
+<pan_range>700247</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Best Buy Credit Card (private-label card issued by HSBC Bank Nevada)</bank>
+<pan_range>7021</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Petro-Canada (Petro-Points loyalty program)</bank>
+<pan_range>7069</pan_range>
+</acquirer> 
+<acquirer>
+<bank>Perekrestok X5Club loyalty program, Russia</bank>
+<pan_range>778900</pan_range>
+</acquirer>
+</acquirers>
+</iban_registry>

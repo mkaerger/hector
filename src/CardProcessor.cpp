@@ -17,6 +17,11 @@ void CardProcessor::set_pan(std::string pan)
 }
 
 
+void CardProcessor::set_iban(std::string iban)
+{
+   this->iban = iban;
+}
+
 void CardProcessor::set_token(std::string token)
 {
    this->token = token;

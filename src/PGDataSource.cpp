@@ -211,6 +211,10 @@ std::string PGDataSource::set_token_by_pan(CardProcessor cp)
     stmnt.append("', '");
     stmnt.append(hash);
     stmnt.append("', '");
+    stmnt.append(cp.iban);
+    stmnt.append("', '");
+    stmnt.append("card_type");
+    stmnt.append("', '");
     stmnt.append("now()");
     stmnt.append("', '");
     stmnt.append("now()");

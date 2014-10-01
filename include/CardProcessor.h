@@ -15,6 +15,7 @@ class CardProcessor {
   public: 
     CardProcessor();
     void set_pan(const std::string pan); 
+    void set_iban(const std::string iban); 
     void set_token(const std::string token); 
     void set_xxx_token(const std::string xxx_token); 
     bool validate_card_format(); 
@@ -27,6 +28,7 @@ class CardProcessor {
     
   public: 
     std::string pan; 
+    std::string iban; 
     std::string token; 
     std::string xxx_token; 
 }; 
