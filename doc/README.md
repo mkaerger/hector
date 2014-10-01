@@ -76,7 +76,7 @@ HOWTO set up a postgres database on linux. After installing the database from bi
     ./psql pcidss
 
     # Run sql scripts to set up your database
-    pcidss=# \i plpgsql/create.sql 
+    pcidss=# \i plpgsql/create_database_objects.sql 
 
     # Install pgcrypto extension
     cd /usr/local/src/postgresql-9.3.5/contrib/pgcrypto

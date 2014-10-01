@@ -84,6 +84,7 @@ Makefile \
 src/Makefile \
 scripts/Makefile \
 ressources/Makefile \
+plpgsql/Makefile \
 ])
 
 AC_OUTPUT

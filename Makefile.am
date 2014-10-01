@@ -1,2 +1,2 @@
 AUTOMAKE_OPTIONS = foreign
-SUBDIRS = src scripts ressources
+SUBDIRS = src scripts ressources plpgsql
