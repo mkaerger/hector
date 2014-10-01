@@ -1,7 +1,6 @@
 echo -n "
 <iban_registry>
-<acquirers>
-";
+<acquirers>";
 cat bin_list | while read line; 
 do echo -n " 
 <acquirer>
