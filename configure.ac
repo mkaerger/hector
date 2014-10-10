@@ -47,6 +47,24 @@ esac],[pgsql=false])
 AM_CONDITIONAL([POSTGRESQL], [test x$pgsql = xtrue])
 
 
+AC_ARG_ENABLE([mysql],
+[  --enable-mysql    Enable MySQL],
+[case "${enableval}" in
+  yes) 
+	AC_LANG_PUSH([C++])
+	AC_CHECK_HEADERS([mysql_connection.h],
+		[],
+		[AC_MSG_ERROR(
+		[Could not find or include mysql_connection.h])],
+	)
+	AC_LANG_POP([C++])
+    mysql=true ;;
+  no)  mysql=false ;;
+  *) AC_MSG_ERROR([bad value ${enableval} for --enable-mysql]) ;;
+esac],[mysql=false])
+AM_CONDITIONAL([MYSQL], [test x$mysql = xtrue])
+
+
 # Check headers.
 AC_LANG_PUSH([C++])
 # Checks for header files.
@@ -62,6 +80,7 @@ unistd.h \
 boost/thread.hpp \
 boost/regex.hpp \
 boost/foreach.hpp \
+boost/algorithm/string.hpp \
 boost/lexical_cast.hpp \
 boost/filesystem.hpp \
 boost/unordered_map.hpp \

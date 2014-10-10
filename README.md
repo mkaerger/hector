@@ -40,8 +40,10 @@ It's your choice how to store your data. hector comes with two options:
     --enable-pgsql
     This tells hector to store all data in a PostgreSQL database	
 
+    --enable-mysql
+    This tells hector to store all data in a MySQL database	
 
 Credits
 -------
 
-Visit [PostgreSQL](http://www.postgresql.org/) and [mongoDB](http://docs.mongodb.org/ecosystem/drivers/cpp/)!
+Visit [PostgreSQL](http://www.postgresql.org/), [mongoDB](http://docs.mongodb.org/ecosystem/drivers/cpp/) and [MySQL](http://mysql.com)!

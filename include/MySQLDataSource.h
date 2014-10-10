@@ -1,16 +1,27 @@
-#include <string>
 #include "CardProcessor.h"
 
-//! The PostgreSQL driver class. 
+/* Standard C++ includes */
+#include <stdlib.h>
+#include <iostream>
+
+#include "mysql_connection.h"
+#include <cppconn/driver.h>
+#include <cppconn/exception.h>
+#include <cppconn/resultset.h>
+#include <cppconn/statement.h>
+#include <cppconn/prepared_statement.h>
+
+
+//! The MySQL driver class. 
 /*!
-  This class is the interface to your PostgreSQL instance.
+  This class is the interface to your MySQL instance.
 */
-class PGDataSource { 
+class MySQLDataSource { 
 
   private:
   
   public: 
-    PGDataSource();
+    MySQLDataSource();
     std::string get_pan_by_token(CardProcessor);
     std::string get_tokens_by_masked_pan(CardProcessor);
     std::string get_card_type_by_token(CardProcessor);

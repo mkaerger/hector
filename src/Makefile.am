@@ -48,6 +48,30 @@ hector_LDFLAGS = -pthread
 endif
 
 
+if MYSQL
+DATASOURCE = MYSQL_DATA_SOURCE
+
+hector_SOURCES = \
+ServerSocket.cpp \
+Socket.cpp \
+token_server.cpp \
+CardProcessor.cpp \
+IbanList.cpp \
+MySQLDataSource.cpp \
+CardProcessor.h \
+IbanList.h \
+ClientSocket.h  \
+PGDataSource.h \
+ServerSocket.h \
+SocketException.h \
+Socket.h
+
+hector_LDADD = -L/usr/lib -lmysqlcppconn -lboost_regex -lcrypto
+hector_CPPFLAGS = -D$(DATASOURCE) -I$(top_srcdir)/include -I/usr/include/cppconn
+hector_LDFLAGS = -pthread
+endif
+
+
 hector_cli_SOURCES = \
 ServerSocket.cpp \
 Socket.cpp \

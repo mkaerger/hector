@@ -41,10 +41,10 @@ std::string PGDataSource::get_pan_by_token(CardProcessor cp)
          rec_count = PQntuples(res);
  
          for (row=0; row<rec_count; row++) {
-                 for (col=0; col<1; col++) {
-                         pans.append(PQgetvalue(res, row, col));
-                 }
-         }
+         	for (col=0; col<1; col++) {
+            	pans.append(PQgetvalue(res, row, col));
+            }
+		}
     }
 
     if(pans.empty()) {
@@ -71,12 +71,12 @@ std::string PGDataSource::get_tokens_by_masked_pan(CardProcessor cp)
          rec_count = PQntuples(res);
  
          for (row=0; row<rec_count; row++) {
-                 for (col=0; col<1; col++) {
-                         tokens.append(PQgetvalue(res, row, col));
-                         tokens.append("\n");
-                 }
-         }
-      }
+         	for (col=0; col<1; col++) {
+            	tokens.append(PQgetvalue(res, row, col));
+              	tokens.append("\n");
+     		}
+     	}
+	}
  
     return tokens;
 }
@@ -91,7 +91,7 @@ std::string PGDataSource::get_card_type_by_token(CardProcessor cp)
     res = PQexec(conn, (char*)s3.c_str());
 
     if (PQresultStatus(res) != PGRES_TUPLES_OK) {
-            puts("ERR NO DATA");
+    	puts("ERR NO DATA");
     } else {
         return PQgetvalue(res, 0, 0);
     }
@@ -107,7 +107,7 @@ std::string PGDataSource::get_count_tokens_by_masked_pan(CardProcessor cp)
     res = PQexec(conn, (char*)s3.c_str());
 
     if (PQresultStatus(res) != PGRES_TUPLES_OK) {
-            puts("ERR NO DATA");
+    	puts("ERR NO DATA");
     } else {
         return PQgetvalue(res, 0, 0);
     }
@@ -123,7 +123,7 @@ std::string PGDataSource::get_masked_pan_by_token(CardProcessor cp)
     res = PQexec(conn, (char*)s3.c_str());
 
     if (PQresultStatus(res) != PGRES_TUPLES_OK) {
-            puts("ERR NO DATA");
+    	puts("ERR NO DATA");
     } else {
         return PQgetvalue(res, 0, 0);
     }
@@ -139,7 +139,7 @@ std::string PGDataSource::get_provider_by_token(CardProcessor cp)
     res = PQexec(conn, (char*)s3.c_str());
 
     if (PQresultStatus(res) != PGRES_TUPLES_OK) {
-            puts("ERR NO DATA");
+   		puts("ERR NO DATA");
     } else {
         return PQgetvalue(res, 0, 0);
     }
@@ -156,12 +156,11 @@ std::string PGDataSource::get_card_type_by_pan(CardProcessor cp)
     res = PQexec(conn, (char*)s3.c_str());
 
     if (PQresultStatus(res) != PGRES_TUPLES_OK) {
-            puts("ERR NO DATA");
+    	puts("ERR NO DATA");
     } else {
         return PQgetvalue(res, 0, 0);
     }
 }
-
 
 
 std::string PGDataSource::get_token_by_pan(CardProcessor cp) 
@@ -174,7 +173,7 @@ std::string PGDataSource::get_token_by_pan(CardProcessor cp)
     res = PQexec(conn, (char*)s3.c_str());
 
     if (PQresultStatus(res) != PGRES_TUPLES_OK) {
-            puts("ERR NO DATA");
+    	puts("ERR NO DATA");
     } else {
         return PQgetvalue(res, 0, 0);
     }
@@ -191,7 +190,7 @@ std::string PGDataSource::get_provider_by_pan(CardProcessor cp)
     res = PQexec(conn, (char*)s3.c_str());
 
     if (PQresultStatus(res) != PGRES_TUPLES_OK) {
-            puts("ERR NO DATA");
+    	puts("ERR NO DATA");
     } else {
         return PQgetvalue(res, 0, 0);
     }
@@ -203,6 +202,14 @@ std::string PGDataSource::set_token_by_pan(CardProcessor cp)
 
     std::string stmnt;
     std::string hash = cp.create_token();
+    std::string iban = cp.iban;
+	
+    std::string esc;
+    
+    char* y = new char[iban.length() + 1];
+    strcpy(y, iban.c_str());
+
+    esc = PQescapeLiteral(conn, y, strlen(y));
 
     stmnt.append("INSERT INTO cc_data VALUES ('");
     stmnt.append(cp.machine_readable_card_number());
@@ -210,26 +217,27 @@ std::string PGDataSource::set_token_by_pan(CardProcessor cp)
     stmnt.append(cp.get_masked_pan());
     stmnt.append("', '");
     stmnt.append(hash);
-    stmnt.append("', '");
-    stmnt.append(cp.iban);
-    stmnt.append("', '");
-    stmnt.append("card_type");
+    stmnt.append("', ");
+    stmnt.append(esc);
+    stmnt.append(", '");
+    stmnt.append(cp.card_type);
     stmnt.append("', '");
     stmnt.append("now()");
     stmnt.append("', '");
     stmnt.append("now()");
     stmnt.append("')");
 
-
+    //std::cout<< stmnt << std::endl;;
     res = PQexec(conn, stmnt.c_str());
+
+    PQclear(res);
+    PQfinish(conn);
 
     if (PQresultStatus(res) == PGRES_COMMAND_OK)
     {
-      return hash;
-    } 
-    else 
-    {
-      return PQerrorMessage(conn);
+    	return hash;
+    } else {
+    	return PQerrorMessage(conn);
     } 
 }
 

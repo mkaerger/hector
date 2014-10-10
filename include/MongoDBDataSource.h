@@ -1,6 +1,10 @@
 #include <string>
 #include "CardProcessor.h"
 
+//! The MongoDB driver class. 
+/*!
+  This class is the interface to your MongoDB instance.
+*/
 class MongoDBDataSource { 
 
   private:

@@ -16,6 +16,10 @@ void CardProcessor::set_pan(std::string pan)
    this->pan = pan;
 }
 
+void CardProcessor::set_card_type(std::string card_type)
+{
+   this->card_type = card_type;
+}
 
 void CardProcessor::set_iban(std::string iban)
 {
@@ -53,7 +57,6 @@ std::string CardProcessor::machine_readable_card_number()
 {
    return regex_replace(this->pan, e, machine_format, boost::match_default | boost::format_sed);
 }
-
 
 
 std::string CardProcessor::get_masked_pan()
