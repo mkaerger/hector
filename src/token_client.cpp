@@ -18,7 +18,7 @@ std::string myin ="";
       	try 
       	{
 
-
+/*
 			string line;
           	std::ifstream myfile("pans_in");
           	if (myfile.is_open())
@@ -32,12 +32,13 @@ std::string myin ="";
           	myfile.close();
           	}
 	  
-/*
+*/
+
 		cout << "ENTER SERVICE:\n>";
       	getline(cin, myin);
 	  	client_socket << myin; 
 	  	client_socket >> reply;
-  */ 		
+
 
 		}
       	catch(SocketException&){}
