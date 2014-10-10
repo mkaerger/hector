@@ -32,7 +32,7 @@ Example installation:
 This will install hector in /var/www/, MongoDB support is enabled.
 
 
-It's your choice how to store your data. hector comes with two options:
+It's your choice how to store your data. hector comes with three options:
     
     --enable-mongodb
     This tells hector to store all data in a MongoDB database	
