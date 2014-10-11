@@ -9,7 +9,7 @@ void CardFeatures::load(const std::string &filename)
 {
     read_xml(filename, pt);
 
-    BOOST_FOREACH(const ptree::value_type &v, pt.get_child("iban_registry.acquirers"))
+    BOOST_FOREACH(const ptree::value_type &v, pt.get_child("registry.issuers"))
     {
 	const ptree& child = v.second;
 	
