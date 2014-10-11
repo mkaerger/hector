@@ -94,7 +94,7 @@ int main ( int argc, char *argv[] )
 					  	} else {
 						  	new_sock << driver->get_card_type_by_pan(*cp);
 					  	}
-				  	} else if (service == "get_provider_by_pan")
+				  	} else if (service == "get_issuer_by_pan")
 				  	{
 					  	CardProcessor *cp = new CardProcessor; 
 					  	cp->set_pan(input_data);		      
@@ -102,13 +102,13 @@ int main ( int argc, char *argv[] )
 					  	if (!cp->validate_card_format()) {
 						  	new_sock << "Wrong credit card format";
 					  	} else {
-						  	new_sock << driver->get_provider_by_pan(*cp);
+						  	new_sock << driver->get_issuer_by_pan(*cp);
 					  	}
-				  	} else if (service == "get_provider_by_token")
+				  	} else if (service == "get_issuer_by_token")
 				  	{
 					  	CardProcessor *cp = new CardProcessor; 
 					  	cp->set_token(input_data);		      
-					  	new_sock << driver->get_provider_by_token(*cp);
+					  	new_sock << driver->get_issuer_by_token(*cp);
 				  	} else if (service == "get_count_tokens_by_masked_pan")
 				  	{
 					  	CardProcessor *cp = new CardProcessor; 
@@ -136,7 +136,7 @@ int main ( int argc, char *argv[] )
 					  	CardProcessor *cp = new CardProcessor; 
 					  	cp->set_pan(input_data);		      
 					  
-					  	ibanlist->search_acquirer_by_pan(cp->machine_readable_card_number());		      
+					  	ibanlist->search_issuer_by_pan(cp->machine_readable_card_number());		      
 					  cp->set_iban(ibanlist->bank);		      
 					  cp->set_card_type(ibanlist->card_type);		      
 

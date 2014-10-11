@@ -53,10 +53,10 @@ std::string MongoDBDataSource::get_masked_pan_by_token(CardProcessor cp)
 }
 
 
-std::string MongoDBDataSource::get_provider_by_token(CardProcessor cp) 
+std::string MongoDBDataSource::get_issuer_by_token(CardProcessor cp) 
 {
     return c.findOne("tokenizer.cc_data", 
-		QUERY("token"<<cp.token)).getStringField("provider");
+		QUERY("token"<<cp.token)).getStringField("issuer");
 }
 
 
@@ -74,19 +74,21 @@ std::string MongoDBDataSource::get_token_by_pan(CardProcessor cp)
 }
 
 
-std::string MongoDBDataSource::get_provider_by_pan(CardProcessor cp) 
+std::string MongoDBDataSource::get_issuer_by_pan(CardProcessor cp) 
 {
     return c.findOne("tokenizer.cc_data", 
-		QUERY("pan"<<cp.machine_readable_card_number())).getStringField("provider");
+		QUERY("pan"<<cp.machine_readable_card_number())).getStringField("issuer");
 }
 
 
 std::string MongoDBDataSource::set_token_by_pan(CardProcessor cp) 
 {
-
-	time_t now = time(0);
-
-	tm* localtm = localtime(&now);
+	// time in sql now() format
+	time_t     now = time(0);
+    struct tm  tstruct;
+    char       now_time[80];
+    tstruct = *localtime(&now);
+    strftime(now_time, sizeof(now_time), "%Y-%m-%d.%X", &tstruct);
 
 	std::string hash = cp.create_token();
 
@@ -94,10 +96,10 @@ std::string MongoDBDataSource::set_token_by_pan(CardProcessor cp)
 		.append("pan",cp.machine_readable_card_number())
         .append("masked_pan",cp.get_masked_pan())
         .append("token",hash)
-        .append("provider",cp.iban)
+        .append("issuer",cp.iban)
         .append("card_type",cp.card_type)
-        .append("date_created", asctime(localtm))
-        .append("date_last_access", asctime(localtm))
+        .append("date_created", now_time)
+        .append("date_last_access", now_time)
         .obj();
 
         c.insert("tokenizer.cc_data", p);

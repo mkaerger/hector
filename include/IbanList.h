@@ -15,7 +15,7 @@ class IbanList
 	public:
     IbanList();
     void load(const std::string &filename);
-    void search_acquirer_by_pan(const std::string);
+    void search_issuer_by_pan(const std::string);
 	void set_bank(std::string);
 	
 	public:

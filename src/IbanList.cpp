@@ -33,7 +33,7 @@ std::string IbanList::get_additional_values(const std::string bank, const std::s
 }
 
 
-void IbanList::search_acquirer_by_pan(const std::string mypan)
+void IbanList::search_issuer_by_pan(const std::string mypan)
 {
     std::string mypan_grower;
     std::string bank_found;

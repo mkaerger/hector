@@ -130,9 +130,9 @@ std::string PGDataSource::get_masked_pan_by_token(CardProcessor cp)
 }
 
 
-std::string PGDataSource::get_provider_by_token(CardProcessor cp) 
+std::string PGDataSource::get_issuer_by_token(CardProcessor cp) 
 {
-    s1 = "SELECT provider FROM cc_data WHERE token = '";
+    s1 = "SELECT issuer FROM cc_data WHERE token = '";
     s2 = "';";
     s3 = s1 + cp.token + s2;
 
@@ -180,10 +180,10 @@ std::string PGDataSource::get_token_by_pan(CardProcessor cp)
 }
 
 
-std::string PGDataSource::get_provider_by_pan(CardProcessor cp) 
+std::string PGDataSource::get_issuer_by_pan(CardProcessor cp) 
 {
 
-    s1 = "SELECT provider FROM cc_data WHERE pan = '";
+    s1 = "SELECT issuer FROM cc_data WHERE pan = '";
     s2 = "';";
     s3 = s1 + cp.machine_readable_card_number() + s2;
 
@@ -205,10 +205,10 @@ std::string PGDataSource::set_token_by_pan(CardProcessor cp)
     std::string iban = cp.iban;
 	
     std::string esc;
-    
+
+	// escape issuer string	
     char* y = new char[iban.length() + 1];
     strcpy(y, iban.c_str());
-
     esc = PQescapeLiteral(conn, y, strlen(y));
 
     stmnt.append("INSERT INTO cc_data VALUES ('");
