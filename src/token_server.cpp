@@ -4,7 +4,7 @@
 #include <iostream>
 #include <stdio.h>
 #include "CardProcessor.h"
-#include "IbanList.h"
+#include "CardFeatures.h"
 
 #ifdef PG_DATA_SOURCE	
 #include "PGDataSource.h"
@@ -26,8 +26,8 @@ int main ( int argc, char *argv[] )
     std::cout << "HECTOR RUNNING.\n";
 
 	// Load iban registry from xml file
-	IbanList *ibanlist = new IbanList;
-    ibanlist->load("../share/xml/iban_registry.xml");
+	CardFeatures *cardfeatures = new CardFeatures;
+    cardfeatures->load("../share/xml/iban_registry.xml");
 
 	try
     {
@@ -136,9 +136,9 @@ int main ( int argc, char *argv[] )
 					  	CardProcessor *cp = new CardProcessor; 
 					  	cp->set_pan(input_data);		      
 					  
-					  	ibanlist->search_issuer_by_pan(cp->machine_readable_card_number());		      
-					  cp->set_iban(ibanlist->bank);		      
-					  cp->set_card_type(ibanlist->card_type);		      
+					  	cardfeatures->search_issuer_by_pan(cp->machine_readable_card_number());		      
+					  cp->set_iban(cardfeatures->bank);		      
+					  cp->set_card_type(cardfeatures->card_type);		      
 
 					  if (!cp->validate_card_format()) {
 					      new_sock << "Wrong credit card format";

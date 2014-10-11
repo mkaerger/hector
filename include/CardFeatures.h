@@ -5,15 +5,15 @@
 
 using namespace std;
 
-//!  The IbanList class. 
+//!  The CardFeatures class. 
 /*!
   This class reads issuer data from xml to unorderep_map.
-  Get access to all the issuer data by creditcard number.
+  Get access to all the issuer data by card number.
 */
-class IbanList
+class CardFeatures
 {
 	public:
-    IbanList();
+    CardFeatures();
     void load(const std::string &filename);
     void search_issuer_by_pan(const std::string);
 	void set_bank(std::string);

@@ -1,11 +1,11 @@
-#include "IbanList.h"
+#include "CardFeatures.h"
 
 using namespace std;
 using boost::property_tree::ptree;
 
-IbanList::IbanList() {}
+CardFeatures::CardFeatures() {}
 
-void IbanList::load(const std::string &filename)
+void CardFeatures::load(const std::string &filename)
 {
     read_xml(filename, pt);
 
@@ -25,7 +25,7 @@ void IbanList::load(const std::string &filename)
 }
 
 
-std::string IbanList::get_additional_values(const std::string bank, const std::string card_type) {
+std::string CardFeatures::get_additional_values(const std::string bank, const std::string card_type) {
    
 	std::string delimiter = "|"; 
     std::string ret = bank + delimiter + card_type;
@@ -33,7 +33,7 @@ std::string IbanList::get_additional_values(const std::string bank, const std::s
 }
 
 
-void IbanList::search_issuer_by_pan(const std::string mypan)
+void CardFeatures::search_issuer_by_pan(const std::string mypan)
 {
     std::string mypan_grower;
     std::string bank_found;
