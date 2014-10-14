@@ -1,5 +1,4 @@
 #include "CardFeatures.h"
-#include "CardFeaturesException.h"
 
 using namespace std;
 using boost::property_tree::ptree;

@@ -1,8 +1,8 @@
 #ifndef MONGODBDATASOURCE_H
 #define MONGODBDATASOURCE_H
 
-#include <string>
 #include "CardProcessor.h"
+#include "mongo/client/dbclient.h"
 
 //! The MongoDB driver class. 
 /*!

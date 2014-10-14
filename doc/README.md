@@ -47,7 +47,7 @@ hector_importer imports and tokenizes all your credit cards by providing a file 
 
     bin# ./hector_importer 
 
-This programm return the tokenized version for each credit card number.
+This programm writes the tokenized version for each credit card number to STDOUT.
 Example output:
 
 	5595-5797-1825-8848|559557PETVHQ8848

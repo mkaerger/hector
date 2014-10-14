@@ -1,6 +1,4 @@
-#include "mongo/client/dbclient.h"
 #include "MongoDBDataSource.h"
-#include "CardProcessor.h"
 
 using namespace std;
 

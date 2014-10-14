@@ -5,6 +5,7 @@
 #include <boost/property_tree/xml_parser.hpp>
 #include <boost/foreach.hpp>
 #include <boost/algorithm/string.hpp>
+#include "CardFeaturesException.h"
 
 using namespace std;
 

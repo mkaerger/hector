@@ -1,6 +1,4 @@
 #include "PGDataSource.h"
-#include <libpq-fe.h>
-#include <string>
 
 using namespace std;
 

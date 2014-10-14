@@ -1,7 +1,7 @@
 #ifndef PGDATASOURCE_H
 #define PGDATASOURCE_H
 
-#include <string>
+#include <libpq-fe.h>
 #include "CardProcessor.h"
 
 //! The PostgreSQL driver class. 
