@@ -1,4 +1,4 @@
-bin_PROGRAMS = hector hector_cli
+bin_PROGRAMS = hector hector_cli hector_importer
 
 if MONGODB
 DATASOURCE = MONGODB_DATA_SOURCE
@@ -16,6 +16,7 @@ ClientSocket.h  \
 MongoDBDataSource.h \
 ServerSocket.h \
 SocketException.h \
+CardFeaturesException.h \
 Socket.h
 
 hector_LDADD = -lmongoclient -lboost_thread -lboost_filesystem -lboost_regex -lboost_program_options -lboost_system -lssl -lcrypto
@@ -40,6 +41,7 @@ ClientSocket.h  \
 PGDataSource.h \
 ServerSocket.h \
 SocketException.h \
+CardFeaturesException.h \
 Socket.h
 
 hector_LDADD = -L/var/www/pgsql/lib -lpq -lboost_regex -lcrypto
@@ -64,6 +66,7 @@ ClientSocket.h  \
 PGDataSource.h \
 ServerSocket.h \
 SocketException.h \
+CardFeaturesException.h \
 Socket.h
 
 hector_LDADD = -L/usr/lib -lmysqlcppconn -lboost_regex -lcrypto
@@ -82,4 +85,15 @@ SocketException.h \
 Socket.h
 hector_cli_CPPFLAGS = -I$(top_srcdir)/include
 hector_cli_LDFLAGS = -pthread
+
+hector_importer_SOURCES = \
+ServerSocket.cpp \
+Socket.cpp \
+token_importer.cpp \
+ClientSocket.cpp  \
+ClientSocket.h  \
+SocketException.h \
+Socket.h
+hector_importer_CPPFLAGS = -I$(top_srcdir)/include
+hector_importer_LDFLAGS = -pthread
 

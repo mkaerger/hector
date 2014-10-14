@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include "CardProcessor.h"
 #include "CardFeatures.h"
+#include "CardFeaturesException.h"
 
 #ifdef PG_DATA_SOURCE	
 #include "PGDataSource.h"
@@ -23,21 +24,33 @@ using namespace std;
 
 int main ( int argc, char *argv[] )
 {
-    std::cout << "HECTOR RUNNING.\n";
+	std::cout << "\t[...]\thector starting." << std::endl;
+	std::cout << "\t[...]\tLoading creditcard registry." << std::endl;
 
-	// Load iban registry from xml file
+	// Load card features from xml file
 	CardFeatures *cardfeatures = new CardFeatures;
-    cardfeatures->load("../share/xml/iban_registry.xml");
+	try 
+	{
+    	cardfeatures->load("../share/xml/iban_registry.xml");
+	}
+	catch(CardFeaturesException& e) {
+      	std::cout << "\t[ERR]\t" << e.description();
+		exit (EXIT_FAILURE);
+	}
+
+	std::cout << "\t[OK ]" << std::endl;
 
 	try
     {
-    	ServerSocket server (30000);
+    	ServerSocket server(30000);
+		std::cout << "\t[...]\thector running, waiting for requests..." << std::endl;
 
       	while (true)
 		{
 
 	  		ServerSocket new_sock;
 	  		server.accept (new_sock);
+			std::cout << "\t\tConnection between client and server established." << std::endl;
 
 	  		try
 	    	{
@@ -47,23 +60,26 @@ int main ( int argc, char *argv[] )
 		  			new_sock >> data;
 		  
 		  			#ifdef PG_DATA_SOURCE	
-				  	PGDataSource *driver = new PGDataSource; 
+				  	PGDataSource *DataSource = new PGDataSource; 
 				  	#endif		  
 
 				  	#ifdef MONGODB_DATA_SOURCE	
-				  	MongoDBDataSource *driver = new MongoDBDataSource; 
+				  	MongoDBDataSource *DataSource = new MongoDBDataSource; 
 				  	#endif		  
 					
 				  	#ifdef MYSQL_DATA_SOURCE	
-				  	MySQLDataSource *driver = new MySQLDataSource; 
+				  	MySQLDataSource *DataSource = new MySQLDataSource; 
 				  	#endif		  
 				  	
+					// Explode client input data by "|"
 					std::vector<std::string> v;
 				  	boost::split(v, data, boost::is_any_of("|"));
 				  	std::string service    = v[0];	
 				  	std::string input_data = v[1];  
 				  	v.clear();	
 
+
+					// Process services
 					if (service == "get_pan_by_token")
 				  	{
 					  	CardProcessor *cp = new CardProcessor; 
@@ -72,9 +88,10 @@ int main ( int argc, char *argv[] )
 					  	if (!cp->validate_token_format(input_data)) {
 						  	new_sock << "Wrong token format";
 					  	} else {
-						  	new_sock << driver->get_pan_by_token(*cp);
+						  	new_sock << DataSource->get_pan_by_token(*cp);
 					  	}
-				  	} else if (service == "get_token_by_pan")
+				  	} 
+					else if (service == "get_token_by_pan")
 				  	{
 						CardProcessor *cp = new CardProcessor; 
 					  	cp->set_pan(input_data);		      
@@ -82,9 +99,10 @@ int main ( int argc, char *argv[] )
 					  	if (!cp->validate_card_format()) {
 						  	new_sock << "Wrong credit card format";
 					  	} else {
-						  	new_sock << driver->get_token_by_pan(*cp);
+						  	new_sock << DataSource->get_token_by_pan(*cp);
 					  	}
-				  	} else if (service == "get_card_type_by_pan")
+				  	} 
+					else if (service == "get_card_type_by_pan")
 				  	{
 					  	CardProcessor *cp = new CardProcessor; 
 					  	cp->set_pan(input_data);		      
@@ -92,9 +110,10 @@ int main ( int argc, char *argv[] )
 					  	if (!cp->validate_card_format()) {
 						  	new_sock << "Wrong credit card format";
 					  	} else {
-						  	new_sock << driver->get_card_type_by_pan(*cp);
+						  	new_sock << DataSource->get_card_type_by_pan(*cp);
 					  	}
-				  	} else if (service == "get_issuer_by_pan")
+				  	} 
+					else if (service == "get_issuer_by_pan")
 				  	{
 					  	CardProcessor *cp = new CardProcessor; 
 					  	cp->set_pan(input_data);		      
@@ -102,61 +121,80 @@ int main ( int argc, char *argv[] )
 					  	if (!cp->validate_card_format()) {
 						  	new_sock << "Wrong credit card format";
 					  	} else {
-						  	new_sock << driver->get_issuer_by_pan(*cp);
+						  	new_sock << DataSource->get_issuer_by_pan(*cp);
 					  	}
-				  	} else if (service == "get_issuer_by_token")
+				  	} 
+					else if (service == "get_issuer_by_token")
 				  	{
 					  	CardProcessor *cp = new CardProcessor; 
-					  	cp->set_token(input_data);		      
-					  	new_sock << driver->get_issuer_by_token(*cp);
-				  	} else if (service == "get_count_tokens_by_masked_pan")
+					  	
+						if (!cp->validate_token_format(input_data)) {
+						  	new_sock << "Wrong token format";
+					  	} else {
+							cp->set_token(input_data);		      
+					  		new_sock << DataSource->get_issuer_by_token(*cp);
+					  	}
+				  	} 
+					else if (service == "get_count_tokens_by_masked_pan")
 				  	{
 					  	CardProcessor *cp = new CardProcessor; 
 					  	cp->set_xxx_token(input_data);		      
-					  	new_sock << driver->get_count_tokens_by_masked_pan(*cp);
-				  	} else if (service == "get_card_type_by_token")
+					  	new_sock << DataSource->get_count_tokens_by_masked_pan(*cp);
+				  	} 
+					else if (service == "get_card_type_by_token")
+				  	{
+					  	CardProcessor *cp = new CardProcessor; 
+					  	
+						if (!cp->validate_token_format(input_data)) {
+						  	new_sock << "Wrong token format";
+					  	} else {
+							cp->set_token(input_data);		      
+					  		new_sock << DataSource->get_card_type_by_token(*cp);
+				  		}
+					} 
+					else if (service == "get_masked_pan_by_token")
 				  	{
 					  	CardProcessor *cp = new CardProcessor; 
 					  	cp->set_token(input_data);		      
-					  	new_sock << driver->get_card_type_by_token(*cp);
-				  	} else if (service == "get_masked_pan_by_token")
-				  	{
-					  	CardProcessor *cp = new CardProcessor; 
-					  	cp->set_token(input_data);		      
-					  	new_sock << driver->get_masked_pan_by_token(*cp);
+					  	new_sock << DataSource->get_masked_pan_by_token(*cp);
 				  	}
 				  	else if (service == "get_tokens_by_masked_pan")
 				  	{
 					  	CardProcessor *cp = new CardProcessor; 
 					  	cp->set_xxx_token(input_data);		      
-					  	new_sock << driver->get_tokens_by_masked_pan(*cp);
+					  	new_sock << DataSource->get_tokens_by_masked_pan(*cp);
 				  	}
-					  	else if (service == "set_token_by_pan")
+					else if (service == "set_token_by_pan")
 				  	{
-					  	CardProcessor *cp = new CardProcessor; 
+					  	//std::cout << "In Function set_token_by_pan" << std::endl;
+
+						CardProcessor *cp = new CardProcessor; 
 					  	cp->set_pan(input_data);		      
-					  
-					  	cardfeatures->search_issuer_by_pan(cp->machine_readable_card_number());		      
-					  cp->set_iban(cardfeatures->bank);		      
-					  cp->set_card_type(cardfeatures->card_type);		      
+					 
+						// fetch additional credit card information 
+					  	cardfeatures->search_issuer_by_pan(cp->machine_readable_card_number());  
+					  	cp->set_iban(cardfeatures->bank);		      
+					  	cp->set_card_type(cardfeatures->card_type);		      
 
-					  if (!cp->validate_card_format()) {
-					      new_sock << "Wrong credit card format";
-					  }	else {
-						  new_sock << driver->set_token_by_pan(*cp);
-					  }
-				  	} else {
+					  	if (!cp->validate_card_format()) {
+					      	new_sock << "Wrong credit card format";
+					  	}	
+						else {
+						  	new_sock << DataSource->set_token_by_pan(*cp);
+					  	}
+				  	} 
+					else 
+					{
 		      			new_sock << "No such service: " + service;
-    	  		}
-	   		}
-		}
-	  	catch ( SocketException& ) {}
-		}
+    	  			}
+	   			}
+			}
+	  		catch (SocketException&) {}
+			}
+    	}
+    	catch (SocketException& e)
+    	{
+      	std::cout << "\t[SocketException]: " << e.description();
     }
-    catch ( SocketException& e )
-    {
-      std::cout << "Exception was caught:" << e.description() << "\nExiting.\n";
-    }
-
     return 0;
 }

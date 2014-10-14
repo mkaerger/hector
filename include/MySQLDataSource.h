@@ -1,3 +1,6 @@
+#ifndef MYSQLDATASOURCE_H
+#define MYSQLDATASOURCE_H
+
 #include "CardProcessor.h"
 
 /* Standard C++ includes */
@@ -32,4 +35,5 @@ class MySQLDataSource {
     std::string get_token_by_pan(CardProcessor);
     std::string get_issuer_by_pan(CardProcessor);
     std::string set_token_by_pan(CardProcessor);
-}; 
+};
+#endif 

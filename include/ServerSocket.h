@@ -1,8 +1,7 @@
-#ifndef ServerSocket_class
-#define ServerSocket_class
+#ifndef SERVERSOCKET_H
+#define SERVERSOCKET_H
 
 #include "Socket.h"
-
 
 class ServerSocket : private Socket
 {
@@ -16,5 +15,4 @@ class ServerSocket : private Socket
 
   	void accept(ServerSocket&);
 };
-
 #endif

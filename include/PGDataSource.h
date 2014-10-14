@@ -1,3 +1,6 @@
+#ifndef PGDATASOURCE_H
+#define PGDATASOURCE_H
+
 #include <string>
 #include "CardProcessor.h"
 
@@ -22,3 +25,4 @@ class PGDataSource {
     std::string get_issuer_by_pan(CardProcessor);
     std::string set_token_by_pan(CardProcessor);
 }; 
+#endif

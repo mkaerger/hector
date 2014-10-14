@@ -1,3 +1,6 @@
+#ifndef MONGODBDATASOURCE_H
+#define MONGODBDATASOURCE_H
+
 #include <string>
 #include "CardProcessor.h"
 
@@ -21,4 +24,5 @@ class MongoDBDataSource {
     std::string get_token_by_pan(CardProcessor);
     std::string get_issuer_by_pan(CardProcessor);
     std::string set_token_by_pan(CardProcessor);
-}; 
+};
+#endif 

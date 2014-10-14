@@ -1,5 +1,5 @@
-#ifndef ClientSocket_class
-#define ClientSocket_class
+#ifndef CLIENTSOCKET_H
+#define CLIENTSOCKET_H
 
 #include "Socket.h"
 
@@ -16,5 +16,4 @@ class ClientSocket : private Socket
   const ClientSocket& operator << (const std::string&) const;
   const ClientSocket& operator >> (std::string&) const;
 };
-
 #endif

@@ -1,4 +1,5 @@
 #include "CardFeatures.h"
+#include "CardFeaturesException.h"
 
 using namespace std;
 using boost::property_tree::ptree;
@@ -7,7 +8,13 @@ CardFeatures::CardFeatures() {}
 
 void CardFeatures::load(const std::string &filename)
 {
-    read_xml(filename, pt);
+    try
+	{
+		read_xml(filename, pt); 
+	} 
+	catch(const boost::property_tree::xml_parser::xml_parser_error& e) {
+		throw CardFeaturesException(e.what());
+	}
 
     BOOST_FOREACH(const ptree::value_type &v, pt.get_child("registry.issuers"))
     {

@@ -12,12 +12,12 @@ MySQLDataSource::MySQLDataSource()
 {
  	
 	try {
-		/* Create a connection */
+		// Create a connection
     	driver = get_driver_instance();
     	conn = driver->connect("tcp://127.0.0.1:3306", "root", "root");
 
-    	/* Connect to the MySQL test database */
-    	conn->setSchema("pcidss");
+    	// Connect to the MySQL pcidss database
+    	conn->setSchema("hector");
 
 	} catch (sql::SQLException &e) {
     	std::cout << "# ERR: SQLException in " << __FILE__;
@@ -51,7 +51,7 @@ std::string MySQLDataSource::get_pan_by_token(CardProcessor cp)
     	std::cout << ", SQLState: " << e.getSQLState() << " )" << endl;
 	}
 
-
+	// Cleanup
     delete res;
     delete pstmt;
     delete conn;
@@ -86,6 +86,7 @@ std::string MySQLDataSource::get_tokens_by_masked_pan(CardProcessor cp)
     	std::cout << ", SQLState: " << e.getSQLState() << " )" << endl;
 	}
 
+	// Cleanup
     delete res;
     delete pstmt;
     delete conn;
@@ -121,6 +122,7 @@ std::string MySQLDataSource::get_card_type_by_token(CardProcessor cp)
     	std::cout << ", SQLState: " << e.getSQLState() << " )" << endl;
 	}
 
+	// Cleanup
     delete res;
     delete pstmt;
     delete conn;
@@ -147,17 +149,17 @@ std::string MySQLDataSource::get_count_tokens_by_masked_pan(CardProcessor cp)
     	while (res->next()) {
         	count_tokens = res->getString("count_tokens");
     	}
-
-    	delete res;
-    	delete pstmt;
-    	delete conn;
-
 	} catch (sql::SQLException &e) {
     	std::cout << "# ERR: SQLException in " << __FILE__;
     	std::cout << "# ERR: " << e.what();
     	std::cout << " (MySQL error code: " << e.getErrorCode();
     	std::cout << ", SQLState: " << e.getSQLState() << " )" << endl;
 	}
+	
+	// Cleanup
+    delete res;
+    delete pstmt;
+    delete conn;
 
     if(count_tokens.empty()) {
         puts("ERR NO TOKENS FOUND");
@@ -190,6 +192,7 @@ std::string MySQLDataSource::get_masked_pan_by_token(CardProcessor cp)
     	std::cout << ", SQLState: " << e.getSQLState() << " )" << endl;
 	}
 
+	// Cleanup
     delete res;
     delete pstmt;
     delete conn;
@@ -225,6 +228,7 @@ std::string MySQLDataSource::get_issuer_by_token(CardProcessor cp)
     	std::cout << ", SQLState: " << e.getSQLState() << " )" << endl;
 	}
 
+	// Cleanup
     delete res;
     delete pstmt;
     delete conn;
@@ -260,6 +264,7 @@ std::string MySQLDataSource::get_card_type_by_pan(CardProcessor cp)
     	std::cout << ", SQLState: " << e.getSQLState() << " )" << endl;
 	}
 
+	// Cleanup
     delete res;
     delete pstmt;
     delete conn;
@@ -295,6 +300,7 @@ std::string MySQLDataSource::get_token_by_pan(CardProcessor cp)
     	std::cout << ", SQLState: " << e.getSQLState() << " )" << endl;
 	}
 
+	// Cleanup
     delete res;
     delete pstmt;
     delete conn;
@@ -330,6 +336,7 @@ std::string MySQLDataSource::get_issuer_by_pan(CardProcessor cp)
     	std::cout << ", SQLState: " << e.getSQLState() << " )" << endl;
 	}
 
+	// Cleanup
     delete res;
     delete pstmt;
     delete conn;
@@ -345,7 +352,7 @@ std::string MySQLDataSource::get_issuer_by_pan(CardProcessor cp)
 std::string MySQLDataSource::set_token_by_pan(CardProcessor cp) 
 {
 
-	// time in sql now() format	
+	// Time in sql "SELECT now();" format	
 	time_t     now = time(0);
     struct tm  tstruct;
     char       now_time[80];
@@ -354,24 +361,40 @@ std::string MySQLDataSource::set_token_by_pan(CardProcessor cp)
 
 	std::string hash = cp.create_token();
 
-	pstmt = conn->prepareStatement(
-		"INSERT INTO cc_data(pan, masked_pan, token, issuer, card_type, date_created, date_last_access) VALUES (?, ?, ?, ?, ?, ?, ?)");
+	try 
+	{
+		pstmt = conn->prepareStatement(
+			"INSERT INTO cc_data(pan, masked_pan, token, issuer, card_type, date_created, date_last_access) VALUES (?, ?, ?, ?, ?, ?, ?)");
 
-    pstmt->setString(1, cp.machine_readable_card_number()); // pan
-    pstmt->setString(2, cp.get_masked_pan()); // masked_pan
-    pstmt->setString(3, hash); // token
-    pstmt->setString(4, cp.iban); // issuer
-    pstmt->setString(5, cp.card_type); // card_type
-    pstmt->setString(6, now_time); // date_created
-    pstmt->setString(7, now_time); // date_last_access
-    pstmt->executeUpdate();
+    	pstmt->setString(1, cp.machine_readable_card_number()); // pan
+    	pstmt->setString(2, cp.get_masked_pan()); // masked_pan
+    	pstmt->setString(3, hash); // token
+    	pstmt->setString(4, cp.iban); // issuer
+    	pstmt->setString(5, cp.card_type); // card_type
+    	pstmt->setString(6, now_time); // date_created
+    	pstmt->setString(7, now_time); // date_last_access
+    	pstmt->executeUpdate();
 
-	conn->commit(); 
-	conn->setAutoCommit(true); 
+		conn->commit(); 
+		conn->setAutoCommit(true); 
+	
+	} 
+	catch(sql::SQLException &e) 
+	{
+    	std::cout << "# ERR: SQLException in " << __FILE__;
+    	std::cout << "# ERR: " << e.what();
+    	std::cout << " (MySQL error code: " << e.getErrorCode();
+    	std::cout << ", SQLState: " << e.getSQLState() << " )" << endl;
+		
+		// Cleanup
+    	delete pstmt;
+    	delete conn;
+		return e.what();
+	}
 
+	// Cleanup
     delete pstmt;
     delete conn;
 
 	return hash;
 }
-

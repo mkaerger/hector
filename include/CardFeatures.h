@@ -1,3 +1,6 @@
+#ifndef CARDFEATURES_H
+#define CARDFEATURES_H
+
 #include <boost/unordered_map.hpp>
 #include <boost/property_tree/xml_parser.hpp>
 #include <boost/foreach.hpp>
@@ -7,7 +10,7 @@ using namespace std;
 
 //!  The CardFeatures class. 
 /*!
-  This class reads issuer data from xml to unorderep_map.
+  This class reads issuer data from xml to unordered_map.
   Get access to all the issuer data by card number.
 */
 class CardFeatures
@@ -16,7 +19,6 @@ class CardFeatures
     CardFeatures();
     void load(const std::string &filename);
     void search_issuer_by_pan(const std::string);
-	void set_bank(std::string);
 	
 	public:
 	std::string bank;
@@ -30,3 +32,4 @@ class CardFeatures
 		const std::string bank, 
 		const std::string card_type);
 };
+#endif

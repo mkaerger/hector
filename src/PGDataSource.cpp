@@ -17,7 +17,7 @@ std::string     s3;
 
 PGDataSource::PGDataSource() 
 {
-    conn = PQconnectdb("dbname=pcidss host=localhost user=postgres password=");
+    conn = PQconnectdb("dbname=hector host=localhost user=postgres password=");
     if (PQstatus(conn) == CONNECTION_BAD) {
             puts("We were unable to connect to the database");
     }

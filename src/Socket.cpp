@@ -27,7 +27,7 @@ bool Socket::create()
     	return false;
   	}
 
-  	// TIME_WAIT - argh
+  	// TIME_WAIT - TODO
   	int on = 1;
   	if (setsockopt(m_sock, SOL_SOCKET, SO_REUSEADDR, (const char*) &on, sizeof(on)) == -1)
 	{
@@ -40,12 +40,10 @@ bool Socket::create()
 
 bool Socket::bind(const int port )
 {
-
   	if(!is_valid())
 	{
     	return false;
     }
-
 
   	m_addr.sin_family = AF_INET;
   	m_addr.sin_addr.s_addr = INADDR_ANY;
@@ -54,7 +52,6 @@ bool Socket::bind(const int port )
   	int bind_return = ::bind(m_sock,
 		(struct sockaddr *) &m_addr,
 		sizeof(m_addr));
-
 
   	if (bind_return == -1)
   	{
@@ -71,13 +68,12 @@ bool Socket::listen() const
       	return false;
     }
 
-  int listen_return = ::listen(m_sock, MAXCONNECTIONS);
+ 	int listen_return = ::listen(m_sock, MAXCONNECTIONS);
 
-  if (listen_return == -1)
-  {
-  	return false;
-  }
-
+  	if (listen_return == -1)
+  	{
+  		return false;
+  	}
   return true;
 }
 
@@ -113,15 +109,15 @@ int Socket::recv(std::string& s)const
 
   	s = "";
 
-  	memset(buf, 0, MAXRECV + 1 );
+  	memset(buf, 0, MAXRECV + 1);
 
-  	int status = ::recv(m_sock, buf, MAXRECV, 0 );
+  	int status = ::recv(m_sock, buf, MAXRECV, 0);
 
   	if(status == -1 )
     {
       	std::cout << "status == -1   errno == " << errno << "  in Socket::recv\n";
       	return 0;
-  	} else if(status == 0 ) {
+  	} else if(status == 0) {
       return 0;
     } else {
       	s = buf;
@@ -130,9 +126,12 @@ int Socket::recv(std::string& s)const
 }
 
 
-bool Socket::connect(const std::string host, const int port )
+bool Socket::connect(const std::string host, const int port)
 {
-	if(! is_valid())return false;
+	if(!is_valid()) 
+	{
+		return false;
+	}
 
   	m_addr.sin_family = AF_INET;
   	m_addr.sin_port = htons(port );
@@ -148,27 +147,29 @@ bool Socket::connect(const std::string host, const int port )
   	if(status == 0) {
     	return true;
   	} else {
-    return false;
+    	return false;
 	}
 }
 
 
 void Socket::set_non_blocking(const bool b )
 {
-
 	int opts;
 
   	opts = fcntl(m_sock, F_GETFL);
 
-  	if(opts < 0 )
+  	if(opts < 0)
   	{
     	return;
   	}
 
-  	if(b) {
+  	if(b) 
+	{
     	opts =(opts | O_NONBLOCK );
-  	} else { 
-    opts =(opts & ~O_NONBLOCK );
+  	} 
+	else 
+	{ 
+    	opts =(opts & ~O_NONBLOCK );
 	}
 
   	fcntl(m_sock, F_SETFL,opts );
