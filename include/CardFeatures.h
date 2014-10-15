@@ -20,17 +20,18 @@ class CardFeatures
     CardFeatures();
     void load(const std::string &filename);
     void search_issuer_by_pan(const std::string);
-	
+	struct additional_card_info {
+        std::string bank;
+        std::string card_type;
+    };
+
 	public:
 	std::string bank;
 	std::string card_type;
 
     private:
 	boost::property_tree::ptree pt;
-    typedef boost::unordered_map<std::string, std::string> unordered_map;
+    typedef boost::unordered_map<std::string, additional_card_info> unordered_map;
     unordered_map map;
-	std::string get_additional_values(
-		const std::string bank, 
-		const std::string card_type);
 };
 #endif

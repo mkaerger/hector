@@ -19,23 +19,15 @@ void CardFeatures::load(const std::string &filename)
     {
 	const ptree& child = v.second;
 	
-        std::string additional_values = get_additional_values(
-			child.get<string>("bank"), 
-			child.get<string>("card_type"));
-	
+		additional_card_info card_info;
+        card_info.bank 		= child.get<string>("bank");
+        card_info.card_type = child.get<string>("card_type");
+
         map.insert(unordered_map::value_type(
 			child.get<string>("pan_range"), 
-			additional_values
+			card_info
 		));
     }
-}
-
-
-std::string CardFeatures::get_additional_values(const std::string bank, const std::string card_type) {
-   
-	std::string delimiter = "|"; 
-    std::string ret = bank + delimiter + card_type;
-    return ret;
 }
 
 
@@ -52,12 +44,8 @@ void CardFeatures::search_issuer_by_pan(const std::string mypan)
         unordered_map::iterator it = map.find(mypan_grower);
         if (it != map.end())
         {
-			std::vector<std::string> v;
-			boost::split(v, it->second, boost::is_any_of("|"));
-
-		    bank_found 		= v[0];
-		    card_type_found = v[1];
-        	v.clear();
+		    bank_found 		= it->second.bank;
+		    card_type_found = it->second.card_type;
 		}
     }
     this->bank = bank_found;
