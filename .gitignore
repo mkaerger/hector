@@ -8,6 +8,7 @@ bin/*
 # Ignore executables
 hector
 hector_cli
+hector_importer
 
 # Ignore autoconf output
 /autom4te.cache/
