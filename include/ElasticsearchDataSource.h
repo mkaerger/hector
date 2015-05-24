@@ -17,6 +17,7 @@
 class ElasticsearchDataSource { 
 
   private:
+	size_t write_callback(char* buf, size_t size, size_t nmemb, void* up);
   
   public: 
     ElasticsearchDataSource();
