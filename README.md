@@ -43,7 +43,10 @@ It's your choice how to store your data. hector comes with three options:
     --enable-mysql
     This tells hector to store all data in a MySQL database	
 
+    --enable-elasticsearch
+    This tells hector to store all data in elasticsearch	
+
 Credits
 -------
 
-Visit [PostgreSQL](http://www.postgresql.org/), [mongoDB](http://docs.mongodb.org/ecosystem/drivers/cpp/) and [MySQL](http://mysql.com)!
+Visit [PostgreSQL](http://www.postgresql.org/), [mongoDB](http://docs.mongodb.org/ecosystem/drivers/cpp/) [Elasticsearch](https://www.elastic.co/) and [MySQL](http://mysql.com)!
