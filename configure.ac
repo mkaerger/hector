@@ -65,6 +65,24 @@ esac],[mysql=false])
 AM_CONDITIONAL([MYSQL], [test x$mysql = xtrue])
 
 
+AC_ARG_ENABLE([elasticsearch],
+[  --enable-elasticsearch    Enable Elasticsearch],
+[case "${enableval}" in
+  yes) 
+	AC_LANG_PUSH([C++])
+	AC_CHECK_HEADERS([curl/curl.h],
+		[],
+		[AC_MSG_ERROR(
+		[Could not find or include curl.h])],
+	)
+	AC_LANG_POP([C++])
+    elasticsearch=true ;;
+  no)  elasticsearch=false ;;
+  *) AC_MSG_ERROR([bad value ${enableval} for --enable-elasticsearch]) ;;
+esac],[elasticsearch=false])
+AM_CONDITIONAL([ELASTICSEARCH], [test x$elasticsearch = xtrue])
+
+
 # Check headers.
 AC_LANG_PUSH([C++])
 # Checks for header files.

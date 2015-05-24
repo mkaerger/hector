@@ -18,3 +18,9 @@ make clean && \
 aclocal && autoconf && autoheader && automake --add-missing && \
 ./configure --prefix=/var/www/hector_mongodb --enable-mongodb && \
 make && make install
+
+# ELASTICSEARCH
+make clean && \
+aclocal && autoconf && autoheader && automake --add-missing && \
+./configure --prefix=/var/www/hector_elasticsearch --enable-elasticsearch && \
+make && make install

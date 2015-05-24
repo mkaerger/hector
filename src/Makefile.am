@@ -63,13 +63,38 @@ MySQLDataSource.cpp \
 CardProcessor.h \
 CardFeatures.h \
 ClientSocket.h  \
-PGDataSource.h \
+MySQLDataSource.h \
 ServerSocket.h \
 SocketException.h \
 CardFeaturesException.h \
 Socket.h
 
 hector_LDADD = -L/usr/lib -lmysqlcppconn -lboost_regex -lcrypto
+hector_CPPFLAGS = -D$(DATASOURCE) -I$(top_srcdir)/include -I/usr/include/cppconn
+hector_LDFLAGS = -pthread
+endif
+
+
+if ELASTICSEARCH
+DATASOURCE = ELASTICSEARCH_DATA_SOURCE
+
+hector_SOURCES = \
+ServerSocket.cpp \
+Socket.cpp \
+token_server.cpp \
+CardProcessor.cpp \
+CardFeatures.cpp \
+ElasticsearchDataSource.cpp \
+CardProcessor.h \
+CardFeatures.h \
+ClientSocket.h  \
+ElasticsearchDataSource.h \
+ServerSocket.h \
+SocketException.h \
+CardFeaturesException.h \
+Socket.h
+
+hector_LDADD = -L/usr/lib -lcurl -lboost_regex -lcrypto
 hector_CPPFLAGS = -D$(DATASOURCE) -I$(top_srcdir)/include -I/usr/include/cppconn
 hector_LDFLAGS = -pthread
 endif

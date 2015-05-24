@@ -19,6 +19,10 @@
 #include "MySQLDataSource.h"
 #endif		  
 
+#ifdef ELASTICSEARCH_DATA_SOURCE	
+#include "ElasticsearchDataSource.h"
+#endif		  
+
 using namespace std;
 
 
@@ -71,6 +75,10 @@ int main ( int argc, char *argv[] )
 				  	MySQLDataSource *DataSource = new MySQLDataSource; 
 				  	#endif		  
 				  	
+				  	#ifdef ELASTICSEARCH_DATA_SOURCE	
+				  	ElasticsearchDataSource *DataSource = new ElasticsearchDataSource; 
+				  	#endif		  
+
 					// Explode client input data by "|"
 					std::vector<std::string> v;
 				  	boost::split(v, data, boost::is_any_of("|"));
