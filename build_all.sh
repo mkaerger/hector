@@ -24,3 +24,25 @@ make clean && \
 aclocal && autoconf && autoheader && automake --add-missing && \
 ./configure --prefix=/var/www/hector_elasticsearch --enable-elasticsearch && \
 make && make install
+
+
+# Run test
+cd /var/www/hector_mysql/bin/ && ./hector &>/dev/null &
+sleep 4
+/var/www/hector_mysql/bin/./hector_test 1111-2222-3333-4444
+killall -9 hector
+
+cd /var/www/hector_pgsql/bin/ && ./hector &>/dev/null &
+sleep 4
+/var/www/hector_pgsql/bin/./hector_test 1111-2222-3333-4444
+killall -9 hector
+
+cd /var/www/hector_mongodb/bin/ && ./hector &>/dev/null &
+sleep 4
+/var/www/hector_mongodb/bin/./hector_test 1111-2222-3333-4444
+killall -9 hector
+
+cd /var/www/hector_elasticsearch/bin/ && ./hector &>/dev/null &
+sleep 4
+/var/www/hector_elasticsearch/bin/./hector_test 1111-2222-3333-4444
+killall -9 hector

@@ -49,4 +49,4 @@ It's your choice how to store your data. hector comes with three options:
 Credits
 -------
 
-Visit [PostgreSQL](http://www.postgresql.org/), [mongoDB](http://docs.mongodb.org/ecosystem/drivers/cpp/) [Elasticsearch](https://www.elastic.co/) and [MySQL](http://mysql.com)!
+Visit [PostgreSQL](http://www.postgresql.org/), [mongoDB](http://docs.mongodb.org/ecosystem/drivers/cpp/), [Elasticsearch](https://www.elastic.co/) and [MySQL](http://mysql.com)!
