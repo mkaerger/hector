@@ -31,7 +31,6 @@ int main(int argc, char *argv[] )
 		std::string issuer;
 		std::string pan;
 		std::string reply;
-		//std::string pan_in = "4908-4370-6007-0587";
 
    		std::cout << "\t[TEST....:]\t" << "Run set_token_by_pan" << std::endl;
 		service = "set_token_by_pan|" + pan_in;
