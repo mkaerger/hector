@@ -111,5 +111,5 @@ std::string ElasticsearchDataSource::set_token_by_pan(CardProcessor cp)
     curl_easy_cleanup(curl);
     curl_global_cleanup();
 
-    return NULL;
+    return hash;
 }

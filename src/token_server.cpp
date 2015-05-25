@@ -63,7 +63,10 @@ int main ( int argc, char *argv[] )
 		  			std::string data;
 		  			new_sock >> data;
 		  
-		  			#ifdef PG_DATA_SOURCE	
+					std::cout << "\t" << data << std::endl;
+		  			
+
+					#ifdef PG_DATA_SOURCE	
 				  	PGDataSource *DataSource = new PGDataSource; 
 				  	#endif		  
 

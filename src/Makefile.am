@@ -1,4 +1,4 @@
-bin_PROGRAMS = hector hector_cli hector_importer
+bin_PROGRAMS = hector hector_cli hector_importer hector_test
 
 if MONGODB
 DATASOURCE = MONGODB_DATA_SOURCE
@@ -121,4 +121,16 @@ SocketException.h \
 Socket.h
 hector_importer_CPPFLAGS = -I$(top_srcdir)/include
 hector_importer_LDFLAGS = -pthread
+
+hector_test_SOURCES = \
+ServerSocket.cpp \
+Socket.cpp \
+hector_test.cpp \
+ClientSocket.cpp  \
+ClientSocket.h  \
+SocketException.h \
+Socket.h
+hector_test_CPPFLAGS = -I$(top_srcdir)/include
+hector_test_LDFLAGS = -pthread
+
 
