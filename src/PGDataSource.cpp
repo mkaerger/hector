@@ -11,7 +11,7 @@ std::string     token;
 std::string     s1;
 std::string     s2;
 std::string     s3;
-
+std::string one_row_result;
 
 PGDataSource::PGDataSource() 
 {
@@ -34,9 +34,10 @@ std::string PGDataSource::get_pan_by_token(CardProcessor cp)
     
     if (PQresultStatus(res) != PGRES_TUPLES_OK) {
                  puts("ERR NO DATA");
-    } else {
- 
-         rec_count = PQntuples(res);
+    } 
+	else 
+	{
+ 		rec_count = PQntuples(res);
  
          for (row=0; row<rec_count; row++) {
          	for (col=0; col<1; col++) {
@@ -47,7 +48,9 @@ std::string PGDataSource::get_pan_by_token(CardProcessor cp)
 
     if(pans.empty()) {
         puts("ERR NO PANS FOUND");
-    } else { 	 
+    } 
+	else 
+	{ 	 
         return pans;
     }
 }
@@ -64,8 +67,9 @@ std::string PGDataSource::get_tokens_by_masked_pan(CardProcessor cp)
 
     if (PQresultStatus(res) != PGRES_TUPLES_OK) {
                  puts("ERR NO DATA");
-     } else {
- 
+    } 
+	else 
+	{
          rec_count = PQntuples(res);
  
          for (row=0; row<rec_count; row++) {
@@ -88,11 +92,33 @@ std::string PGDataSource::get_card_type_by_token(CardProcessor cp)
 
     res = PQexec(conn, (char*)s3.c_str());
 
-    if (PQresultStatus(res) != PGRES_TUPLES_OK) {
-    	puts("ERR NO DATA");
-    } else {
-        return PQgetvalue(res, 0, 0);
+   	if (PQresultStatus(res) != PGRES_TUPLES_OK) {
+        puts("ERR NO DATA");
     }
+
+    rec_count = PQntuples(res);
+
+    // Check if there was any result this way:
+    if (rec_count == 0) {
+		one_row_result = "FIELD EMPTY" ;
+    	return one_row_result;
+	}
+
+    for (row=0; row<rec_count; row++) {
+        for (col=0; col<1; col++) {
+		one_row_result = PQgetvalue(res, row, col);
+        }
+    }
+   
+    // Check if result is empty:
+    if (one_row_result.empty()) {
+		one_row_result = "FIELD EMPTY" ;
+	}
+
+    // Cleanup
+    PQclear(res);
+
+	return one_row_result;
 }
 
 
@@ -104,11 +130,33 @@ std::string PGDataSource::get_count_tokens_by_masked_pan(CardProcessor cp)
 
     res = PQexec(conn, (char*)s3.c_str());
 
-    if (PQresultStatus(res) != PGRES_TUPLES_OK) {
-    	puts("ERR NO DATA");
-    } else {
-        return PQgetvalue(res, 0, 0);
+   	if (PQresultStatus(res) != PGRES_TUPLES_OK) {
+        puts("ERR NO DATA");
     }
+
+    rec_count = PQntuples(res);
+
+    // Check if there was any result this way:
+    if (rec_count == 0) {
+		one_row_result = "FIELD EMPTY" ;
+    	return one_row_result;
+	}
+
+    for (row=0; row<rec_count; row++) {
+        for (col=0; col<1; col++) {
+		one_row_result = PQgetvalue(res, row, col);
+        }
+    }
+   
+    // Check if result is empty:
+    if (one_row_result.empty()) {
+		one_row_result = "FIELD EMPTY" ;
+	}
+
+    // Cleanup
+    PQclear(res);
+
+	return one_row_result;
 }
 
 
@@ -120,11 +168,33 @@ std::string PGDataSource::get_masked_pan_by_token(CardProcessor cp)
 
     res = PQexec(conn, (char*)s3.c_str());
 
-    if (PQresultStatus(res) != PGRES_TUPLES_OK) {
-    	puts("ERR NO DATA");
-    } else {
-        return PQgetvalue(res, 0, 0);
+   	if (PQresultStatus(res) != PGRES_TUPLES_OK) {
+        puts("ERR NO DATA");
     }
+
+    rec_count = PQntuples(res);
+
+    // Check if there was any result this way:
+    if (rec_count == 0) {
+		one_row_result = "FIELD EMPTY" ;
+    	return one_row_result;
+	}
+
+    for (row=0; row<rec_count; row++) {
+        for (col=0; col<1; col++) {
+		one_row_result = PQgetvalue(res, row, col);
+        }
+    }
+   
+    // Check if result is empty:
+    if (one_row_result.empty()) {
+		one_row_result = "FIELD EMPTY" ;
+	}
+
+    // Cleanup
+    PQclear(res);
+
+	return one_row_result;
 }
 
 
@@ -136,11 +206,33 @@ std::string PGDataSource::get_issuer_by_token(CardProcessor cp)
 
     res = PQexec(conn, (char*)s3.c_str());
 
-    if (PQresultStatus(res) != PGRES_TUPLES_OK) {
-   		puts("ERR NO DATA");
-    } else {
-        return PQgetvalue(res, 0, 0);
+   	if (PQresultStatus(res) != PGRES_TUPLES_OK) {
+        puts("ERR NO DATA");
     }
+
+    rec_count = PQntuples(res);
+
+    // Check if there was any result this way:
+    if (rec_count == 0) {
+		one_row_result = "FIELD EMPTY" ;
+    	return one_row_result;
+	}
+
+    for (row=0; row<rec_count; row++) {
+        for (col=0; col<1; col++) {
+		one_row_result = PQgetvalue(res, row, col);
+        }
+    }
+   
+    // Check if result is empty:
+    if (one_row_result.empty()) {
+		one_row_result = "FIELD EMPTY" ;
+	}
+
+    // Cleanup
+    PQclear(res);
+
+	return one_row_result;
 }
 
 
@@ -153,11 +245,33 @@ std::string PGDataSource::get_card_type_by_pan(CardProcessor cp)
 
     res = PQexec(conn, (char*)s3.c_str());
 
-    if (PQresultStatus(res) != PGRES_TUPLES_OK) {
-    	puts("ERR NO DATA");
-    } else {
-        return PQgetvalue(res, 0, 0);
+   	if (PQresultStatus(res) != PGRES_TUPLES_OK) {
+        puts("ERR NO DATA");
     }
+
+    rec_count = PQntuples(res);
+
+    // Check if there was any result this way:
+    if (rec_count == 0) {
+		one_row_result = "FIELD EMPTY" ;
+    	return one_row_result;
+	}
+
+    for (row=0; row<rec_count; row++) {
+        for (col=0; col<1; col++) {
+		one_row_result = PQgetvalue(res, row, col);
+        }
+    }
+   
+    // Check if result is empty:
+    if (one_row_result.empty()) {
+		one_row_result = "FIELD EMPTY" ;
+	}
+
+    // Cleanup
+    PQclear(res);
+
+	return one_row_result;
 }
 
 
@@ -170,11 +284,33 @@ std::string PGDataSource::get_token_by_pan(CardProcessor cp)
 
     res = PQexec(conn, (char*)s3.c_str());
 
-    if (PQresultStatus(res) != PGRES_TUPLES_OK) {
-    	puts("ERR NO DATA");
-    } else {
-        return PQgetvalue(res, 0, 0);
+   	if (PQresultStatus(res) != PGRES_TUPLES_OK) {
+        puts("ERR NO DATA");
     }
+
+    rec_count = PQntuples(res);
+
+    // Check if there was any result this way:
+    if (rec_count == 0) {
+		one_row_result = "FIELD EMPTY" ;
+    	return one_row_result;
+	}
+
+    for (row=0; row<rec_count; row++) {
+        for (col=0; col<1; col++) {
+		one_row_result = PQgetvalue(res, row, col);
+        }
+    }
+   
+    // Check if result is empty:
+    if (one_row_result.empty()) {
+		one_row_result = "FIELD EMPTY" ;
+	}
+
+    // Cleanup
+    PQclear(res);
+
+	return one_row_result;
 }
 
 
@@ -187,11 +323,33 @@ std::string PGDataSource::get_issuer_by_pan(CardProcessor cp)
 
     res = PQexec(conn, (char*)s3.c_str());
 
-    if (PQresultStatus(res) != PGRES_TUPLES_OK) {
-    	puts("ERR NO DATA");
-    } else {
-        return PQgetvalue(res, 0, 0);
+   	if (PQresultStatus(res) != PGRES_TUPLES_OK) {
+        puts("ERR NO DATA");
     }
+
+    rec_count = PQntuples(res);
+
+    // Check if there was any result this way:
+    if (rec_count == 0) {
+		one_row_result = "FIELD EMPTY" ;
+    	return one_row_result;
+	}
+
+    for (row=0; row<rec_count; row++) {
+        for (col=0; col<1; col++) {
+		one_row_result = PQgetvalue(res, row, col);
+        }
+    }
+   
+    // Check if result is empty:
+    if (one_row_result.empty()) {
+		one_row_result = "FIELD EMPTY" ;
+	}
+
+    // Cleanup
+    PQclear(res);
+
+	return one_row_result;
 }
 
 
@@ -201,6 +359,7 @@ std::string PGDataSource::set_token_by_pan(CardProcessor cp)
     std::string stmnt;
     std::string hash = cp.create_token();
     std::string iban = cp.iban;
+    std::string pg_result;
 	
     std::string esc;
 
@@ -229,13 +388,16 @@ std::string PGDataSource::set_token_by_pan(CardProcessor cp)
     res = PQexec(conn, stmnt.c_str());
 
     PQclear(res);
-    PQfinish(conn);
 
     if (PQresultStatus(res) == PGRES_COMMAND_OK)
     {
-    	return hash;
-    } else {
-    	return PQerrorMessage(conn);
+    	pg_result = hash;
     } 
+	else 
+	{
+    	pg_result = PQerrorMessage(conn);
+    } 
+	
+	return pg_result;
 }
 

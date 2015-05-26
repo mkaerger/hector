@@ -104,20 +104,20 @@ int main(int argc, char *argv[] )
 		std::cout << std::endl;
 
 
-   		std::cout << "\t[TEST....:]\t" << "Run get_tokens_by_masked_pan" << std::endl;
-		service = "get_tokens_by_masked_pan|" + masked_pan;
-	    client_socket << service; 
-		client_socket >> tokens;
-   		std::cout << "\t[RESULT..:]\t" << tokens;
-		std::cout << std::endl;
-		std::cout << std::endl;
-
-
    		std::cout << "\t[TEST....:]\t" << "Run get_count_tokens_by_masked_pan" << std::endl;
 		service = "get_count_tokens_by_masked_pan|" + masked_pan;
 	    client_socket << service; 
 		client_socket >> count_tokens;
    		std::cout << "\t[RESULT..:]\t" << count_tokens;
+		std::cout << std::endl;
+		std::cout << std::endl;
+
+
+   		std::cout << "\t[TEST....:]\t" << "Run get_tokens_by_masked_pan" << std::endl;
+		service = "get_tokens_by_masked_pan|" + masked_pan;
+	    client_socket << service; 
+		client_socket >> tokens;
+   		std::cout << "\t[RESULT..:]\t" << tokens;
 		std::cout << std::endl;
 		std::cout << std::endl;
     }
