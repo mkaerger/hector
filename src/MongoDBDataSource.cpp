@@ -3,7 +3,8 @@
 using namespace std;
 
 mongo::DBClientConnection c;
-
+std::string mongodb_result;
+std::string result;
 
 MongoDBDataSource::MongoDBDataSource() 
 {
@@ -17,62 +18,131 @@ MongoDBDataSource::MongoDBDataSource()
 
 std::string MongoDBDataSource::get_pan_by_token(CardProcessor cp) 
 {
-    return c.findOne("hector.cc_data", 
+    mongodb_result = c.findOne("hector.cc_data", 
 		QUERY("token"<<cp.token)).getStringField("pan");
+
+	if(mongodb_result.empty()) {
+    	result = "FIELD EMPTY";    
+    } else { 	 
+        result = mongodb_result;
+    }
+
+	return result;
 }
 
 
 std::string MongoDBDataSource::get_tokens_by_masked_pan(CardProcessor cp) 
 {
-    return NULL;
+   
+	if(mongodb_result.empty()) {
+    	result = "FIELD EMPTY";    
+    } else { 	 
+        result = mongodb_result;
+    }
+
+	return result;
 }
 
 
 std::string MongoDBDataSource::get_card_type_by_token(CardProcessor cp) 
 {
-    return c.findOne("hector.cc_data", 
+    mongodb_result = c.findOne("hector.cc_data", 
 		QUERY("token"<<cp.token)).getStringField("card_type");
+
+	if(mongodb_result.empty()) {
+    	result = "FIELD EMPTY";    
+    } else { 	 
+        result = mongodb_result;
+    }
+
+	return result;
 }
 
 
 std::string MongoDBDataSource::get_count_tokens_by_masked_pan(CardProcessor cp) 
 {
-    return NULL;
+	if(mongodb_result.empty()) {
+    	result = "FIELD EMPTY";    
+    } else { 	 
+        result = mongodb_result;
+    }
+
+	return result;
 }
 
 
 std::string MongoDBDataSource::get_masked_pan_by_token(CardProcessor cp) 
 {
-    return c.findOne("hector.cc_data", 
+    mongodb_result = c.findOne("hector.cc_data", 
 		QUERY("token"<<cp.token)).getStringField("masked_pan");
+
+	if(mongodb_result.empty()) {
+    	result = "FIELD EMPTY";    
+    } else { 	 
+        result = mongodb_result;
+    }
+
+	return result;
 }
 
 
 std::string MongoDBDataSource::get_issuer_by_token(CardProcessor cp) 
 {
-    return c.findOne("hector.cc_data", 
+    mongodb_result = c.findOne("hector.cc_data", 
 		QUERY("token"<<cp.token)).getStringField("issuer");
+
+	if(mongodb_result.empty()) {
+    	result = "FIELD EMPTY";    
+    } else { 	 
+        result = mongodb_result;
+    }
+
+	return result;
 }
 
 
 std::string MongoDBDataSource::get_card_type_by_pan(CardProcessor cp) 
 {
-    return c.findOne("hector.cc_data", 
+    mongodb_result = c.findOne("hector.cc_data", 
 		QUERY("pan"<<cp.machine_readable_card_number())).getStringField("card_type");
+
+	if(mongodb_result.empty()) {
+    	result = "FIELD EMPTY";    
+    } else { 	 
+        result = mongodb_result;
+    }
+
+	return result;
 }
 
 
 std::string MongoDBDataSource::get_token_by_pan(CardProcessor cp) 
 {
-    return c.findOne("hector.cc_data", 
+    mongodb_result = c.findOne("hector.cc_data", 
 		QUERY("pan"<<cp.machine_readable_card_number())).getStringField("token");
+
+	if(mongodb_result.empty()) {
+    	result = "FIELD EMPTY";    
+    } else { 	 
+        result = mongodb_result;
+    }
+
+	return result;
 }
 
 
 std::string MongoDBDataSource::get_issuer_by_pan(CardProcessor cp) 
 {
-    return c.findOne("hector.cc_data", 
+    mongodb_result = c.findOne("hector.cc_data", 
 		QUERY("pan"<<cp.machine_readable_card_number())).getStringField("issuer");
+
+	if(mongodb_result.empty()) {
+    	result = "FIELD EMPTY";    
+    } else { 	 
+        result = mongodb_result;
+    }
+
+	return result;
 }
 
 
