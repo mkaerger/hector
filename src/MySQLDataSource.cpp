@@ -6,7 +6,7 @@ sql::Driver *driver;
 sql::Connection *conn;
 sql::PreparedStatement *pstmt;
 sql::ResultSet *res;
-
+std::string mysql_result;
 
 MySQLDataSource::MySQLDataSource() 
 {
@@ -126,12 +126,14 @@ std::string MySQLDataSource::get_card_type_by_token(CardProcessor cp)
     delete res;
     delete pstmt;
     delete conn;
-    
+   
     if(card_types.empty()) {
-        puts("ERR NO CARD_TYPE FOUND");
+    	mysql_result = "FIELD EMPTY";    
     } else { 	 
-        return card_types;
+        mysql_result = card_types;
     }
+
+	return mysql_result;
 }
 
 
@@ -162,10 +164,12 @@ std::string MySQLDataSource::get_count_tokens_by_masked_pan(CardProcessor cp)
     delete conn;
 
     if(count_tokens.empty()) {
-        puts("ERR NO TOKENS FOUND");
+    	mysql_result = "FIELD EMPTY";    
     } else { 	 
-        return count_tokens;
+        mysql_result = count_tokens;
     }
+
+	return mysql_result;
 }
 
 
@@ -196,12 +200,14 @@ std::string MySQLDataSource::get_masked_pan_by_token(CardProcessor cp)
     delete res;
     delete pstmt;
     delete conn;
-    
+
     if(masked_pans.empty()) {
-        puts("ERR NO MASKED_PAN FOUND");
+    	mysql_result = "FIELD EMPTY";    
     } else { 	 
-        return masked_pans;
+        mysql_result = masked_pans;
     }
+
+	return mysql_result;
 }
 
 
@@ -234,10 +240,12 @@ std::string MySQLDataSource::get_issuer_by_token(CardProcessor cp)
     delete conn;
     
     if(issuers.empty()) {
-        puts("ERR NO PROVIDER FOUND");
+    	mysql_result = "FIELD EMPTY";    
     } else { 	 
-        return issuers;
+        mysql_result = issuers;
     }
+
+	return mysql_result;
 }
 
 
@@ -268,12 +276,14 @@ std::string MySQLDataSource::get_card_type_by_pan(CardProcessor cp)
     delete res;
     delete pstmt;
     delete conn;
-    
+
     if(card_types.empty()) {
-        puts("ERR NO PROVIDER FOUND");
+    	mysql_result = "FIELD EMPTY";    
     } else { 	 
-        return card_types;
+        mysql_result = card_types;
     }
+
+	return mysql_result;
 }
 
 
@@ -304,12 +314,14 @@ std::string MySQLDataSource::get_token_by_pan(CardProcessor cp)
     delete res;
     delete pstmt;
     delete conn;
-    
+
     if(tokens.empty()) {
-        puts("ERR NO TOKEN FOUND");
+    	mysql_result = "FIELD EMPTY";    
     } else { 	 
-        return tokens;
+        mysql_result = tokens;
     }
+
+	return mysql_result;
 }
 
 
@@ -340,12 +352,14 @@ std::string MySQLDataSource::get_issuer_by_pan(CardProcessor cp)
     delete res;
     delete pstmt;
     delete conn;
-    
+
     if(issuers.empty()) {
-        puts("ERR NO PROVIDER FOUND");
+    	mysql_result = "FIELD EMPTY";    
     } else { 	 
-        return issuers;
+        mysql_result = issuers;
     }
+
+	return mysql_result;
 }
 
 

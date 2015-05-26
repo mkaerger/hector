@@ -63,7 +63,8 @@ int main ( int argc, char *argv[] )
 		  			std::string data;
 		  			new_sock >> data;
 		  
-					std::cout << "\t" << data << std::endl;
+					// Debug: display datastream
+					//std::cout << "\t" << data << std::endl;
 		  			
 
 					#ifdef PG_DATA_SOURCE	
