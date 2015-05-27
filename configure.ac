@@ -121,7 +121,7 @@ Makefile \
 src/Makefile \
 scripts/Makefile \
 ressources/Makefile \
-plpgsql/Makefile \
+datastore/Makefile \
 ])
 
 AC_OUTPUT
