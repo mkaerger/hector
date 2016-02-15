@@ -64,12 +64,19 @@ HOWTO set up a postgres database on linux. After installing the database from bi
 
     # Add user if not exists
     adduser postgres
+	
+    # Install database from source
+    ./configure --prefix=/var/www/pgsql && make && make install
 
     # Set permissions to user postgres
     chown -R postgres:postgres /var/www/pgsql/
 
     # Become user postgres
     su - postgres
+
+    # Export stuff
+    # export PATH=$PATH:/var/www/pgsql/bin:
+
 
     # Go to pgsl directory (mine is located in /var/www/pgsql)
     cd /var/www/pgsql
