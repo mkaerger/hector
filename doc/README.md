@@ -4,7 +4,7 @@ Starting the hector daemon:
     $ bin/hector
 
 
-Available Services
+Available Operations
 --------
 - set_token_by_pan
 - get_pan_by_token
